@@ -3,7 +3,6 @@
 If it were easy, it'd already be done.
 
 What is expected of everyone:
-
 - To carry themselves in a respectful and professional manner
 - To contribute high quality solutions
 - To always question a solution, in the interest of improvement
