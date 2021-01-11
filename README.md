@@ -15,14 +15,14 @@ As we begin and evolve:
 # Members
 
 Platform One [Appointed](/policy/governance.md#platform-one-appointed)
-- Maj. Rob Slaughter - Director of Platform One
-- Mr. Jeff McCoy - CTO of Platform One
-- Matt Huston - CISO of Platform One
-- Vacant Seat 1/4 - Platform One Engineer
-- Vacant Seat 2/4 - Platform One Engineer
-- Vacant Seat 3/4 - Platform One Engineer
-- Vacant Seat 4/4 - Platform One Engineer
-  
+- Maj. Austen Bryan, Director of Platform One
+- Mr. Jeff McCoy, CTO of Platform One
+- Matt Huston, CISO of Platform One
+- Andrew Greene**, Party Bus Anchor Engineer
+- Vacant Seat 2/4
+- Vacant Seat 3/4
+- Vacant Seat 4/4
+
 Community [Appointed](/policy/governance.md#community-appointed)
 - Vacant Seat 1/6
 - Vacant Seat 2/6
@@ -31,6 +31,7 @@ Community [Appointed](/policy/governance.md#community-appointed)
 - Vacant Seat 5/6
 - Vacant Seat 6/6
 
+** Current P1TOC Chair, Jan 2021
 ## Meeting Time
 
 The P1TOC meets and is open to all:
