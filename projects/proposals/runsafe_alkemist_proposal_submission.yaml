@@ -1,0 +1,18 @@
+project:
+    name: runsafe_alkemist
+    description: Add RunSafe Alkemist protections to PlatformOne C++ pipeline templates
+    problemStatement: As part of an AFWERX SBIR worked with SkiCAMP, RunSafe Security has added memory-based protections to their C++ pipelines. Upon completion of that task, both parties saw the P1 C++ templates as a great opportunity for adding these same protections to any C++ project that opts in.
+    mvpMilestone:
+        description: P1 C++ templates (https://code.il2.dso.mil/platform-one/devops/pipeline-templates/-/blob/master/jobs/build/cpp.yml) updated to include Alkemist dependencies and one-line build wrapper. First projects tested.
+        estimatedTime: 1 week
+    initialMembers:
+        - name: Salim Blume (@salim-runsafe)
+        - name: Derek "Eeyore" Bissinger (@dbissing)
+
+similarProjects:
+    - name: SonarQube
+      comparison: Security Tool
+    - name: CheckMarx
+      comparison: Security Tool
+    - name: Fortify
+      comparison: Security Tool
