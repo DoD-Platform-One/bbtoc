@@ -1,5 +1,5 @@
 # Platform One Technical Oversight Committee (P1TOC)
-*NOTICE the P1TOC is in alpha and is not yet ready for widespread contributions. In the meantime you are welcome to submit an [issue](https://github.com/DoD-Platform-One/P1TOC/issues)*
+*NOTICE the P1TOC is in alpha and is not yet ready for widespread contributions. In the meantime you are welcome to submit an [issue](https://repo1.dso.mil/platform-one/p1toc/-/issues/new)*
 
 P1TOC is the technical governing body of Platform One and maintainers of community engagements and contributions. While it doesn't map one to one, we are inspired heavily by the [CNCF TOC](https://github.com/cncf/toc); anything you see there is consistent with the outcome we'd like to see here.
 
