@@ -3,7 +3,7 @@
 Name: 
 Description:
 Initial Members:
-- John Smith @githubhandle
+- John Smith @gitlabusername
 - Teal'c @jaffa4life
 
-/labels new-project
+/label new-project
