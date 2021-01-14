@@ -19,7 +19,7 @@ Four additional positions will be held by engineers from within Platform One and
 ## Community Appointed
 
 Up to six positions can be held by community appointed members. 
-- Any member of the community may nominate a prospective member by submitting a ticket [here](https://github.com/DoD-Platform-One/P1TOC/issues) 
+- Any member of the community may nominate a prospective member by submitting a ticket [here](https://repo1.dso.mil/platform-one/p1toc/-/issues/new), using the nomination template. 
 - Nominee's will be announced if a seat is vacant and 
 - voted upon in the following meetup of the P1TOC. 
   - Voting is done by the community live during the meetup

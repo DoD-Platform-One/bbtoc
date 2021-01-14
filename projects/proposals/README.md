@@ -8,7 +8,7 @@ Have an idea or improvement, you're in the right place. Before proceeding please
 
 ## New proposals
 
-1. Submit a new [issue](https://github.com/DoD-Platform-One/P1TOC/issues/new?assignees=&labels=new-project&template=new-project-proposal.md&title=)
+1. Submit a new [issue](https://repo1.dso.mil/platform-one/p1toc/-/issues/new), using the new project proposal template.
 2. Wait for the P1TOC to grant access and/or provide initial feedback. (This will be done offline through comments on the issue)
 3. Create a branch, complete the [proposal template](proposal_template.yaml), when ready submit a pull request. The request will be reviewed at the next P1TOC meetup (time permitting, reviewed in order of submission).
 
@@ -26,5 +26,5 @@ P1TOC meetups are the recommended forum to get visibility and support on your pr
    2. A general project timeline is established
    3. Code repository is clearly identified and includes a `CONTRIBUTING.md` created the the proposer.
 4. Development iterates
-5. When ready the project requests a project presentation by submitting an [issue](https://github.com/DoD-Platform-One/P1TOC/issues/new?assignees=&labels=show-and-tell&template=project-presentation.md&title=Presentation%3A+%5BPROJECT%5D)
+5. When ready the project requests a project presentation by submitting an [issue](https://repo1.dso.mil/platform-one/p1toc/-/issues/new), using the project presentation template.
    1. The P1TOC will coordinate in the issue and schedule a time for your presentation
