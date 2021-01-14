@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Mattermost ChatOps
+    url: https://chat.il2.dso.mil/platform-one/channels/topic---p1toc
+    about: Join us here if you have a Platform One SSO
+  - name: P1TOC Meetups
+    url: https://github.com/DoD-Platform-One/P1TOC/blob/master/README.md#meeting-time
+    about: Join us during our meetups, we'll make time for general Q&A
