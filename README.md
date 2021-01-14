@@ -15,10 +15,10 @@ As we begin and evolve:
 # Members
 
 Platform One [Appointed](/policy/governance.md#platform-one-appointed)
-- Maj. Austen Bryan, Director of Platform One
-- Mr. Jeff McCoy, CTO of Platform One
-- Matt Huston, CISO of Platform One
-- Andrew Greene**, Party Bus Anchor Engineer
+- Maj. Austen Bryan, @abryan562, Director of Platform One
+- Mr. Jeff McCoy, @megamind, CTO of Platform One
+- Matt Huston, @matthew.huston , CISO of Platform One
+- Andrew Greene**, @andrew.greene, Party Bus Anchor Engineer
 - Vacant Seat 2/4
 - Vacant Seat 3/4
 - Vacant Seat 4/4
