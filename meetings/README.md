@@ -14,7 +14,7 @@ Each meeting, it's agenda and recording is owned by the current chair.
 ## Project Presentations
 *(see [Presentations](PROJECT_PRESENTATIONS.md))*
 
-To request a presentation for a completed (or nearly completed) project. Open an [issue](https://github.com/DoD-Platform-One/P1TOC/issues).
+To request a presentation for a completed (or nearly completed) project. Open an [issue](https://repo1.dso.mil/platform-one/p1toc/-/issues/new), using the project presentation template.
 
 ## Quarterly Review
 
