@@ -11,4 +11,4 @@ Organization:
 Employer:
 
 
-/label ~community-nomination
+/label ~nomination
