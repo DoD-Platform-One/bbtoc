@@ -24,7 +24,7 @@ P1TOC meetups are the recommended forum to get visibility and support on your pr
 3. At the kickoff meeting
    1. A meetup cadence is established, no less than once per week, timeboxed to less than 60m
    2. A general project timeline is established
-   3. Code repository is clearly identified and includes a `CONTRIBUTING.md` created the the proposer.
+   3. Code repository is clearly identified and includes a `CONTRIBUTING.md` created by the proposer.
 4. Development iterates
 5. When ready the project requests a project presentation by submitting an [issue](https://repo1.dso.mil/platform-one/p1toc/-/issues/new), using the project presentation template.
    1. The P1TOC will coordinate in the issue and schedule a time for your presentation
