@@ -11,6 +11,8 @@ Have an idea or improvement, you're in the right place. Before proceeding please
 1. Submit a new [issue](https://repo1.dso.mil/platform-one/p1toc/-/issues/new), using the new project proposal template.
 2. Wait for the P1TOC to grant access and/or provide initial feedback. (This will be done offline through comments on the issue)
 3. Create a branch, complete the [proposal template](proposal_template.yaml), when ready submit a pull request. The request will be reviewed at the next P1TOC meetup (time permitting, reviewed in order of submission).
+   1. Make sure to copy the proposal template and rename it to your-project.yaml
+   2. Title the merge request `Your-Project proposal (#X)` where X is the issue number from step 1.
 
 ### Proposal reviews
 
