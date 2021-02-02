@@ -19,7 +19,7 @@ Platform One [Appointed](/policy/governance.md#platform-one-appointed)
 - Mr. Jeff McCoy, @megamind, CTO of Platform One
 - Matt Huston, @matthew.huston , CISO of Platform One
 - Andrew Greene**, @andrew.greene, Party Bus Anchor Engineer
-- Vacant Seat 2/4
+- Blake Burkhart, @blake.burkhart, Iron Bank
 - Vacant Seat 3/4
 - Thomas Runyon, @runyontr, Big Bang Anchor
 
