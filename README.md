@@ -21,7 +21,7 @@ Platform One [Appointed](/policy/governance.md#platform-one-appointed)
 - Andrew Greene**, @andrew.greene, Party Bus Anchor Engineer
 - Vacant Seat 2/4
 - Vacant Seat 3/4
-- Vacant Seat 4/4
+- Thomas Runyon, @runyontr, Big Bang Anchor
 
 Community [Appointed](/policy/governance.md#community-appointed)
 - Vacant Seat 1/6
