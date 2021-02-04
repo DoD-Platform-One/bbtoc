@@ -20,7 +20,7 @@ Platform One [Appointed](/policy/governance.md#platform-one-appointed)
 - Matt Huston, @matthew.huston , CISO of Platform One
 - Andrew Greene**, @andrew.greene, Party Bus Anchor Engineer
 - Blake Burkhart, @blake.burkhart, Iron Bank
-- Vacant Seat 3/4
+- Chad Elkins, @celkins, CNAP Anchor
 - Thomas Runyon, @runyontr, Big Bang Anchor
 
 Community [Appointed](/policy/governance.md#community-appointed)
