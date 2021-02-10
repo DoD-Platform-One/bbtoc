@@ -35,7 +35,17 @@ Community [Appointed](/policy/governance.md#community-appointed)
 ## Meeting Time
 
 The P1TOC meets and is open to all:
-- Every other week for new projects and general agenda
+- Every first and third Tuesday each month at 1200 MST
+    [Zoomlink](https://us02web.zoom.us/j/89870537922?pwd=c2V5a1hLbGlYaWt0R1RHKzEzOTdEQT09)  
+
+    Meeting ID: 898 7053 7922  
+    Passcode: 609073  
+    One tap mobile  
+        +12532158782,,89870537922#,,,,*609073# US (Tacoma)  
+        +13462487799,,89870537922#,,,,*609073# US (Houston)  
+
+    Find your local number: https://us02web.zoom.us/u/kEiAxsWyZ  
+
 - Project presentations (completed projects) will be scheduled as needed.
 
 # Contribute
