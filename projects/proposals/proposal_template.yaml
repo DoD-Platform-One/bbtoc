@@ -1,6 +1,7 @@
 project:
     name:
     description:
+    repo url:
     problemStatement:
     mvpMilestone:
         description:
