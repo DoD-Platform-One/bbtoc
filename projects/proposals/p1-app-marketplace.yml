@@ -1,0 +1,16 @@
+project:
+    name: "P1 App Marketplace"
+    description: "THE place you go first when you are looking for a DoD software solution, looking for a way to contribute to your favorite project, or generally interested in what might be available to you."
+    repo url: "N/A"
+    problemStatement: "An abundance of application development efforts across the DoD makes it challenging to find existing projects that meet local unit requirements. Whether seeking to contribute or simply consume, interested parties are usually best served by canvasing public forums to see if anyone knows about something they are looking for.  This method is lacking, however, because there is no guarantee your post will be seen by the right people and is heavily reliant on the interaction of others."
+    mvpMilestone:
+        description: "IL2-staging deployment of solution with workflow including adding new apps, grouping users by teams, group apps by tags, and communicating with app team"
+        estimatedTime: "2-3 months"
+    initialMembers:
+        - name: Anthony Kallhoff
+          repo1user: '@akallhoff'
+
+similarProjects:
+    - name: 
+      url: 
+      comparison: 
