@@ -7,7 +7,7 @@ project:
         description: "IL2-staging deployment of solution with workflow including adding new apps, grouping users by teams, group apps by tags, and communicating with app team"
         estimatedTime: "2-3 months"
     initialMembers:
-        - name: Anthony Kallhoff
+        - name: "Anthony Kallhoff"
           repo1user: '@akallhoff'
 
 similarProjects:
