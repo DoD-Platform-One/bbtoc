@@ -2,6 +2,7 @@ project:
     name: Autobot
     description: Autobot is a collaborative effort to enable customer success through consistent standards and practices for initializing, operating, and maintaining technology stacks troughout the development process. Autobot should lower the barrier of entry and reduce the mean time to development on Platform One.
     problemStatement: It takes time to provision new projects, even from templates. Users are delayed in starting development by this manual provisioning.
+    repoUrl: https://repo1.dso.mil/platform-one/autobot
     mvpMilestone:
         description: Autobot should be fully functional and allow Workshop and Party Bus to exclusively provision projects in an automated, repeatable manner.
         estimatedTime: 2 weeks
