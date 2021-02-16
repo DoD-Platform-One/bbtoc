@@ -11,6 +11,6 @@ project:
           repo1user: '@akallhoff'
 
 similarProjects:
-    - name: 
-      url: 
-      comparison: 
+    - name: "GEOINT AppStore"
+      url: "https://appstore.nga.mil/Home/Store"
+      comparison: "App Store for GEOINT, focused on mobile applications"
