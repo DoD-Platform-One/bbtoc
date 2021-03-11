@@ -21,7 +21,7 @@ Platform One [Appointed](/policy/governance.md#platform-one-appointed)
 - Andrew Greene**, @andrew.greene, Party Bus Anchor Engineer
 - Blake Burkhart, @blake.burkhart, Iron Bank
 - Chad Elkins, @celkins, CNAP Anchor
-- Thomas Runyon, @runyontr, Big Bang Anchor
+- Josh Wolf, @joshwolf, Big Bang Anchor
 
 Community [Appointed](/policy/governance.md#community-appointed)
 - Vacant Seat 1/6
