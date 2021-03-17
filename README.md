@@ -24,7 +24,7 @@ Platform One [Appointed](/policy/governance.md#platform-one-appointed)
 - Josh Wolf, @joshwolf, Big Bang Anchor
 
 Community [Appointed](/policy/governance.md#community-appointed)
-- Vacant Seat 1/6
+- Barak Stout, @barakstout1, Raft
 - Vacant Seat 2/6
 - Vacant Seat 3/6
 - Anthony Kallhoff, @akallhoff, Tron Hawaii Flight Commander
@@ -50,7 +50,7 @@ The P1TOC meets and is open to all:
 
 # Contribute
 
-Getting involved 
+Getting involved
 - the P1TOC is open to all, join us for meetups and project presentations
 - Look for the contributors guide in any of the [Active](/projects/active/) projects
 - start [here](projects/proposals/README.md) for new ideas
