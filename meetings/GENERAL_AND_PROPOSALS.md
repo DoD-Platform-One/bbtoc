@@ -1,6 +1,13 @@
 # Minutes for General Agenda and Project Proposals
 
-16 March 2021 - New Member, Nominations, Open discussion on P1TOC purpose
+## 6 April 2021
+
+- P1TOC Validation and Discussion [issue](https://repo1.dso.mil/platform-one/p1toc/-/issues/14)
+- Discussion of community contribution process [issue](https://repo1.dso.mil/platform-one/p1toc/-/issues/16)
+- Discussion of a hardening manifest generator [issue](https://repo1.dso.mil/platform-one/p1toc/-/issues/15)
+
+
+## 16 March 2021 - New Member, Nominations, Open discussion on P1TOC purpose
 
 - P1TOC Opening Comments, new member
 - [Approved] Community Nomination: Barak Stout [issue](https://repo1.dso.mil/platform-one/p1toc/-/issues/1)
