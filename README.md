@@ -16,7 +16,7 @@ As we begin and evolve:
 
 Platform One [Appointed](/policy/governance.md#platform-one-appointed)
 - Maj. Austen Bryan, @abryan562, Director of Platform One
-- Mr. Jeff McCoy, @megamind, CTO of Platform One
+- Phillip Record, @phillip.record, "I'm just Phillip"
 - Matt Huston, @matthew.huston , CISO of Platform One
 - Andrew Greene**, @andrew.greene, Party Bus Anchor Engineer
 - Blake Burkhart, @blake.burkhart, Iron Bank
