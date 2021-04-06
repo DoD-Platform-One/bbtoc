@@ -19,7 +19,7 @@ As we begin and evolve:
 
 Platform One [Appointed](/policy/governance.md#platform-one-appointed)
 - Maj. Austen Bryan, @abryan562, Director of Platform One
-- Mr. Jeff McCoy, @megamind, CTO of Platform One
+- Phillip Record, @phillip.record, "I'm just Phillip"
 - Matt Huston, @matthew.huston , CISO of Platform One
 - Andrew Greene**, @andrew.greene, Party Bus Anchor Engineer
 - Blake Burkhart, @blake.burkhart, Iron Bank
@@ -27,12 +27,12 @@ Platform One [Appointed](/policy/governance.md#platform-one-appointed)
 - Josh Wolf, @joshwolf, Big Bang Anchor
 
 Community [Appointed](/policy/governance.md#community-appointed)
-- Vacant Seat 1/6
+- Barak Stout, @barakstout1, Raft
 - Vacant Seat 2/6
-- Vacant Seat 3/6
-- Vacant Seat 4/6
-- Vacant Seat 5/6
-- Vacant Seat 6/6
+- Tim Gast, @tim.gast, P1 Pioneer (BrainGu)
+- Anthony Kallhoff, @akallhoff, Tron Hawaii Flight Commander
+- Ian Dunbar-Hall, @idunbarh, Industry P1 Evangelist
+- Zayd Ma, @zayd.ma, 309th SWEG SkiCAMP/EDDGE
 
 ** Current P1TOC Chair, Jan 2021
 ## Meeting Time
@@ -53,7 +53,7 @@ The P1TOC meets and is open to all:
 
 # Contribute
 
-Getting involved 
+Getting involved
 - the P1TOC is open to all, join us for meetups and project presentations
 - Look for the contributors guide in any of the [Active](/projects/active/) projects
 - start [here](projects/proposals/README.md) for new ideas
