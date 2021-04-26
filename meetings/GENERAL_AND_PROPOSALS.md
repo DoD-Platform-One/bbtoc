@@ -1,5 +1,11 @@
 # Minutes for General Agenda and Project Proposals
 
+## 20 April 2021
+
+- Review and Discuss Sandbox Criteria [branch](https://repo1.dso.mil/platform-one/p1toc/-/tree/17-define-what-it-means-to-be-a-p1toc-sandbox-project)
+- Review and Discuss Graduated Criteria [branch](https://repo1.dso.mil/platform-one/p1toc/-/tree/19-graduated-criteria)
+- Review and Discuss overall posture (specifically licensing) [branch](https://repo1.dso.mil/platform-one/p1toc/-/tree/20-overall-documentation-updates-for-p1toc-sandbox-incubating-graduated-posture)
+
 ## 6 April 2021
 
 - P1TOC Validation and Discussion [issue](https://repo1.dso.mil/platform-one/p1toc/-/issues/14)
