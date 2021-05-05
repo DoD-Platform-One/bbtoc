@@ -4,10 +4,6 @@
 
 > ***note*** this process is intended to loosely mirror the CNCF Sandbox process. More details can be found [here](https://github.com/cncf/toc/blob/main/process/README.md)
 
-The Platform One Technical Oversight Committee serves as the conduit to evaluate, support, and evangelize community contributions to the DoD opensource ecosystem.
-* The Technical Oversight Committee ensures Customers of Platform One have access to high quality DevSecOps Community Contributed projects.
-* The Technical Oversight Committee ensures Contributors have support to build a security focused Community Contributed projects, and build an active user base to ensure longevity and ability to be used in production setting.
-
 This policy describes the Platform One Community Contributed project life cycle process, from sandbox to archival and more. It describes the stages a project may be admitted under and what the criteria and expectations are for a given stage, as well as the acceptance criteria for a project to move from one stage to another. It also describes the Annual Review Process through which those changes will be evaluated and made.
 
 Project progression, movement from one stage to another, allows projects to participate at the level that is most appropriate for them given where they are in their lifecycle.
