@@ -20,33 +20,25 @@ graph LR
     C(Incubating) -->|Obvious path<br>from incubating to graduated| D
     D(Graduated)
 ```
-
 ## Sandbox: 
 
-The `Sandbox` is the entry point for early stage projects and has four goals:
+`Sandbox` projects are the entry point for early stage projects and have four goals:
 
-1. Promote an environment that encourages visibility of experiments to the TOC and Value Streams and early work that can add value to the Platform One mission and collaboration across the DevSecOps community
-2. Facilitate alignment with existing projects if (and only if) this is desired.
-3. Nurture projects (e.g., via Repo1 isssues).
-4. Remove possible legal and governance obstacles to adoption and contribution by ensuring all projects adhere to Platform One legal, code of conduct, Cybersecurity and policy requirements.
+1. Encourages visibility of early work that might add value to the DoD DevSecOps community
+2. Nurture projects on their path to adoption.
+3. Facilitate alignment with existing projects, as desired.
+4. Reduce the barrier to entry by providing a community of support for legal, governance, seucrity, and policy requirements
 
 
 ## Incubating: 
-`Incubating` projects have adoption and show value added to Platform One, but have not reach maturity to commit to long term support to end users.
+`Incubating` projects have adoption and show value added to Platform One, but have not reach maturity to commit to long term support to end users. Such projects, should have support of a significant customer and show promise to solve problems across the DoD.
 
 
 ## Graduated: 
-`Graduated` projects signal the highest level of maturity for a Platform One Community Contributed project. 
-
-Maturity Criteria:
-* Can expect a minimum of 3 years of patch releases to address security issues
-* Can expect a minimum of 2 years of support over chat
-* Can expect a minimum of 1 year of stable releases to new funtionality
-
-
+`Graduated` projects signal the highest level of maturity for a P1TOC project. Graduated projects should have support, in both development and production operations, from multiple organizations.
 
 ## Archived: 
-Archived projects are no longer in active development and are only archived after a TOC vote.
+Archived projects are no longer in active development and are only archived after a P1TOC vote.
 
 # III. Project Proposal Process
 
