@@ -1,7 +1,8 @@
 project:
     name:
     description:
-    repo url:
+    maturity-level:
+    repoUrl:
     problemStatement:
     mvpMilestone:
         description:
