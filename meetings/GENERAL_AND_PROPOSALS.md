@@ -1,5 +1,11 @@
 # Minutes for General Agenda and Project Proposals
 
+## 16 May 2021
+- Review [MR](https://repo1.dso.mil/platform-one/p1toc/-/merge_requests/21) for [#22](https://repo1.dso.mil/platform-one/p1toc/-/issues/22)
+- Review [MR](https://repo1.dso.mil/platform-one/p1toc/-/merge_requests/23) for [#21](https://repo1.dso.mil/platform-one/p1toc/-/issues/21)
+- Review [MR](https://repo1.dso.mil/platform-one/p1toc/-/merge_requests/25) for [#24](https://repo1.dso.mil/platform-one/p1toc/-/issues/24), [#25](https://repo1.dso.mil/platform-one/p1toc/-/issues/25)
+- Discuss Incentive [Issue](https://repo1.dso.mil/platform-one/p1toc/-/issues/26)
+
 ## 4 May 2021
 - Review and discuss Changes for Sandbox, Incubating, Graduated posture
 
