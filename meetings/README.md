@@ -4,18 +4,6 @@ Each meeting, it's agenda and recording is owned by the current chair.
 
 *Everything reviewed will be based on time order (i.e. earliest submission to latest submission)*
 
-## General Agenda and Project Proposals
-*(see [General Minutes](GENERAL_AND_PROPOSALS.md))*
-
-- Adjudicate project proposals (10m)
-- Review new project proposals (30m)
-- Open Discussion (10m)
-
-## Project Presentations
-*(see [Presentations](PROJECT_PRESENTATIONS.md))*
-
-To request a presentation for a completed (or nearly completed) project. Open an [issue](https://repo1.dso.mil/platform-one/p1toc/-/issues/new), using the project presentation template.
-
 ## Quarterly Review
 
 Once a quarter the P1TOC will pause new activity to review and discuss activities for the last quarter.
