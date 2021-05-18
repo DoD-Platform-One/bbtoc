@@ -60,15 +60,21 @@ to be formed within Platform One.
 Projects being submitted to the P1 TOC at the `Sandbox` level are intended to be the entry point for early stage projects and are not required to undergo due diligence. 
 
 * Project are proposed following the [process outlined here](https://repo1.dso.mil/platform-one/p1toc/-/blob/master/projects/proposals/README.md)
-* The P1TOC will review submissions for the following criteria:
-	1. Is the project a fit for Platform One, in the TOC’s opinion? 
-	2. Is the project’s roadmap in line with the goals of Platform One? 
-	3. Does the project appear to be on a good path to becoming well-governed and vendor-neutral? 
+* Sandbox projects must meet the following criteria:  
+  1. Code repository is in an unclassified, accessible repository (repo1 is desireable)
+  2. Code repository must contain an Open source `LICENSE` file at the root of the repository
+  3. Code repository must contain a `CONTRIBUTORS.md` file at the root of the repository and provide sufficient information on how one can contribute
+  4. Code repository must contain a `CODEOWNERS` file
+  5. The project must have a clearly defined purpose
+  6. The project must have a demonstratable prototype (intent is to prevent immature projects with minimal code in place)
+* The P1TOC will review submissions for the requirements and this additional criteria:
+	1. Is the project a fit for DoD DevSecOps, in the P1TOC’s opinion? 
+	2. Does the project appear to be on a good path to becoming well-governed and vendor-neutral? 
 * During this submission review, the TOC votes on each submission, and projects will be accepted by a simple majority vote of the TOC. 
 * The TOC, or individual members may engage with project to ask further questions
 * In the event of rejection, we will indicate which of these criteria the TOC did not believe were met. Projects are welcome to address feedback and submit again in the future.
 
-Sandbox projects are tracked as [gitlab issues](https://repo1.dso.mil/platform-one/p1toc/-/issues?scope=all&utf8=%E2%9C%93&state=opened&label_name[]=graduated) with the `sandbox` label.
+Sandbox projects are tracked as [gitlab issues](https://repo1.dso.mil/platform-one/p1toc/-/issues?scope=all&utf8=%E2%9C%93&state=opened&label_name[]=sandbox) with the `sandbox` label.
 
 ## Project Graduation Process: Sandbox to Incubating
 
