@@ -1,5 +1,10 @@
 # Minutes for General Agenda and Project Proposals
 
+## 1 June 2021
+- Introduce Community Nomination [#29](https://repo1.dso.mil/platform-one/p1toc/-/issues/29)
+- Upcoming need New P1TOC Chair
+- Discuss Big Bang Packages and P1TOC
+
 ## 16 May 2021
 - Review [MR](https://repo1.dso.mil/platform-one/p1toc/-/merge_requests/21) for [#22](https://repo1.dso.mil/platform-one/p1toc/-/issues/22)
 - Review [MR](https://repo1.dso.mil/platform-one/p1toc/-/merge_requests/23) for [#21](https://repo1.dso.mil/platform-one/p1toc/-/issues/21)
