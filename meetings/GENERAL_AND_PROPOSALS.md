@@ -1,5 +1,12 @@
 # Minutes for General Agenda and Project Proposals
 
+## 15 June 2021
+- [Approved] Community Nomination: Anthony Butt [issue](https://repo1.dso.mil/platform-one/p1toc/-/issues/29)
+- New Project: Vault Big Bang HelmRelease [issue](https://repo1.dso.mil/platform-one/p1toc/-/issues/30)
+- P1TOC Appointed Membership Expectations [issue](https://repo1.dso.mil/platform-one/p1toc/-/issues/31)
+- Big Bang Contribution [issue](https://repo1.dso.mil/platform-one/p1toc/-/issues/16)
+- External Community Incentive [issue](https://repo1.dso.mil/platform-one/p1toc/-/issues/26)
+
 ## 1 June 2021
 - Introduce Community Nomination [#29](https://repo1.dso.mil/platform-one/p1toc/-/issues/29)
 - Upcoming need New P1TOC Chair
