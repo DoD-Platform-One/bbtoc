@@ -28,7 +28,7 @@ Platform One [Appointed](/policy/governance.md#platform-one-appointed)
 
 Community [Appointed](/policy/governance.md#community-appointed)
 - Barak Stout, @barakstout1, Raft
-- Vacant Seat 2/6
+- Anthony Butt, @anthony.butt, GBSD/CSE-Corp
 - Tim Gast, @tim.gast, P1 Pioneer (BrainGu)
 - Anthony Kallhoff, @akallhoff, Tron Hawaii Flight Commander
 - Ian Dunbar-Hall, @idunbarh, Industry P1 Evangelist
