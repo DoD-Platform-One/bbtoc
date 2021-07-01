@@ -30,9 +30,9 @@ Community [Appointed](/policy/governance.md#community-appointed)
 - Barak Stout, @barakstout1, Raft
 - Anthony Butt, @anthony.butt, GBSD/CSE-Corp
 - Tim Gast, @tim.gast, P1 Pioneer (BrainGu)
-- Anthony Kallhoff, @akallhoff, Tron Hawaii Flight Commander
 - Ian Dunbar-Hall, @idunbarh, Industry P1 Evangelist
 - Zayd Ma, @zayd.ma, 309th SWEG SkiCAMP/EDDGE
+- Open Seat
 
 ** Current P1TOC Chair, Jan 2021
 ## Meeting Time
