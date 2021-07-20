@@ -6,3 +6,4 @@ meetings/recordings/4MAY21.mp4 filter=lfs diff=lfs merge=lfs -text
 meetings/recordings/18MAY21.mp4 filter=lfs diff=lfs merge=lfs -text
 meetings/recordings/1JUN21.mp4 filter=lfs diff=lfs merge=lfs -text
 meetings/recordings/15JUN21.mp4 filter=lfs diff=lfs merge=lfs -text
+meetings/recordings/16JUL21.mp4 filter=lfs diff=lfs merge=lfs -text

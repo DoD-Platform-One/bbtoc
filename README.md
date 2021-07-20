@@ -34,7 +34,7 @@ Community [Appointed](/policy/governance.md#community-appointed)
 - Zayd Ma, @zayd.ma, 309th SWEG SkiCAMP/EDDGE
 - Open Seat
 
-** Current P1TOC Chair, Jan 2021
+** Current P1TOC Chair, appointed July 2021
 ## Meeting Time
 
 The P1TOC meets and is open to all:
