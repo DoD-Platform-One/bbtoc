@@ -1,5 +1,14 @@
 # Minutes for General Agenda and Project Proposals
 
+## 20 July 2021
+- Discuss Shepherd/Champion/Sponsor [issue](https://repo1.dso.mil/platform-one/p1toc/-/issues/32)
+- Discuss member expectations [issue](https://repo1.dso.mil/platform-one/p1toc/-/issues/31)
+- Chairman Extension
+- Open Source Vault Big Bang [issue](https://repo1.dso.mil/platform-one/p1toc/-/issues/30)
+
+## 6 July 2021
+- Cancelled
+
 ## 15 June 2021
 - [Approved] Community Nomination: Anthony Butt [issue](https://repo1.dso.mil/platform-one/p1toc/-/issues/29)
 - New Project: Vault Big Bang HelmRelease [issue](https://repo1.dso.mil/platform-one/p1toc/-/issues/30)
