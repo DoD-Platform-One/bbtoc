@@ -55,7 +55,7 @@ to be formed within Platform One.
 
 Projects being submitted to the P1 TOC at the `Sandbox` level are intended to be the entry point for early stage projects and are not required to undergo due diligence. 
 
-* Project are proposed following the [process outlined here](https://repo1.dso.mil/platform-one/p1toc/-/blob/master/projects/proposals/README.md)
+* Project are proposed following the [process outlined here](https://repo1.dso.mil/platform-one/p1toc/-/blob/master/projects/getting-started/README.md)
 * Sandbox projects must meet the following criteria:  
   1. Code repository is in an unclassified, accessible repository (repo1 is desireable)
   2. Code repository must contain an Open source `LICENSE` file at the root of the repository

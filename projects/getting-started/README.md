@@ -11,6 +11,7 @@ Have an idea or improvement, you're in the right place. Before proceeding please
 
 1. Submit a new [issue](https://repo1.dso.mil/platform-one/p1toc/-/issues/new), using the new project proposal template.
    1. The P1TOC will grant permissions so that you can proceed to step 2.
+   2. the P1TOC will assign a Shepherd to your project. [Shepherd Role](../../../policy/governance.md)
 2. Create a branch tied to the issue and complete the [proposal template](proposal_template.yaml)
 3. When ready submit a pull request. The request will be reviewed at the next P1TOC meetup (time permitting, reviewed in order of submission).
    1. Make sure to copy the proposal template and rename it to \<your-project-name\>.yaml
