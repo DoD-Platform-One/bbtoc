@@ -55,5 +55,6 @@ The P1TOC meets and is open to all:
 
 Getting involved
 - the P1TOC is open to all, join us for meetups and project presentations
-- Look for the contributors guide in any of the [Active](/projects/active/) projects
-- start [here](projects/proposals/README.md) for new ideas
+- Look for the contributors guide in any of the [Active](/projects) projects
+- start [here](projects/getting-started/README.md) for new project ideas or submissions
+- When in doubt submit an [issue](https://repo1.dso.mil/platform-one/p1toc/-/issues/new), using one of the available templates

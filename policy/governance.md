@@ -5,7 +5,9 @@ The P1TOC will have up to 13 members at any given time.
 - 4 Platform One appointed members
 - 6 community appointed members
 
-On a rotational basis of 6 months, one member will be nominated and designated chair. The chair is responsible for keeping the ship afloat, hosting meetings, keeping minutes, timeboxing agenda, etc...
+### Roles
+- Chair: one appointed member will be nominated and designated chair for a 6 month duration. The chair is responsible for keeping the ship afloat, hosting meetings, keeping minutes, timeboxing, agenda, backlog management, etc...
+- Shepherd: for each proposed project a shepherd will be assigned. The shepherd is responsible for supporting projects engagement and interaction with the TOC, to include ensuring consistent and correct submissions, answering questions, and bringing topics before the TOC when appropriate; but is not responsible for the success of the project.
 
 ## Platform One Appointed
 
