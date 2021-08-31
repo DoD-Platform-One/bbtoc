@@ -1,5 +1,15 @@
 # Minutes for General Agenda and Project Proposals
 
+## 17 August 2021
+- Preamble on TOC state and future
+- P1TOC renaming [issue](https://repo1.dso.mil/platform-one/p1toc/-/issues/35)
+- Pioneer Project - Gitlab [issue](https://repo1.dso.mil/platform-one/p1toc/-/issues/37)
+- Pioneer Project - Monitoring [issue](https://repo1.dso.mil/platform-one/p1toc/-/issues/38)
+- Pioneer Project - OPA Gatekeeper [issue](https://repo1.dso.mil/platform-one/p1toc/-/issues/39)
+
+## 3 August 2021
+- Cancelled
+
 ## 20 July 2021
 - Discuss Shepherd/Champion/Sponsor [issue](https://repo1.dso.mil/platform-one/p1toc/-/issues/32)
 - Discuss member expectations [issue](https://repo1.dso.mil/platform-one/p1toc/-/issues/31)
