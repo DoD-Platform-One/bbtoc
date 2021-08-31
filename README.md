@@ -24,7 +24,7 @@ Platform One [Appointed](/policy/governance.md#platform-one-appointed)
 - Andrew Greene**, @andrew.greene, Party Bus Anchor Engineer
 - Blake Burkhart, @blake.burkhart, Iron Bank
 - Chad Elkins, @celkins, CNAP Anchor
-- Josh Wolf, @joshwolf, Big Bang Anchor
+- Gabe Scarberry, @gabe.scarberry,  Big Bang PM
 
 Community [Appointed](/policy/governance.md#community-appointed)
 - Barak Stout, @barakstout1, Raft
