@@ -1,5 +1,8 @@
 # Minutes for General Agenda and Project Proposals
 
+## 7 September 2021
+- TOC Overhaul [issue](https://repo1.dso.mil/platform-one/p1toc/-/issues/41)
+
 ## 17 August 2021
 - Preamble on TOC state and future
 - P1TOC renaming [issue](https://repo1.dso.mil/platform-one/p1toc/-/issues/35)
