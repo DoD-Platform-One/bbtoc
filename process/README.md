@@ -76,6 +76,7 @@ The chief goal of Graduate projects is to continue to expand and improve the pac
   * Network policies in place
 * Isiot Support
 * Prometheus metrics and Grafana dashboards
+* Penetration Testing and Cyber Security Review
 
 Projects moving from incubation to graduation are tracked as [gitlab issues](https://repo1.dso.mil/platform-one/bbtoc/-/issues?scope=all&utf8=%E2%9C%93&state=opened&label_name[]=graduated) with the `graduated` label.
 ## Archived: 
