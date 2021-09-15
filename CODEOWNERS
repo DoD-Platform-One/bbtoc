@@ -2,3 +2,6 @@
 CODEOWNERS @abryan562 @phillip.record @matthew.huston @andrew.greene @blakeburkhart @celkins @joshwolf @barakstout1 @tim.gast @anthony.butt @idunbarh @zayd.ma
 
 **/* @root
+
+# Meetings, Agenda, Minutes are owned by the current TOC Chair
+meetings/** @andrew.greene 

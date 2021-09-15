@@ -8,12 +8,12 @@ What is expected of everyone:
 - To always question a solution, in the interest of improvement
 
 What is expected of you (a contributor):
-- Respect the time of contributors and members of the P1TOC
+- Respect the time of contributors and members of the TOC
 - Present and develop quality solutions that provide unique, added benefit
 - Develop solutions that are reusable and solve common problems
-- don't expect 24/7 support from the P1TOC nor the community
 
-What is expected of the P1TOC:
-- Available during pre-defined meeting times
+What is expected of the TOC:
+- Active participation
+- Available for meetups and engagements
 - Work towards finding a solution
 - bringing professional and technical excellence to projects (in an advisory manner)

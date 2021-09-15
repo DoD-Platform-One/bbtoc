@@ -12,8 +12,3 @@ project:
           repo1user: ''
         - name:
           repo1user: ''
-
-similarProjects:
-    - name:
-      url: 
-      comparison:
