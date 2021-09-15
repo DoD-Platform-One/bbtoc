@@ -43,7 +43,6 @@
 - Pioneer Project updates: [#37 - Gitlab](https://repo1.dso.mil/platform-one/bbtoc/-/issues/37), [#38 - Monitoring](https://repo1.dso.mil/platform-one/bbtoc/-/issues/38), [#39 OPA Gatekeeper](https://repo1.dso.mil/platform-one/bbtoc/-/issues/39)
 
 ## 7 September 2021
-
 - TOC Overhaul [issue](https://repo1.dso.mil/platform-one/bbtoc/-/issues/41)
 
 ## 17 August 2021
@@ -59,7 +58,6 @@
 - Cancelled
 
 ## 20 July 2021
-
 - Discuss Shepherd/Champion/Sponsor [issue](https://repo1.dso.mil/platform-one/bbtoc/-/issues/32)
 - Discuss member expectations [issue](https://repo1.dso.mil/platform-one/bbtoc/-/issues/31)
 - Chairman Extension
@@ -70,7 +68,6 @@
 - Cancelled
 
 ## 15 June 2021
-
 - [Approved] Community Nomination: Anthony Butt [issue](https://repo1.dso.mil/platform-one/bbtoc/-/issues/29)
 - New Project: Vault Big Bang HelmRelease [issue](https://repo1.dso.mil/platform-one/bbtoc/-/issues/30)
 - P1TOC Appointed Membership Expectations [issue](https://repo1.dso.mil/platform-one/bbtoc/-/issues/31)
@@ -78,13 +75,11 @@
 - External Community Incentive [issue](https://repo1.dso.mil/platform-one/bbtoc/-/issues/26)
 
 ## 1 June 2021
-
 - Introduce Community Nomination [#29](https://repo1.dso.mil/platform-one/bbtoc/-/issues/29)
 - Upcoming need New P1TOC Chair
 - Discuss Big Bang Packages and P1TOC
 
 ## 16 May 2021
-
 - Review [MR](https://repo1.dso.mil/platform-one/bbtoc/-/merge_requests/21) for [#22](https://repo1.dso.mil/platform-one/bbtoc/-/issues/22)
 - Review [MR](https://repo1.dso.mil/platform-one/bbtoc/-/merge_requests/23) for [#21](https://repo1.dso.mil/platform-one/bbtoc/-/issues/21)
 - Review [MR](https://repo1.dso.mil/platform-one/bbtoc/-/merge_requests/25) for [#24](https://repo1.dso.mil/platform-one/bbtoc/-/issues/24), [#25](https://repo1.dso.mil/platform-one/bbtoc/-/issues/25)
