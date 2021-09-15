@@ -4,7 +4,7 @@ Have a new package to be added to the TOC? You're in the right place.
 
 ## Quick Start
 
-1. Submit a `new project proposal` [issue](https://repo1.dso.mil/platform-one/p1toc/-/issues/new)
+1. Submit a `new project proposal` [issue](https://repo1.dso.mil/platform-one/bbtoc/-/issues/new)
 2. Submit a Merge Request with your completed  [proposal template](proposal_template.yaml)
 
 

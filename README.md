@@ -12,7 +12,6 @@ Chief Objectivs:
 
 # Members
 
-Platform One [Appointed](/policy/governance.md#platform-one-appointed)
 - Maj. Austen Bryan, @abryan562, Director of Platform One
 - Phillip Record, @phillip.record, "I'm just Phillip"
 - Matt Huston, @matthew.huston , CISO of Platform One
@@ -20,16 +19,15 @@ Platform One [Appointed](/policy/governance.md#platform-one-appointed)
 - Blake Burkhart, @blake.burkhart, Iron Bank
 - Chad Elkins, @celkins, CNAP Anchor
 - Gabe Scarberry, @gabe.scarberry,  Big Bang PM
-
-Community [Appointed](/policy/governance.md#community-appointed)
 - Barak Stout, @barakstout1, Raft
 - Anthony Butt, @anthony.butt, GBSD/CSE-Corp
 - Tim Gast, @tim.gast, P1 Pioneer (BrainGu)
 - Ian Dunbar-Hall, @idunbarh, Industry P1 Evangelist
 - Zayd Ma, @zayd.ma, 309th SWEG SkiCAMP/EDDGE
-- Open Seat
 
 ** Current P1TOC Chair, appointed July 2021
+
+** How and why do these members exist? [goverance](policy/governance.md)
 ## Meetups
 
 Join Us! The TOC meets the first and third Tuesday each month at 1200 MST
@@ -48,9 +46,9 @@ Join Us! The TOC meets the first and third Tuesday each month at 1200 MST
 We readily welcome any and all community engagement!
 
 1. Join us for our [meetups](#meetups)
-2. Submit an [issue](https://repo1.dso.mil/platform-one/p1toc/-/issues/new) for ideas, questions, feedback, etc...
+2. Submit an [issue](https://repo1.dso.mil/platform-one/bbtoc/-/issues/new) for ideas, questions, feedback, etc...
 
 
 
 ---
-#### _This is a mirror of a government repo hosted on [Repo1](https://repo1.dso.mil/) by [DoD Platform One](http://p1.dso.mil/).  Please direct all changes, issues and comments to https://repo1.dso.mil/platform-one/p1toc_
+#### _This is a mirror of a government repo hosted on [Repo1](https://repo1.dso.mil/) by [DoD Platform One](http://p1.dso.mil/).  Please direct all changes, issues and comments to https://repo1.dso.mil/platform-one/bbtoc_
