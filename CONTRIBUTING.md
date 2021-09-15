@@ -1,8 +1,8 @@
 # Contributing
 
-## Contributing to the P1TOC
+## Contributing to the BBTOC
 
-Open a merge request or an [issue](https://repo1.dso.mil/platform-one/p1toc/-/issues/new) for discussion.
+Open a merge request or an [issue](https://repo1.dso.mil/platform-one/bbtoc/-/issues/new) for discussion.
 
 ## Contributing new projects
 

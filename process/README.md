@@ -28,7 +28,7 @@ graph LR
 4. Reduce the barrier to maturity by providing a community of support for engagement, governance, security, and policy recommendations
 
 #### Sandbox Project Requirements
-* Project are proposed following the [process outlined here](https://repo1.dso.mil/platform-one/p1toc/-/blob/master/projects/getting-started/README.md)
+* Project are proposed following the [process outlined here](https://repo1.dso.mil/platform-one/bbtoc/-/blob/master/projects/getting-started/README.md)
 * Sandbox projects must meet the following criteria:  
   1. Code repository is in an unclassified, accessible repository (repo1 is desireable)
   2. Code repository must contain an Open source `LICENSE` file at the root of the repository
@@ -39,7 +39,7 @@ graph LR
 * Consistent with Sandbox project goals the TOC looks for:
 	1. Is the project a fit for Big Bang and the [DoD DevSecOps reference Design](https://dodcio.defense.gov/Portals/0/Documents/Library/DevSecOpsReferenceDesign.pdf)
 	2. Does the project appear to be on a good path to becoming well-governed and vendor-neutral? 
-* Sandbox projects are tracked as [gitlab issues](https://repo1.dso.mil/platform-one/p1toc/-/issues?scope=all&utf8=%E2%9C%93&state=opened&label_name[]=sandbox) with the `sandbox` label.
+* Sandbox projects are tracked as [gitlab issues](https://repo1.dso.mil/platform-one/bbtoc/-/issues?scope=all&utf8=%E2%9C%93&state=opened&label_name[]=sandbox) with the `sandbox` label.
 
 ### Incubating: 
 `Incubating` projects have adoption and show value added, but have not reach maturity to commit to long term support to end users.
@@ -53,12 +53,10 @@ To mature to `Incubating` stage, a project must meet the `Sandbox` stage require
 * Demonstrated support, through contribution and feature release consistent with [Big Bang guidelines](https://repo1.dso.mil/platform-one/big-bang/bigbang)
 * Have begun or completed an Iron Bank approval
 
-Projects moving from sandbox to incubation are tracked as [gitlab issues](https://repo1.dso.mil/platform-one/p1toc/-/issues?scope=all&utf8=%E2%9C%93&state=opened&label_name[]=graduated) with the `incubation` label.
+Projects moving from sandbox to incubation are tracked as [gitlab issues](https://repo1.dso.mil/platform-one/bbtoc/-/issues?scope=all&utf8=%E2%9C%93&state=opened&label_name[]=graduated) with the `incubation` label.
 
 
 ## Graduated: 
-
-!! OPEN CALL for Feedback on this section !!
 
 `Graduated` projects are the highest level of maturity for a TOC project.
 
@@ -79,7 +77,7 @@ The chief goal of Graduate projects is to continue to expand and improve the pac
 * Isiot Support
 * Prometheus metrics and Grafana dashboards
 
-Projects moving from incubation to graduation are tracked as [gitlab issues](https://repo1.dso.mil/platform-one/p1toc/-/issues?scope=all&utf8=%E2%9C%93&state=opened&label_name[]=graduated) with the `graduated` label.
+Projects moving from incubation to graduation are tracked as [gitlab issues](https://repo1.dso.mil/platform-one/bbtoc/-/issues?scope=all&utf8=%E2%9C%93&state=opened&label_name[]=graduated) with the `graduated` label.
 ## Archived: 
 Archived projects are no longer in active development and are archived at a TOC meetup.
 
