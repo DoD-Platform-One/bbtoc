@@ -5,11 +5,13 @@ TOC membership exists formally and organically to add value to the ecosystem, it
 ## Requirements
 
 All members must adhere and agree to the following:
+
 - The TOC [Working Agreement](../WORKINGAGREEMENT)
 - No two members can be from the same company
 - An organization should only have a single member on the TOC at any given time
 - Members must represent the best interests of the community without unchecked vendor bias.
 
 ### Roles
+
 - Chair: one appointed member will be nominated and designated chair for a 6 month duration. The chair is responsible for keeping the ship afloat, hosting meetings, keeping minutes, timeboxing, agenda, backlog management, etc...
 - Shepherd: for each proposed project a shepherd will be assigned. The shepherd is responsible for supporting projects engagement and interaction with the TOC, to include ensuring consistent and correct submissions, answering questions, and bringing topics before the TOC when appropriate; but is not responsible for the success of the project.

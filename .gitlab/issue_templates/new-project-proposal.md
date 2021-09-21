@@ -1,11 +1,14 @@
-** We will grant permissions to submit the proposal **
 # Project
-Name: 
+
+> _We will grant permissions to submit the proposal_
+
+Name:
 Desired Initial Maturity Level (Sandbox, Incubating, Graduated):
-Problem Statement (i.e. problem you wan to solve):   
+Problem Statement (i.e. problem you wan to solve):
 Description:  
 
 Initial Members:
+
 - John Smith @gitlabusername
 - Teal'c @jaffa4life
 

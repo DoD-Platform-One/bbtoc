@@ -4,13 +4,14 @@ BBTOC is the open governance body of the Big Bang ecosystem and maintainers of c
 
 \~The BBTOC scale contributions by the DoD technical and user community, while retaining integrity and increasing quality in support of our mission. ([source](https://github.com/cncf/toc/blob/master/sigs/README.md))
 
-Chief Objectivs:
+Chief Objective:
+
 - Enable community collaboration across organizations and use cases
 - Enabled collaborative development of solutions, solving problems for the majority
 - We exist to connect and collaborate, not gatekeep and control
 - We are not a standards body, nor do we influence funding of various efforts.
 
-# Members
+## Members
 
 - Maj. Austen Bryan, @abryan562, Director of Platform One
 - Phillip Record, @phillip.record, "I'm just Phillip"
@@ -27,7 +28,8 @@ Chief Objectivs:
 
 ** Current P1TOC Chair, appointed July 2021
 
-** How and why do these members exist? [goverance](policy/governance.md)
+** How and why do these members exist? [governance](policy/governance.md)
+
 ## Meetups
 
 Join Us! The TOC meets the first and third Tuesday each month at 1200 MST
@@ -41,14 +43,13 @@ Join Us! The TOC meets the first and third Tuesday each month at 1200 MST
 
     Find your local number: https://us02web.zoom.us/u/kEiAxsWyZ  
 
-# Contribute
+## Contribute
 
 We readily welcome any and all community engagement!
 
 1. Join us for our [meetups](#meetups)
 2. Submit an [issue](https://repo1.dso.mil/platform-one/bbtoc/-/issues/new) for ideas, questions, feedback, etc...
 
-
-
 ---
-#### _This is a mirror of a government repo hosted on [Repo1](https://repo1.dso.mil/) by [DoD Platform One](http://p1.dso.mil/).  Please direct all changes, issues and comments to https://repo1.dso.mil/platform-one/bbtoc_
+
+> _This is a mirror of a government repo hosted on [Repo1](https://repo1.dso.mil/) by [DoD Platform One](http://p1.dso.mil/).  Please direct all changes, issues and comments to <https://repo1.dso.mil/platform-one/bbtoc>_
