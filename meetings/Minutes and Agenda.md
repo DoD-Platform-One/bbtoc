@@ -1,5 +1,11 @@
 # Minutes and Agenda
 
+## 21 September 2021
+
+- Merged suggested change for Graduated Project requirements [MR](https://repo1.dso.mil/platform-one/bbtoc/-/merge_requests/40/diffs)
+- Membership Review [issue](https://repo1.dso.mil/platform-one/bbtoc/-/issues/44)
+- Pioneer Project updates: [#37 - Gitlab](https://repo1.dso.mil/platform-one/bbtoc/-/issues/37), [#38 - Monitoring](https://repo1.dso.mil/platform-one/bbtoc/-/issues/38), [#39 OPA Gatekeeper](https://repo1.dso.mil/platform-one/bbtoc/-/issues/39)
+
 ## 7 September 2021
 
 - TOC Overhaul [issue](https://repo1.dso.mil/platform-one/bbtoc/-/issues/41)
