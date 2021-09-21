@@ -1,9 +1,11 @@
 # New Project Idea
-Name:   
-Problem Statement (i.e. problem you wan to solve):   
+
+Name:
+Problem Statement (i.e. problem you wan to solve):
 Description:  
 
 Initial Members:
+
 - Ahsoka Tano @padawanwithabrain
 - Sheev Palpatine @shhsecretlysith
 
