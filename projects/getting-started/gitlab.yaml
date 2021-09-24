@@ -1,0 +1,14 @@
+project:
+    name: Gitlab
+    description:  DevSecOps Tool
+    maturity-level: sandbox
+    repoUrl:  https://repo1.dso.mil/platform-one/big-bang/apps/developer-tools/gitlab
+    problemStatement:  Need collaborative tool for source code
+    mvpMilestone:
+        description:  ?
+        estimatedTime:  2 months
+    initialMembers:
+        - name:  Kevin Wilder
+          repo1user: 'kevin.wilder'
+        - name: Ryan Garcia
+          repo1user: 'ryan.j.garcia'
