@@ -1,0 +1,3 @@
+[submodule "meetings/recordings"]
+	path = meetings/recordings
+	url = https://repo1.dso.mil/platform-one/bbtoc-recordings.git
