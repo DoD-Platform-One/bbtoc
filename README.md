@@ -26,7 +26,7 @@ Chief Objective:
 - Ian Dunbar-Hall, @idunbarh, Industry P1 Evangelist
 - Zayd Ma, @zayd.ma, 309th SWEG SkiCAMP/EDDGE
 
-** Current P1TOC Chair, appointed July 2021
+** Current BBTOC Chair, appointed July 2021
 
 ** How and why do these members exist? [governance](policy/governance.md)
 
