@@ -1,5 +1,8 @@
 # Minutes and Agenda
 
+## 5 October 2021
+- Review and Dicuss pioneer projects and feedback
+
 ## 21 September 2021
 
 - Merged suggested change for Graduated Project requirements [MR](https://repo1.dso.mil/platform-one/bbtoc/-/merge_requests/40/diffs)
