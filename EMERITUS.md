@@ -1,4 +1,5 @@
 # Past members of the P1TOC
 
-Anthony Kallhoff, @akallhoff, Tron Hawaii Flight Commander
-Josh Wolf @joshwolf, Big Bang Anchor
+Anthony Kallhoff, @akallhoff, Tron Hawaii Flight Commander, 2021
+Josh Wolf @joshwolf, Big Bang Anchor, 2021
+Maj. Austen Bryan, @abryan562, Director of Platform One, 2021

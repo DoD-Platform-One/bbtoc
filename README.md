@@ -13,7 +13,6 @@ Chief Objective:
 
 ## Members
 
-- Maj. Austen Bryan, @abryan562, Director of Platform One
 - Phillip Record, @phillip.record, "I'm just Phillip"
 - Matt Huston, @matthew.huston , CISO of Platform One
 - Andrew Greene**, @andrew.greene, Party Bus Anchor Engineer
@@ -25,6 +24,7 @@ Chief Objective:
 - Tim Gast, @tim.gast, P1 Pioneer (BrainGu)
 - Ian Dunbar-Hall, @idunbarh, Industry P1 Evangelist
 - Zayd Ma, @zayd.ma, 309th SWEG SkiCAMP/EDDGE
+- Maj Camdon Cady, @camdon.cady, Platform One
 
 ** Current BBTOC Chair, appointed July 2021
 
