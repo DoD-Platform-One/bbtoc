@@ -1,5 +1,8 @@
 # Minutes and Agenda
 
+## 19 October 2021
+- Nomination Replace Maj Bryan with Maj Cady [issue](https://repo1.dso.mil/platform-one/bbtoc/-/issues/48)
+
 ## 5 October 2021
 - Review and Dicuss pioneer projects and feedback
 
