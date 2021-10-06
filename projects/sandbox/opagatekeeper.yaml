@@ -5,7 +5,7 @@ project:
     repoUrl: https://repo1.dso.mil/platform-one/big-bang/apps/core/policy
     problemStatement: Manually ensuring compliance with policies for governance, legal, best practices, and institutional conventions can be error-prone and time-consuming.  Automating policy enforcement ensures consistency, increases confidence in security, and reduces time to deploy a compliant Kubernetes cluster.
     initialMembers:
-        - name:  Michael McLeroyKevin Wilder
+        - name:  Michael McLeroy
           repo1user: 'michaelmcleroy'
         - name:  Tunde Oladipupo
           repo1user: 'toladipupo'
