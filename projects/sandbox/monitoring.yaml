@@ -1,0 +1,13 @@
+project:
+    name: Monitoring
+    description: Montitoring big bang package is a stack including alertmanager, nodeexporter, kube-state-metrics, grafana, and prometheus. The package provides common tools and visualizations to capture, alert, and monitor the operations in a big bang cluster.
+    maturity-level: sandbox
+    repoUrl: https://repo1.dso.mil/platform-one/big-bang/apps/core/monitoring
+    problemStatement: The monitoring package intends to solve the problem of monitoring and alerting of operations within a big bang cluster.
+    initialMembers:
+        - name: Michael Martin
+          repo1user: '@michaelmartin'
+        - name: Lynn Still
+          repo1user: '@lynnstill'
+        - name: Ryan Garcia
+          repo1user: '@ryan.j.garcia'
