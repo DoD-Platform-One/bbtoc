@@ -2,6 +2,9 @@
 
 ## 19 October 2021
 - Nomination: Maj Cady [issue](https://repo1.dso.mil/platform-one/bbtoc/-/issues/48)
+- Monitoring Project [MR](https://repo1.dso.mil/platform-one/bbtoc/-/merge_requests/53)
+- OPA Gatekeeper Project [MR](https://repo1.dso.mil/platform-one/bbtoc/-/merge_requests/52)
+
 ## 5 October 2021
 - Review and Dicuss pioneer projects and feedback
 
