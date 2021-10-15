@@ -83,6 +83,7 @@ The chief goal of Graduate projects is to continue to expand and improve the pac
   * Software Bill of Materials (SBOMs)
   * Passing Gatekeeper policies
   * Network policies in place
+  * [OSCAL](https://pages.nist.gov/OSCAL/) yaml document describing the NIST 800 53 Rev 5 controls that the package provides to applications.
 * Istio Support
 * Prometheus metrics and Grafana dashboards
 * Penetration Testing and Cyber Security Review
