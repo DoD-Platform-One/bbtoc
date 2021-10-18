@@ -4,12 +4,12 @@ BBTOC is the open governance body of the Big Bang ecosystem and maintainers of c
 
 \~The BBTOC scale contributions by the DoD technical and user community, while retaining integrity and increasing quality in support of our mission. ([source](https://github.com/cncf/toc/blob/master/sigs/README.md))
 
-Chief Objective:
+Chief Objectives:
 
 - Enable community collaboration across organizations and use cases
 - Enabled collaborative development of solutions, solving problems for the majority
 - We exist to connect and collaborate, not gatekeep and control
-- We are not a standards body, nor do we influence funding of various efforts.
+- We are not a standards body, nor do we influence funding of various efforts
 
 ## Members
 
