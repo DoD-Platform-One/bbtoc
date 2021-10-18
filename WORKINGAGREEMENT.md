@@ -19,4 +19,4 @@ What is expected of the TOC:
 - Active participation
 - Available for meetups and engagements
 - Work towards finding a solution
-- bringing professional and technical excellence to projects (in an advisory manner)
+- Bringing professional and technical excellence to projects (in an advisory manner)
