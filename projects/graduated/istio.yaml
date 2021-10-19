@@ -1,0 +1,43 @@
+project:
+    name: Istio
+    description: Service Mesh for providing observibility, traffic management and policy.
+    maturity-level: graduated
+    repoUrl: https://repo1.dso.mil/platform-one/big-bang/apps/core/istio-controlplane,https://repo1.dso.mil/platform-one/big-bang/apps/core/eck-operator
+    problemStatement: Istio Service mesh provides consistent observibility and network controls to applications running in the cluster.
+    initialMembers:
+        - name: Thomas Runyon
+          repo1user: '@runyontr'
+        - name: Blake Burhart
+          repo1user: '@blake.burhart'
+        - name: Michael McLeroy
+          repo1user: '@michaelmcleroy'
+    goals:
+      sandbox:
+        code-repo: 
+        - https://repo1.dso.mil/platform-one/big-bang/apps/core/istio-controlplane
+        - https://repo1.dso.mil/platform-one/big-bang/apps/core/eck-operator
+        license: Apache-2.0
+        contributors: https://repo1.dso.mil/platform-one/big-bang/apps/core/istio-controlplane/-/blob/main/CONTRIBUTING.md
+        codeowners: https://repo1.dso.mil/platform-one/big-bang/apps/core/istio-controlplane/-/blob/main/CODEOWNERS
+        purpose: Istio Service mesh provides consistent observibility and network controls to applications running in the cluster.
+        prototype: done
+      incubating:
+        customers:
+        - partybus
+        - ironbank
+        releases: Release cycle aligns with BigBang
+        ironbank: done
+      graduated:
+        customers:
+        - partybus
+        - ironbank
+        - anyone using Big Bang
+        ironbank: done
+        deployment: orchestrated as part of Big Bang
+        security:
+         sboms: no
+         policies: yes
+         networkpolicies: yes
+        istio_support: yes
+        observibility: yes
+        pen_testing: yes
