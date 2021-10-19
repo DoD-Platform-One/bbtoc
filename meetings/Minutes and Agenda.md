@@ -1,5 +1,16 @@
 # Minutes and Agenda
 
+## 19 October 2021
+- Nomination: Maj Cady [issue](https://repo1.dso.mil/platform-one/bbtoc/-/issues/48)
+- Monitoring Project [MR](https://repo1.dso.mil/platform-one/bbtoc/-/merge_requests/53)
+- OPA Gatekeeper Project [MR](https://repo1.dso.mil/platform-one/bbtoc/-/merge_requests/52)
+- Add OSCAL requirement to Graduated projects [issue](https://repo1.dso.mil/platform-one/bbtoc/-/issues/53)
+- Assign Shepherd - New project Istio [issue](https://repo1.dso.mil/platform-one/bbtoc/-/issues/54)
+- Discussion Big Bang Package Standards and guidance on PB CtF packages [issue](https://repo1.dso.mil/platform-one/bbtoc/-/issues/52)
+- Discussion: IB conditionally approved [issue](https://repo1.dso.mil/platform-one/bbtoc/-/issues/50)
+- documentation update [MR](https://repo1.dso.mil/platform-one/bbtoc/-/merge_requests/57)
+
+
 ## 5 October 2021
 - Review and Dicuss pioneer projects and feedback
 
