@@ -12,8 +12,9 @@ Have a new package to be added to the TOC? You're in the right place.
 
 1. When you submit a `new project proposal` issue...
    1. The TOC will assign you a Shepherd. The shepherd is your helper for any and all things you to get engaged with the TOC. [Shepherd Role](../../../policy/governance.md)
-2. Populate the [proposal template](proposal_template.yaml) on a new branch (ask your shepherd if you need help). The template helps guide us and get you started efficiently.
-3. Once a Merge request is created, that is a signal to the TOC Chair to add to the agenda for the next meetup. 
+2. Populate the [proposal template](proposal_template.yaml) on a new branch (ask your shepherd if you need help) and place it into the 'new-submissions' directory. The template helps guide us and get you started efficiently.
+3. The 'RepoURL' should be the repo1 (or Big Bang package) repository URL 
+4. Once a Merge request is created and the "Draft" tag has been removed, that is a signal to the TOC Chair to add it to the agenda for the next meetup.
 
 The TOC is not here to gatekeep projects, instead...  
 We want to advocate and help maximize collaboration.   
