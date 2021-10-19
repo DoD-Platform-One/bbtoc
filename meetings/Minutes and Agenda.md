@@ -8,6 +8,7 @@
 - Assign Shepherd - New project Istio [issue](https://repo1.dso.mil/platform-one/bbtoc/-/issues/54)
 - Discussion Big Bang Package Standards and guidance on PB CtF packages [issue](https://repo1.dso.mil/platform-one/bbtoc/-/issues/52)
 - Discussion: IB conditionally approved [issue](https://repo1.dso.mil/platform-one/bbtoc/-/issues/50)
+- documentation update [MR](https://repo1.dso.mil/platform-one/bbtoc/-/merge_requests/57)
 
 
 ## 5 October 2021
