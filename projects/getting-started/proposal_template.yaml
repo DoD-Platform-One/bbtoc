@@ -4,9 +4,6 @@ project:
     maturity-level:
     repoUrl:
     problemStatement:
-    mvpMilestone:
-        description:
-        estimatedTime:
     initialMembers:
         - name:
           repo1user: ''
