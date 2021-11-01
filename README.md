@@ -33,15 +33,21 @@ Chief Objectives:
 ## Meetups
 
 Join Us! The TOC meets the first and third Tuesday each month at 1200 MST
-    [Zoomlink](https://us02web.zoom.us/j/89870537922?pwd=c2V5a1hLbGlYaWt0R1RHKzEzOTdEQT09)  
+    [Zoomlink](https://us02web.zoom.us/j/1616069730)  
 
-    Meeting ID: 898 7053 7922  
-    Passcode: 609073  
+    Meeting ID: 161 606 9730  
+    Passcode: T4gw2D5p  
     One tap mobile  
-        +12532158782,,89870537922#,,,,*609073# US (Tacoma)  
-        +13462487799,,89870537922#,,,,*609073# US (Houston)  
+        +16692545252,,1616069730#,,,,*61487095# US (San Jose)  
+        +16468287666,,1616069730#,,,,*61487095# US (New York)  
 
-    Find your local number: https://us02web.zoom.us/u/kEiAxsWyZ  
+    Dial by your location
+        +1 669 254 5252 US (San Jose)
+        +1 646 828 7666 US (New York)
+    Meeting ID: 161 606 9730
+    Passcode: 61487095
+
+    Find your local number: https://www.zoomgov.com/u/ai7y7HWCn  
 
 ## Contribute
 
