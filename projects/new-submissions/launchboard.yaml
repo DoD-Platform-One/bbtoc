@@ -1,0 +1,15 @@
+project:
+    name: Launchboard
+    description:  Launchboard is meant to be a centralized dashboard for P1 Development Teams.  Users will have a one-stop informational source that encompasses relevant information pertaining to courses they are registered for, projects in the pipeline, resources they have access to, and point of contact resources for any issues.
+    maturity-level: sandbox
+    repoUrl: https://repo1.dso.mil/platform-one/party-bus/launchboard
+    problemStatement: Provide a centralized dashboard to Software Factory customers.
+    initialMembers:
+        - name: Mitchell Moushon
+          repo1user: '@mitchell.moushon'
+        - name: Graham Smith
+          repo1user: '@graham.smith'
+        - name: Luke Glasscock
+          repo1user: '@luke.glasscock'
+        - name: Baban Faraj
+          repo1user: '@babanfaraj'
