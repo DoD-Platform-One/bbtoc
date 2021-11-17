@@ -1,5 +1,8 @@
 # Minutes and Agenda
 
+## 2 November 2021
+- New Sandbox project: Launchboard [MR](https://repo1.dso.mil/platform-one/bbtoc/-/merge_requests/60)
+
 ## 19 October 2021
 - Nomination: Maj Cady [issue](https://repo1.dso.mil/platform-one/bbtoc/-/issues/48)
 - Monitoring Project [MR](https://repo1.dso.mil/platform-one/bbtoc/-/merge_requests/53)
