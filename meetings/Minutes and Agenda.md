@@ -2,8 +2,6 @@
 
 ## 2 November 2021
 - New Sandbox project: Launchboard [MR](https://repo1.dso.mil/platform-one/bbtoc/-/merge_requests/60)
-- Istio project updates [#54](https://repo1.dso.mil/platform-one/bbtoc/-/issues/54)
-- Pioneer Project Gitlab [MR](https://repo1.dso.mil/platform-one/bbtoc/-/merge_requests/43)
 
 ## 19 October 2021
 - Nomination: Maj Cady [issue](https://repo1.dso.mil/platform-one/bbtoc/-/issues/48)
