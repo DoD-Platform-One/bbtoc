@@ -1,11 +1,15 @@
 project:
-    name:
-    description:
-    maturity-level:
-    repoUrl:
-    problemStatement:
+    name: Jira
+    description: Atlassian Jira product for product management
+    maturity-level: Sandbox
+    repoUrl: https://repo1.dso.mil/platform-one/big-bang/apps/third-party/jira
+    problemStatement: P1 doesn't have an approved deployment method for Jira and PB uses it
     initialMembers:
         - name:
-          repo1user: ''
+          repo1user: 'Arun Sanna'
         - name:
-          repo1user: ''
+          repo1user: 'Sunny Xu'
+        - name:
+          repo1user: 'Andrew Mitchell'
+        - name:
+          repo1user: 'Brian Pfeiffer'
