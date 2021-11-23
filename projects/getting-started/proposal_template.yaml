@@ -1,11 +1,15 @@
 project:
-    name:
-    description:
-    maturity-level:
-    repoUrl:
-    problemStatement:
+    name: Confluence
+    description: Add Confluence as BB Add On, owned by PB members
+    maturity-level: Sandbox
+    repoUrl: https://repo1.dso.mil/platform-one/big-bang/apps/third-party/confluence
+    problemStatement: No supported BB deployment for Confluence
     initialMembers:
         - name:
-          repo1user: ''
+          repo1user: 'Arun Sanna'
         - name:
-          repo1user: ''
+          repo1user: 'Sunny Xu'
+        - name:
+          repo1user: 'Andrew Mitchell'
+        - name:
+          repo1user: 'Bryan Pfeiffer'
