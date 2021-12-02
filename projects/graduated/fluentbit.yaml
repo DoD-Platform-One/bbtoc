@@ -1,11 +1,13 @@
 project:
     name:
-    description:
-    maturity-level:
-    repoUrl:
-    problemStatement:
+    description: Fluentbit is a log forwarder used in BB clusters for sending logs from all pods/nodes into Elasticsearch.
+    maturity-level: graduated
+    repoUrl: https://repo1.dso.mil/platform-one/big-bang/apps/core/fluentbit
+    problemStatement: Fluentbit as a BB Core Package can provide log forwarding/processing.
     initialMembers:
-        - name:
-          repo1user: ''
-        - name:
-          repo1user: ''
+        - name: Kavitha Thulasiraman
+          repo1user: '@kavitha'
+        - name: Ryan Garcia
+          repo1user: '@ryan.j.garcia'
+        - name: Ernest Chuang
+          repo1user: '@echuang'
