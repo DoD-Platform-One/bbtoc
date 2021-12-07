@@ -1,0 +1,15 @@
+project:
+    name:
+    description: Elastic and Kibana are used as part of the default logging stack in BB clusters for aggregating, searching, and visualizing logs.
+    maturity-level: graduated
+    repoUrl: https://repo1.dso.mil/platform-one/big-bang/apps/core/elasticsearch-kibana
+    problemStatement: Elasticsearch and Kibana as a BB Core Package can provide log aggregation, searching, and visualization.
+    initialMembers:
+        - name: Kavitha Thulasiraman
+          repo1user: '@kavitha'
+        - name: Ryan Garcia
+          repo1user: '@ryan.j.garcia'
+        - name: Evan Rush
+          repo1user: '@evan.rush'
+        - name: Ronnie Webb
+          repo1user: '@ronwebb'
