@@ -1,11 +1,95 @@
-project:
-    name:
-    description:
-    maturity-level:
-    repoUrl:
-    problemStatement:
-    initialMembers:
-        - name:
-          repo1user: ''
-        - name:
-          repo1user: ''
+apiVersion: bbtoc/v1alpha
+kind: Project
+metadata:
+  # Name of the product to be evaluated
+  name: ""
+
+  # Product vendor (opensource if no vendor)
+  vendor: ""
+
+  # Short description of the product
+  description: ""
+
+  # Sandbox: Value the product brings to the Big Bang community
+  purpose: ""
+
+  # Sandbox: URL to quick start guide for demonstrating product (independent of Big Bang)
+  quickstart: ""
+
+  # Maturity level of the package
+  maturity-level: Sandbox # Sandbox, Incubating, or Graduated
+
+  # Points of contact for project (at least 2)
+  contacts:
+  - name: ""
+    repo1user: ""
+  - name: ""
+    repo1user: ""
+
+spec:
+  # Sandbox: Package(s) contained in the product (e.g. operator and application).  Each package will have its own repository.
+  packages:
+    # Sandbox: Name of the package
+  - name: ""
+
+    # Sandbox: Big Bang repository (https://repo.dso.mil/platform-one/big-bang/apps/sandbox/<your project>)
+    # Repository holds all required source, including license, contributors, codeowners, Big Bang integration, etc.
+    repository: ""
+
+    # Incubating: Support details
+    support:
+      # Incubating: main team that has taken on supporting this package for Big Bang
+      team: "" # vendor, big bang, party bus, etc.
+
+      # Incubating: level of committed support
+      commitment: "" # contract, firm, reasonable effort, consulting only
+
+    # Incubating: List of images contained in the package.
+    images:
+      # Incubating: Name of the image
+      - name: ""
+
+        # Incubating: Iron Bank approval request (https://repo1.dso.mil/dsop/<your project>/-/issues/1)
+        repository: ""
+
+        # Graduated: Iron Bank approval URL (https://ironbank.dso.mil/repomap/details;registry1Path=<your project path>)
+        approval: ""
+
+    # Graduated: Link to pipeline badge (https://repo1.dso.mil/platform-one/big-bang/apps/sandbox/<your project>/main/pipeline.svg)
+    pipeline:
+      badge: ""
+
+    # Graduated: Links to required documentation
+    documentation: []
+
+  # Only include users that can be exposed publically
+  users:
+    # Incubating: Active users of the project
+    active: []
+
+    # Graduated: Production users of the project
+    production: []
+
+  # Name and date of required verifications (e.g. John Doe, 7 Dec 2021)
+  sign-offs:
+
+    # Sandbox: Verify required files (e.g. license, codeowners, contributors) in git repository
+    required-files: ""
+
+    # Sandbox: Demonstratable product
+    product-demonstration: ""
+
+    # Incubating: demonstrated support through contributions and feature releases
+    committed-support: ""
+
+    # Graduated: Full Big Bang implementation
+    bigbang-implementation: ""
+
+    # Graduated: Deployable against documented use cases
+    product-deployable: ""
+
+    # Graduated: Security support documentation
+    security-docs: ""
+
+    # Graduated: Cyber security review and penetration testing
+    cybersecurity: ""
