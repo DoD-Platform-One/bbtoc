@@ -13,13 +13,13 @@ metadata:
   # Sandbox: URL to product website for further information
   website: ""
 
-  # Sandbox: URL to product source code (e.g. github.com).  If not opensource, put "Proprietary"
-  sourceCode: ""
+  # Sandbox: product source code repositories (e.g. github.com).  If not opensource, put "Proprietary"
+  sourceCode:
+  - ""
 
-  # Sandbox: Product licenses.  List both free and paid tiers if they exist.
-  licenses: []
-  # - Apache 2.0
-  # - Proprietary - https://link-to-licensing
+  # Sandbox: Product licenses (e.g. Apache 2.0, GPL 3.0, MIT, Proprietary).  Include both free and paid tiers if they exist.
+  licenses:
+  - ""
 
   # Sandbox: Value the product brings to the Big Bang community
   purpose: ""
@@ -35,13 +35,12 @@ metadata:
     repo1user: ""
 
 spec:
-  # Sandbox: Package(s) contained in the product (e.g. operator and application).  Each package will have its own repository.
+  # Sandbox: Package(s) contained in the product (e.g. operator and application).  Each package will have its own repository in repo1.
   packages:
     # Sandbox: Name of the package
   - name: ""
 
     # Sandbox: Big Bang repository (https://repo.dso.mil/platform-one/big-bang/apps/sandbox/<your project>)
-    # Repository holds all required source, including license, contributors, codeowners, Big Bang integration, etc.
     repository: ""
 
     # Incubating: Support details
