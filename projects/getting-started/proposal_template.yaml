@@ -1,25 +1,33 @@
 apiVersion: bbtoc/v1alpha
 kind: Project
 metadata:
-  # Name of the product to be evaluated
+  # Sandbox: Name of the product to be evaluated
   name: ""
 
-  # Product vendor (opensource if no vendor)
+  # Sandbox: Product vendor (opensource if no vendor)
   vendor: ""
 
-  # Short description of the product
+  # Sandbox: Short description of the product
   description: ""
+
+  # Sandbox: URL to product website for further information
+  website: ""
+
+  # Sandbox: URL to product source code (e.g. github.com).  If not opensource, put "Proprietary"
+  sourceCode: ""
+
+  # Sandbox: Product licenses.  List both free and paid tiers if they exist.
+  licenses: []
+  # - Apache 2.0
+  # - Proprietary - https://link-to-licensing
 
   # Sandbox: Value the product brings to the Big Bang community
   purpose: ""
 
-  # Sandbox: URL to quick start guide for demonstrating product (independent of Big Bang)
-  quickstart: ""
-
   # Maturity level of the package
-  maturity-level: Sandbox # Sandbox, Incubating, or Graduated
+  maturityLevel: Sandbox # Sandbox, Incubating, or Graduated
 
-  # Points of contact for project (at least 2)
+  # Sandbox: Points of contact for project (at least 2)
   contacts:
   - name: ""
     repo1user: ""
@@ -55,41 +63,38 @@ spec:
         # Graduated: Iron Bank approval URL (https://ironbank.dso.mil/repomap/details;registry1Path=<your project path>)
         approval: ""
 
-    # Graduated: Link to pipeline badge (https://repo1.dso.mil/platform-one/big-bang/apps/sandbox/<your project>/main/pipeline.svg)
-    pipeline:
-      badge: ""
-
     # Graduated: Links to required documentation
     documentation: []
 
-  # Only include users that can be exposed publically
   users:
     # Incubating: Active users of the project
+    # Only include users that can be exposed publically
     active: []
 
     # Graduated: Production users of the project
+    # Only include users that can be exposed publically
     production: []
 
-  # Name and date of required verifications (e.g. John Doe, 7 Dec 2021)
-  sign-offs:
+  # Name and date of required verifications (e.g. "John Doe, 7 Dec 2021")
+  signOffs:
 
     # Sandbox: Verify required files (e.g. license, codeowners, contributors) in git repository
-    required-files: ""
+    requiredFiles: ""
 
     # Sandbox: Demonstratable product
-    product-demonstration: ""
+    productDemonstration: ""
 
     # Incubating: demonstrated support through contributions and feature releases
-    committed-support: ""
+    committedSupport: ""
 
     # Graduated: Full Big Bang implementation
-    bigbang-implementation: ""
+    bigbangImplementation: ""
 
     # Graduated: Deployable against documented use cases
-    product-deployable: ""
+    productDeployable: ""
 
     # Graduated: Security support documentation
-    security-docs: ""
+    securityDocs: ""
 
     # Graduated: Cyber security review and penetration testing
     cybersecurity: ""
