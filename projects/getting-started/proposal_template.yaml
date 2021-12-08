@@ -19,7 +19,7 @@ metadata:
   - ""
 
   # Sandbox: Product licenses (e.g. Apache 2.0, GPL 3.0, MIT, Proprietary).  Include both free and paid tiers if they exist.
-  licenses:
+  license:
   - ""
 
   # Sandbox: Value the product brings to the Big Bang community
