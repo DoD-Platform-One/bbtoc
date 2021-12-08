@@ -10,8 +10,9 @@ metadata:
   # Sandbox: Short description of the product
   description: ""
 
-  # Sandbox: URL to product website for further information
-  website: ""
+  # Sandbox: URL(s) to product website for further information
+  website:
+  - ""
 
   # Sandbox: product source code repositories (e.g. github.com).  If not opensource, put "Proprietary"
   sourceCode:
