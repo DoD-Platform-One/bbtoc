@@ -1,5 +1,13 @@
 # Minutes and Agenda
 
+## 4 January 2022
+- New Sandbox Project: Jira [issue](https://repo1.dso.mil/platform-one/bbtoc/-/issues/58)
+- New Sandbox Project: Confluence [issue](https://repo1.dso.mil/platform-one/bbtoc/-/issues/57)
+- New Graduated Project: Fluentbit [issue](https://repo1.dso.mil/platform-one/bbtoc/-/issues/58)
+- New Graduated Project: Elasticsearch/Kibana [issue](https://repo1.dso.mil/platform-one/bbtoc/-/issues/57)
+- New Graduated Project: Twistlock [issue](https://repo1.dso.mil/platform-one/bbtoc/-/issues/60)
+- Updates on WIP (Istio, Gitlab, Launchboard, Oscal)
+
 ## 2 November 2021
 - New Sandbox project: Launchboard [MR](https://repo1.dso.mil/platform-one/bbtoc/-/merge_requests/60)
 
