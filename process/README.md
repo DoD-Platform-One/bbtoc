@@ -80,12 +80,13 @@ The chief goal of Graduate projects is to continue to expand and improve the pac
 * Base images approved in [Iron Bank](https://p1.dso.mil/#/products/iron-bank/)
 * Teams should be able to deploy the package, for any documented use case without issue
 * Security Stakeholders (Teams, Authorizing Officials, etc...) can obtain requisite documentation as part of the package to feed into an Authority to Operate (ATO)
-  * Software Bill of Materials (SBOMs)
-  * Passing Gatekeeper policies
+  * Software Bill of Materials (SBOMs) - future requirement
+  * NIST 800-53 Controls documented iteratively using OSCAL - future requirement
+  * Gatekeeper policies set to enforce with no violations
   * Network policies in place
-* Istio Support
+* Istio Support (pods istio injected with mTLS enforced unless exception is documented)
 * Prometheus metrics and Grafana dashboards
-* Penetration Testing and Cyber Security Review
+* Penetration Testing and Cyber Security Review - future requirement
 
 Projects moving from incubation to graduation are tracked as [gitlab issues](https://repo1.dso.mil/platform-one/bbtoc/-/issues?scope=all&utf8=%E2%9C%93&state=opened&label_name[]=graduated) with the `graduated` label.
 
