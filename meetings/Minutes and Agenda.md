@@ -6,7 +6,7 @@
 - New Graduated Project: Fluentbit [issue](https://repo1.dso.mil/platform-one/bbtoc/-/issues/58)
 - New Graduated Project: Elasticsearch/Kibana [issue](https://repo1.dso.mil/platform-one/bbtoc/-/issues/57)
 - New Graduated Project: Twistlock [issue](https://repo1.dso.mil/platform-one/bbtoc/-/issues/60)
-- Updates on WIP (Istio, Gitlab, Launchboard, Oscal)
+- Review Proposal template updates [MR](https://repo1.dso.mil/platform-one/bbtoc/-/merge_requests/66)
 
 ## 2 November 2021
 - New Sandbox project: Launchboard [MR](https://repo1.dso.mil/platform-one/bbtoc/-/merge_requests/60)
