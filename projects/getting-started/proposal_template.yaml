@@ -1,5 +1,6 @@
 apiVersion: bbtoc/v1alpha
 kind: Project
+# NOTE: Remove lines that are not applicable
 metadata:
   # Sandbox: Name of the product to be evaluated
   name: ""
@@ -41,16 +42,8 @@ spec:
     # Sandbox: Name of the package
   - name: ""
 
-    # Sandbox: Big Bang repository (https://repo.dso.mil/platform-one/big-bang/apps/sandbox/<your project>)
+    # Sandbox: Big Bang repository (i.e. https://repo.dso.mil/platform-one/big-bang/apps/sandbox/<your project>)
     repository: ""
-
-    # Incubating: Support details
-    support:
-      # Incubating: main team that has taken on supporting this package for Big Bang
-      team: "" # vendor, big bang, party bus, etc.
-
-      # Incubating: level of committed support
-      commitment: "" # contract, firm, reasonable effort, consulting only
 
     # Incubating: List of images contained in the package.
     images:
@@ -65,15 +58,6 @@ spec:
 
     # Graduated: Links to required documentation
     documentation: []
-
-  users:
-    # Incubating: Active users of the project
-    # Only include users that can be exposed publically
-    active: []
-
-    # Graduated: Production users of the project
-    # Only include users that can be exposed publically
-    production: []
 
   # Name and date of required verifications (e.g. "John Doe, 7 Dec 2021")
   signOffs:
