@@ -33,7 +33,7 @@ graph LR
 #### Sandbox Project Requirements
 
 * Project are proposed following the [process outlined here](https://repo1.dso.mil/platform-one/bbtoc/-/blob/master/projects/getting-started/README.md)
-* Sandbox projects must meet the following criteria:  
+* Sandbox projects must meet the following criteria:
   1. Code repository is in an unclassified, accessible repository (repo1 is desireable)
   2. Code repository must contain an Open source `LICENSE` file at the root of the repository
   3. Code repository must contain a `CONTRIBUTORS.md` file at the root of the repository and provide sufficient information on how one can contribute
@@ -78,13 +78,23 @@ The chief goal of Graduate projects is to continue to expand and improve the pac
 * Meet requirements for `Incubating` status
 * Active production use by multiple organizations/customers
 * Base images approved in [Iron Bank](https://p1.dso.mil/#/products/iron-bank/)
+* Full implementation of [Big Bang's Package Integration Guide](https://repo1.dso.mil/platform-one/big-bang/bigbang/-/blob/master/docs/developer/package-integration.md), including ...
+  * Passing CICD Pipelines
+  * Deployment with FluxCD Helm Releases
+  * Istio service mesh integration
+  * Prometheus metrics exporting and Grafana dashboards
+  * Database hooks (if database is used)
+  * Object storage hooks (if object storage is used)
+  * Single sign-on (either directly or using authservice)
+  * Passing Helm tests
+  * Network policies (ingress and egress) in place
+  * Policy enforcement (e.g. Kyverno, Gatekeeper) in place
+  * Required package documentation
 * Teams should be able to deploy the package, for any documented use case without issue
 * Security Stakeholders (Teams, Authorizing Officials, etc...) can obtain requisite documentation as part of the package to feed into an Authority to Operate (ATO)
   * Software Bill of Materials (SBOMs)
-  * Passing Gatekeeper policies
-  * Network policies in place
-* Istio Support
-* Prometheus metrics and Grafana dashboards
+  * Security policies used (e.g. Kyverno, Gatekeeper), including exceptions/justifications
+  * Network policies used
 * Penetration Testing and Cyber Security Review
 
 Projects moving from incubation to graduation are tracked as [gitlab issues](https://repo1.dso.mil/platform-one/bbtoc/-/issues?scope=all&utf8=%E2%9C%93&state=opened&label_name[]=graduated) with the `graduated` label.
