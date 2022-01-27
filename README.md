@@ -32,7 +32,10 @@ Chief Objectives:
 
 ## Meetups
 
-Join Us! The TOC meets the first and third Tuesday each month at 1200 MST
+Join Us! The TOC meets the first and third Tuesday each month at 1200 MST  
+
+[Calendar Import (*.ics)](meetings/BBTOC.ics)
+
     [Zoomlink](https://us02web.zoom.us/j/1616069730)  
 
     Meeting ID: 161 606 9730  
