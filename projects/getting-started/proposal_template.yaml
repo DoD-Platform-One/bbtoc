@@ -5,19 +5,14 @@ metadata:
   # Sandbox: Name of the product to be evaluated
   name: ""
 
-  # Sandbox: Product vendor (opensource if no vendor)
-  vendor: ""
-
-  # Sandbox: Short description of the product
-  description: ""
-
   # Sandbox: URL(s) to product website for further information
   website:
   - ""
 
-  # Sandbox: product source code repositories (e.g. github.com).  If not opensource, put "Proprietary"
+  # Sandbox: product source code repositories (e.g. github.com).  If not opensource, put "Proprietary" and include vendor:
   sourceCode:
   - ""
+    vendor: ""
 
   # Sandbox: Product licenses (e.g. Apache 2.0, GPL 3.0, MIT, Proprietary).  Include both free and paid tiers if they exist.
   license:
@@ -45,40 +40,20 @@ spec:
     # Sandbox: Big Bang repository (i.e. https://repo.dso.mil/platform-one/big-bang/apps/sandbox/<your project>)
     repository: ""
 
-    # Incubating: List of images contained in the package.
-    images:
-      # Incubating: Name of the image
-      - name: ""
-
-        # Incubating: Iron Bank approval request (https://repo1.dso.mil/dsop/<your project>/-/issues/1)
-        repository: ""
-
-        # Graduated: Iron Bank approval URL (https://ironbank.dso.mil/repomap/details;registry1Path=<your project path>)
-        approval: ""
-
-    # Graduated: Links to required documentation
-    documentation: []
-
   # Name and date of required verifications (e.g. "John Doe, 7 Dec 2021")
   signOffs:
 
     # Sandbox: Verify required files (e.g. license, codeowners, contributors) in git repository
-    requiredFiles: ""
-
-    # Sandbox: Demonstratable product
-    productDemonstration: ""
+    sandboxVerification:
+    - repo1user: ""
+      date: "DDMMMYYYY" # e.g. 01JAN2022
 
     # Incubating: demonstrated support through contributions and feature releases
-    committedSupport: ""
+    incubatingVerification:
+    - repo1user: ""
+      date: "DDMMMYYYY" # e.g. 01JAN2022
 
     # Graduated: Full Big Bang implementation
-    bigbangImplementation: ""
-
-    # Graduated: Deployable against documented use cases
-    productDeployable: ""
-
-    # Graduated: Security support documentation
-    securityDocs: ""
-
-    # Graduated: Cyber security review and penetration testing
-    cybersecurity: ""
+    graduatedVerification:
+    - repo1user: ""
+      date: "DDMMMYYYY" # e.g. 01JAN2022
