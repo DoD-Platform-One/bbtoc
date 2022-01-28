@@ -1,0 +1,40 @@
+apiVersion: bbtoc/v1alpha
+kind: Project
+metadata:
+  name: "logging"
+  website:
+    - "https://www.elastic.co/elastic-stack/"
+  sourceCode:
+    - "https://github.com/elastic/elasticsearch"
+    - "https://github.com/elastic/kibana"
+  license:
+    - "Elastic License 2.0"
+    - "SSPLv1"
+  purpose: "Elastic and Kibana are used as part of the default logging stack in BB clusters for aggregating, searching, and visualizing logs."
+  maturityLevel: "Graduated"
+  contacts:
+    - name: Kavitha Thulasiraman
+      repo1user: '@kavitha'
+    - name: Ryan Garcia
+      repo1user: '@ryan.j.garcia'
+    - name: Evan Rush
+      repo1user: '@evan.rush'
+    - name: Ronnie Webb
+      repo1user: '@ronwebb'
+spec:
+  packages:
+    - name: "elasticsearch-kibana"
+      repository: "https://repo1.dso.mil/platform-one/big-bang/apps/core/elasticsearch-kibana"
+
+  signOffs:
+    sandboxVerification:
+      - repo1user: "@andrew.greene"
+        date: "26JAN2022"
+    incubatingVerification:
+      - repo1user: "@andrew.greene"
+        date: "26JAN2022"
+
+    # Graduated: Full Big Bang implementation
+    graduatedVerification:
+      - repo1user: ""
+        date: "DDMMMYYYY" # e.g. 01JAN2022
