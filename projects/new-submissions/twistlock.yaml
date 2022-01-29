@@ -1,15 +1,87 @@
-project:
-    name:
-    description: The Twistlock Platform provides vulnerability management and compliance across the application lifecycle by scanning images and serverless functions to prevent security and compliance issues from progressing through the development pipeline, and continuously monitoring all registries and environments.
-    maturity-level: graduated
-    repoUrl: https://repo1.dso.mil/platform-one/big-bang/apps/security-tools/twistlock.git
-    problemStatement: Twistlock as a BB Security Tool can help prevent security and compliance issues across the application lifecycle.
-    initialMembers:
-        - name: Thomas Burton
-          repo1user: '@thomas.burton'
-        - name: Ryan Garcia
-          repo1user: '@ryan.j.garcia'
-        - name: Tom Runyon
-          repo1user: '@runyontr'
-        - name: Micah Nagel
-          repo1user: '@micah.nagel'
+apiVersion: bbtoc/v1alpha
+kind: Project
+# NOTE: Remove lines that are not applicable
+metadata:
+  # Sandbox: Name of the product to be evaluated
+  name: "Prisma Cloud Compute"
+
+  # Sandbox: Product vendor (opensource if no vendor)
+  vendor: "Prisma Cloud"
+
+  # Sandbox: Short description of the product
+  description: "The Twistlock Platform provides vulnerability management and compliance across the application lifecycle by scanning images and serverless functions to prevent security and compliance issues from progressing through the development pipeline, and continuously monitoring all registries and environments."
+
+  # Sandbox: URL(s) to product website for further information
+  website:
+  - "https://docs.paloaltonetworks.com/prisma/prisma-cloud.html"
+
+  # Sandbox: product source code repositories (e.g. github.com).  If not opensource, put "Proprietary"
+  sourceCode:
+  - "Proprietary"
+
+  # Sandbox: Product licenses (e.g. Apache 2.0, GPL 3.0, MIT, Proprietary).  Include both free and paid tiers if they exist.
+  license:
+  - "Proprietary"
+
+  # Sandbox: Value the product brings to the Big Bang community
+  purpose: "Runtime Security"
+
+  # Maturity level of the package
+  maturityLevel: Sandbox # Sandbox, Incubating, or Graduated
+
+  # Sandbox: Points of contact for project (at least 2)
+  contacts:
+  - name: "Micah Nagel"
+    repo1user: "@micah.nagel"
+  - name: "Thomas Runyon"
+    repo1user: "@runyontr"
+  - name: "Ryan Garcia"
+    repo1user: "@ryan.j.garcia"
+  - name: Thomas Burton
+    repo1user: "@thoams.burton"
+
+spec:
+  # Sandbox: Package(s) contained in the product (e.g. operator and application).  Each package will have its own repository in repo1.
+  packages:
+    # Sandbox: Name of the package
+  - name: "Twistlock"
+
+    # Sandbox: Big Bang repository (i.e. https://repo.dso.mil/platform-one/big-bang/apps/sandbox/<your project>)
+    repository: "Proprietary"
+
+    # Incubating: List of images contained in the package.
+    images:
+      - name: "console"
+        repository: "https://repo1.dso.mil/dsop/twistlock/console/console/-/issues/1"
+        approval: "https://ironbank.dso.mil/repomap/details;registry1Path=twistlock%252Fconsole%252Fconsole"
+      - name: "defender"
+        repository: "https://repo1.dso.mil/dsop/twistlock/defender/defender/-/issues/1"
+        approval: "https://ironbank.dso.mil/repomap/details;registry1Path=twistlock%252Fdefender%252Fdefender"
+
+    # Graduated: Links to required documentation
+    documentation:
+    - "https://repo1.dso.mil/platform-one/big-bang/apps/security-tools/twistlock/-/tree/main/docs"
+
+  # Name and date of required verifications (e.g. "John Doe, 7 Dec 2021")
+  signOffs:
+
+    # Sandbox: Verify required files (e.g. license, codeowners, contributors) in git repository
+    requiredFiles: "Thomas Runyon, 29 Jan 2022"
+
+    # Sandbox: Demonstratable product
+    productDemonstration: "Thomas Runyon, 29 Jan 2022"
+
+    # Incubating: demonstrated support through contributions and feature releases
+    committedSupport: ""
+
+    # Graduated: Full Big Bang implementation
+    bigbangImplementation: "Thomas Runyon, 29 Jan 2022"
+
+    # Graduated: Deployable against documented use cases
+    productDeployable: "Thomas Runyon, 29 Jan 2022"
+
+    # Graduated: Security support documentation
+    securityDocs: "Thomas Runyon, 29 Jan 2022"
+
+    # Graduated: Cyber security review and penetration testing
+    cybersecurity: ""
