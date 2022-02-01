@@ -55,7 +55,7 @@ spec:
       - name: "registry1.dso.mil/ironbank/atlassian/confluence-data-center/confluence-node"
 
         # Incubating: Iron Bank approval request (https://repo1.dso.mil/dsop/<your project>/-/issues/1)
-        repository: "https://repo1.dso.mil/dsop/atlassian/confluence-data-center/confluence-node"
+        repository: "https://repo1.dso.mil/dsop/atlassian/confluence-data-center/confluence-node/-/issues/15"
 
         # Graduated: Iron Bank approval URL (https://ironbank.dso.mil/repomap/details;registry1Path=<your project path>)
         approval: "https://ironbank.dso.mil/repomap/details;registry1Path=atlassian%252Fconfluence-data-center%252Fconfluence-node?page=1&sort=1"
