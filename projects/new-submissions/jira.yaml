@@ -51,23 +51,24 @@ spec:
 
     # Incubating: List of images contained in the package.
     images:
-      # Incubating: Name of the image
-      - name: "registry1.dso.mil/ironbank/atlassian/jira-data-center/jira-node"
+    # Incubating: Name of the image
+    - name: "registry1.dso.mil/ironbank/atlassian/jira-data-center/jira-node"
 
-        # Incubating: Iron Bank approval request (https://repo1.dso.mil/dsop/<your project>/-/issues/1)
-        repository: "https://repo1.dso.mil/dsop/atlassian/jira-data-center/jira-node/-/issues/24"
+      # Incubating: Iron Bank approval request (https://repo1.dso.mil/dsop/<your project>/-/issues/1)
+      repository: "https://repo1.dso.mil/dsop/atlassian/jira-data-center/jira-node/-/issues/24"
 
-        # Graduated: Iron Bank approval URL (https://ironbank.dso.mil/repomap/details;registry1Path=<your project path>)
-        approval: "https://ironbank.dso.mil/repomap/details;registry1Path=atlassian%252Fjira-data-center%252Fjira-node?page=1&sort=1"
+      # Graduated: Iron Bank approval URL (https://ironbank.dso.mil/repomap/details;registry1Path=<your project path>)
+      approval: "https://ironbank.dso.mil/repomap/details;registry1Path=atlassian%252Fjira-data-center%252Fjira-node?page=1&sort=1"
 
     # Graduated: Links to required documentation
-    documentation: []
+    documentation: 
+    - "https://repo1.dso.mil/platform-one/big-bang/apps/third-party/jira/-/tree/main/docs"
 
   # Name and date of required verifications (e.g. "John Doe, 7 Dec 2021")
   signOffs:
 
     # Sandbox: Verify required files (e.g. license, codeowners, contributors) in git repository
-    requiredFiles: ""
+    requiredFiles: "Ian Dunbar-Hall, 2 Feb 2022"
 
     # Sandbox: Demonstratable product
     productDemonstration: ""
