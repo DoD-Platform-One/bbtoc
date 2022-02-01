@@ -62,7 +62,7 @@ spec:
   signOffs:
 
     # Sandbox: Verify required files (e.g. license, codeowners, contributors) in git repository
-    requiredFiles: ""
+    requiredFiles: Michael McLeroy, 31 Jan 2022
 
     # Sandbox: Demonstratable product
     productDemonstration: Michael McLeroy, 31 Jan 2022
