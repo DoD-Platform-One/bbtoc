@@ -3,7 +3,8 @@
 ## 1 Feb 2022
 - New Sandbox product: Harbort [issue](https://repo1.dso.mil/platform-one/bbtoc/-/issues/68)
 - Sandbox project merge: Twistlock [MR](https://repo1.dso.mil/platform-one/bbtoc/-/merge_requests/67) 
-- Confluence update [issue](https://repo1.dso.mil/platform-one/bbtoc/-/issues/57)
+- Sanbox project merge: Confluence [MR](https://repo1.dso.mil/platform-one/bbtoc/-/merge_requests/62)
+- Sanbox project merge: Jira [MR](https://repo1.dso.mil/platform-one/bbtoc/-/merge_requests/61)
 - proposal template proposed updates [MR](https://repo1.dso.mil/platform-one/bbtoc/-/merge_requests/72)
 
 
