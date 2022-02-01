@@ -2,8 +2,8 @@
 
 The Technical Oversight Committee serves as the conduit to support collaboration and evangelize community contributions to the Big Bang opensource ecosystem.
 
-* The Technical Oversight Committee ensures __Users__ of have access to high quality projects.
-* The Technical Oversight Committee ensures __Contributors__ have support to build a security focused project, and build an active user base to ensure longevity and ability to be used in production setting.
+- The Technical Oversight Committee ensures **Users** of have access to high quality projects.
+- The Technical Oversight Committee ensures **Contributors** have support to build a security focused project, and build an active user base to ensure longevity and ability to be used in production setting.
 
 This policy describes the TOC project lifecycle, from sandbox to archival. It describes the requirements a project must meet in order to be classified and matured.
 
@@ -32,20 +32,20 @@ graph LR
 
 #### Sandbox Project Requirements
 
-* Project are proposed following the [process outlined here](https://repo1.dso.mil/platform-one/bbtoc/-/blob/master/projects/getting-started/README.md)
-* Sandbox projects must meet the following criteria:
+- Project are proposed following the [process outlined here](https://repo1.dso.mil/platform-one/bbtoc/-/blob/master/projects/getting-started/README.md)
+- Sandbox projects must meet the following criteria:
   1. Code repository is in an unclassified, accessible repository (repo1 is desireable)
   2. Code repository must contain an Open source `LICENSE` file at the root of the repository
-  3. Code repository must contain a `CONTRIBUTORS.md` file at the root of the repository and provide sufficient information on how one can contribute
+  3. Code repository must contain a `CONTRIBUTING.md` file at the root of the repository and provide sufficient information on how one can contribute
   4. Code repository must contain a `CODEOWNERS` file
   5. The project must have a clearly defined purpose
   6. The project must have a demonstrable prototype (intent is to prevent immature projects with minimal code in place)
-* Consistent with Sandbox project goals the TOC looks for:
+- Consistent with Sandbox project goals the TOC looks for:
 
- 1. Is the project a fit for Big Bang and the [DoD DevSecOps reference Design](https://dodcio.defense.gov/Portals/0/Documents/Library/DevSecOpsReferenceDesign.pdf)
- 2. Does the project appear to be on a good path to becoming well-governed and vendor-neutral?
+1.  Is the project a fit for Big Bang and the [DoD DevSecOps reference Design](https://dodcio.defense.gov/Portals/0/Documents/Library/DevSecOpsReferenceDesign.pdf)
+2.  Does the project appear to be on a good path to becoming well-governed and vendor-neutral?
 
-* Sandbox projects are tracked as [gitlab issues](https://repo1.dso.mil/platform-one/bbtoc/-/issues?scope=all&utf8=%E2%9C%93&state=opened&label_name[]=sandbox) with the `sandbox` label.
+- Sandbox projects are tracked as [gitlab issues](https://repo1.dso.mil/platform-one/bbtoc/-/issues?scope=all&utf8=%E2%9C%93&state=opened&label_name[]=sandbox) with the `sandbox` label.
 
 ### Incubating
 
@@ -59,9 +59,9 @@ graph LR
 
 To mature to `Incubating` stage, a project must meet the `Sandbox` stage requirements plus:
 
-* Active use by at least two customers and/or organizations
-* Demonstrated support, through contribution and feature release consistent with [Big Bang guidelines](https://repo1.dso.mil/platform-one/big-bang/bigbang)
-* Have begun or completed an Iron Bank approval
+- Active use by at least two customers and/or organizations
+- Demonstrated support, through contribution and feature release consistent with [Big Bang guidelines](https://repo1.dso.mil/platform-one/big-bang/bigbang)
+- Have begun or completed an Iron Bank approval
 
 Projects moving from sandbox to incubation are tracked as [gitlab issues](https://repo1.dso.mil/platform-one/bbtoc/-/issues?scope=all&utf8=%E2%9C%93&state=opened&label_name[]=graduated) with the `incubation` label.
 
@@ -75,27 +75,27 @@ The chief goal of Graduate projects is to continue to expand and improve the pac
 
 #### Graduated Project Requirements
 
-* Meet requirements for `Incubating` status
-* Active production use by multiple organizations/customers
-* Base images approved in [Iron Bank](https://p1.dso.mil/#/products/iron-bank/)
-* Full implementation of [Big Bang's Package Integration Guide](https://repo1.dso.mil/platform-one/big-bang/bigbang/-/blob/master/docs/developer/package-integration.md), including ...
-  * Passing CICD Pipelines
-  * Deployment with FluxCD Helm Releases
-  * Istio service mesh integration
-  * Prometheus metrics exporting and Grafana dashboards
-  * Database hooks (if database is used)
-  * Object storage hooks (if object storage is used)
-  * Single sign-on (either directly or using authservice)
-  * Passing Helm tests
-  * Network policies (ingress and egress) in place
-  * Policy enforcement (e.g. Kyverno, Gatekeeper) in place
-  * Required package documentation
-* Teams should be able to deploy the package, for any documented use case without issue
-* Security Stakeholders (Teams, Authorizing Officials, etc...) can obtain requisite documentation as part of the package to feed into an Authority to Operate (ATO)
-  * Software Bill of Materials (SBOMs)
-  * Security policies used (e.g. Kyverno, Gatekeeper), including exceptions/justifications
-  * Network policies used
-* Penetration Testing and Cyber Security Review
+- Meet requirements for `Incubating` status
+- Active production use by multiple organizations/customers
+- Base images approved in [Iron Bank](https://p1.dso.mil/#/products/iron-bank/)
+- Full implementation of [Big Bang's Package Integration Guide](https://repo1.dso.mil/platform-one/big-bang/bigbang/-/blob/master/docs/developer/package-integration.md), including ...
+  - Passing CICD Pipelines
+  - Deployment with FluxCD Helm Releases
+  - Istio service mesh integration
+  - Prometheus metrics exporting and Grafana dashboards
+  - Database hooks (if database is used)
+  - Object storage hooks (if object storage is used)
+  - Single sign-on (either directly or using authservice)
+  - Passing Helm tests
+  - Network policies (ingress and egress) in place
+  - Policy enforcement (e.g. Kyverno, Gatekeeper) in place
+  - Required package documentation
+- Teams should be able to deploy the package, for any documented use case without issue
+- Security Stakeholders (Teams, Authorizing Officials, etc...) can obtain requisite documentation as part of the package to feed into an Authority to Operate (ATO)
+  - Software Bill of Materials (SBOMs)
+  - Security policies used (e.g. Kyverno, Gatekeeper), including exceptions/justifications
+  - Network policies used
+- Penetration Testing and Cyber Security Review
 
 Projects moving from incubation to graduation are tracked as [gitlab issues](https://repo1.dso.mil/platform-one/bbtoc/-/issues?scope=all&utf8=%E2%9C%93&state=opened&label_name[]=graduated) with the `graduated` label.
 
@@ -103,7 +103,7 @@ Projects moving from incubation to graduation are tracked as [gitlab issues](htt
 
 Archived projects are no longer in active development and are archived at a TOC meetup.
 
-----
+---
 
 ## Semi-annual Review Process
 
@@ -111,6 +111,6 @@ Projects are subject to an semi-annual review. This is intended to be a lightwei
 
 The review should clearly address the following:
 
-* Signs of active contributions and maturation~
-* Project still meets the requirements of its maturity level.
-* How can the TOC help you achieve your upcoming goals?
+- Signs of active contributions and maturation~
+- Project still meets the requirements of its maturity level.
+- How can the TOC help you achieve your upcoming goals?

@@ -62,7 +62,7 @@ spec:
   # Name and date of required verifications (e.g. "John Doe, 7 Dec 2021")
   signOffs:
 
-    # Sandbox: Verify required files (e.g. license, codeowners, contributors) in git repository
+    # Sandbox: Verify required files (e.g. LICENSE, CODEOWNERS, CONTRIBUTING.md) in git repository
     requiredFiles: ""
 
     # Sandbox: Demonstratable product
