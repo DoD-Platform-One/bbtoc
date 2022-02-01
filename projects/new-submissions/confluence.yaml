@@ -3,58 +3,62 @@ kind: Project
 # NOTE: Remove lines that are not applicable
 metadata:
   # Sandbox: Name of the product to be evaluated
-  name: ""
+  name: "Confluence"
 
   # Sandbox: Product vendor (opensource if no vendor)
-  vendor: ""
+  vendor: "Atlassian"
 
   # Sandbox: Short description of the product
-  description: ""
+  description: "Confluence is your remote-friendly team workspace where knowledge and collaboration meet."
 
   # Sandbox: URL(s) to product website for further information
   website:
-  - ""
+  - "https://www.atlassian.com/software/confluence"
 
   # Sandbox: product source code repositories (e.g. github.com).  If not opensource, put "Proprietary"
   sourceCode:
-  - ""
+  - "Proprietary"
 
   # Sandbox: Product licenses (e.g. Apache 2.0, GPL 3.0, MIT, Proprietary).  Include both free and paid tiers if they exist.
   license:
-  - ""
+  - "Proprietary"
 
   # Sandbox: Value the product brings to the Big Bang community
-  purpose: ""
+  purpose: "Collaboration"
 
   # Maturity level of the package
   maturityLevel: Sandbox # Sandbox, Incubating, or Graduated
 
   # Sandbox: Points of contact for project (at least 2)
   contacts:
-  - name: ""
-    repo1user: ""
-  - name: ""
-    repo1user: ""
+  - name: "Arun Sanna"
+    repo1user: "@asanna"
+  - name: "Bryan Pfeiffer"
+    repo1user: "@bryan.pfeiffer1"
+  - name: "Sunny Xu"
+    repo1user: "@snxu"
+  - name: "Andrew Mitchell"
+    repo1user: "@andrew.mitchell"
 
 spec:
   # Sandbox: Package(s) contained in the product (e.g. operator and application).  Each package will have its own repository in repo1.
   packages:
     # Sandbox: Name of the package
-  - name: ""
+  - name: "confluence"
 
     # Sandbox: Big Bang repository (i.e. https://repo.dso.mil/platform-one/big-bang/apps/sandbox/<your project>)
-    repository: ""
+    repository: "https://repo1.dso.mil/platform-one/big-bang/apps/third-party/confluence"
 
     # Incubating: List of images contained in the package.
     images:
       # Incubating: Name of the image
-      - name: ""
+      - name: "registry1.dso.mil/ironbank/atlassian/confluence-data-center/confluence-node"
 
         # Incubating: Iron Bank approval request (https://repo1.dso.mil/dsop/<your project>/-/issues/1)
-        repository: ""
+        repository: "https://repo1.dso.mil/dsop/atlassian/confluence-data-center/confluence-node"
 
         # Graduated: Iron Bank approval URL (https://ironbank.dso.mil/repomap/details;registry1Path=<your project path>)
-        approval: ""
+        approval: "https://ironbank.dso.mil/repomap/details;registry1Path=atlassian%252Fconfluence-data-center%252Fconfluence-node?page=1&sort=1"
 
     # Graduated: Links to required documentation
     documentation: []
