@@ -1,0 +1,73 @@
+BEGIN:VCALENDAR
+PRODID:-//Google Inc//Google Calendar 70.9054//EN
+VERSION:2.0
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:BBTOC
+X-WR-TIMEZONE:America/Denver
+BEGIN:VTIMEZONE
+TZID:America/Denver
+X-LIC-LOCATION:America/Denver
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0700
+TZOFFSETTO:-0600
+TZNAME:MDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0700
+TZNAME:MST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTART;TZID=America/Denver:20220201T120000
+DTEND;TZID=America/Denver:20220201T130000
+RRULE:FREQ=MONTHLY;WKST=SU;BYDAY=1TU
+DTSTAMP:20220127T002515Z
+UID:406EBC73-49E0-4FE9-B755-F59B81FE118C
+CREATED:20220127T000807Z
+DESCRIPTION:<html-blob>Open invitation to the BBTOC meetups.<br>Zoom: https
+ ://us02web.zoom.us/j/1616069730 // p/w: T4gw2D5p<br><br><br>BBTOC is the op
+ en governance body of the Big Bang ecosystem and maintainers of community e
+ ngagements and contributions. We are inspired heavily by the CNCF TOC\; any
+ thing you see there is consistent with the outcome we'd like to see here.<b
+ r><br>~The BBTOC scale contributions by the DoD technical and user communit
+ y\, while retaining integrity and increasing quality in support of our miss
+ ion.<br><br><a href="https://repo1.dso.mil/platform-one/bbtoc">https://repo
+ 1.dso.mil/platform-one/bbtoc</a></html-blob>
+LAST-MODIFIED:20220127T001825Z
+LOCATION:https://us02web.zoom.us/j/1616069730
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:BBTOC <> Meetup
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Denver:20220215T120000
+DTEND;TZID=America/Denver:20220215T130000
+RRULE:FREQ=MONTHLY;WKST=SU;BYDAY=3TU
+DTSTAMP:20220127T002515Z
+UID:0ftnfjh97jfobv9p7t3rm9bqqs@google.com
+CREATED:20220127T001942Z
+DESCRIPTION:<u></u>Open invitation to the BBTOC meetups.<br>Zoom: <a href="
+ https://us02web.zoom.us/j/1616069730" target="_blank">https://us02web.zoom.
+ us/j/1616069730</a> // p/w: T4gw2D5p<br><br><br>BBTOC is the open governanc
+ e body of the Big Bang ecosystem and maintainers of community engagements a
+ nd contributions. We are inspired heavily by the CNCF TOC\; anything you se
+ e there is consistent with the outcome we&#39\;d like to see here.<br><br>~
+ The BBTOC scale contributions by the DoD technical and user community\, whi
+ le retaining integrity and increasing quality in support of our mission.<br
+ ><br><a href="https://repo1.dso.mil/platform-one/bbtoc" target="_blank">htt
+ ps://repo1.dso.mil/platform-one/bbtoc</a><u></u>
+LAST-MODIFIED:20220127T002003Z
+LOCATION:https://us02web.zoom.us/j/1616069730
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:BBTOC <> Meetup
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR
