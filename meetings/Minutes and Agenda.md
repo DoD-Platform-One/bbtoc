@@ -1,5 +1,38 @@
 # Minutes and Agenda
 
+## 1 Feb 2022
+- New Sandbox product: Harbort [issue](https://repo1.dso.mil/platform-one/bbtoc/-/issues/68)
+- Sandbox project merge: Twistlock [MR](https://repo1.dso.mil/platform-one/bbtoc/-/merge_requests/67) 
+- Sanbox project merge: Confluence [MR](https://repo1.dso.mil/platform-one/bbtoc/-/merge_requests/62)
+- Sanbox project merge: Jira [MR](https://repo1.dso.mil/platform-one/bbtoc/-/merge_requests/61)
+- proposal template proposed updates [MR](https://repo1.dso.mil/platform-one/bbtoc/-/merge_requests/72)
+
+
+## 18 January 2022
+- Cancelled
+
+## 4 January 2022
+- New Sandbox Project: Jira [issue](https://repo1.dso.mil/platform-one/bbtoc/-/issues/58)
+- New Sandbox Project: Confluence [issue](https://repo1.dso.mil/platform-one/bbtoc/-/issues/57)
+- New Graduated Project: Fluentbit [issue](https://repo1.dso.mil/platform-one/bbtoc/-/issues/58)
+- New Graduated Project: Elasticsearch/Kibana [issue](https://repo1.dso.mil/platform-one/bbtoc/-/issues/57)
+- New Graduated Project: Twistlock [issue](https://repo1.dso.mil/platform-one/bbtoc/-/issues/60)
+- Review Proposal template updates [MR](https://repo1.dso.mil/platform-one/bbtoc/-/merge_requests/66)
+
+## 2 November 2021
+- New Sandbox project: Launchboard [MR](https://repo1.dso.mil/platform-one/bbtoc/-/merge_requests/60)
+
+## 19 October 2021
+- Nomination: Maj Cady [issue](https://repo1.dso.mil/platform-one/bbtoc/-/issues/48)
+- Monitoring Project [MR](https://repo1.dso.mil/platform-one/bbtoc/-/merge_requests/53)
+- OPA Gatekeeper Project [MR](https://repo1.dso.mil/platform-one/bbtoc/-/merge_requests/52)
+- Add OSCAL requirement to Graduated projects [issue](https://repo1.dso.mil/platform-one/bbtoc/-/issues/53)
+- Assign Shepherd - New project Istio [issue](https://repo1.dso.mil/platform-one/bbtoc/-/issues/54)
+- Discussion Big Bang Package Standards and guidance on PB CtF packages [issue](https://repo1.dso.mil/platform-one/bbtoc/-/issues/52)
+- Discussion: IB conditionally approved [issue](https://repo1.dso.mil/platform-one/bbtoc/-/issues/50)
+- documentation update [MR](https://repo1.dso.mil/platform-one/bbtoc/-/merge_requests/57)
+
+
 ## 5 October 2021
 - Review and Dicuss pioneer projects and feedback
 

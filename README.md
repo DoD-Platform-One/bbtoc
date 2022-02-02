@@ -4,16 +4,15 @@ BBTOC is the open governance body of the Big Bang ecosystem and maintainers of c
 
 \~The BBTOC scale contributions by the DoD technical and user community, while retaining integrity and increasing quality in support of our mission. ([source](https://github.com/cncf/toc/blob/master/sigs/README.md))
 
-Chief Objective:
+Chief Objectives:
 
 - Enable community collaboration across organizations and use cases
 - Enabled collaborative development of solutions, solving problems for the majority
 - We exist to connect and collaborate, not gatekeep and control
-- We are not a standards body, nor do we influence funding of various efforts.
+- We are not a standards body, nor do we influence funding of various efforts
 
 ## Members
 
-- Maj. Austen Bryan, @abryan562, Director of Platform One
 - Phillip Record, @phillip.record, "I'm just Phillip"
 - Matt Huston, @matthew.huston , CISO of Platform One
 - Andrew Greene**, @andrew.greene, Party Bus Anchor Engineer
@@ -23,8 +22,9 @@ Chief Objective:
 - Barak Stout, @barakstout1, Raft
 - Anthony Butt, @anthony.butt, GBSD/CSE-Corp
 - Tim Gast, @tim.gast, P1 Pioneer (BrainGu)
-- Ian Dunbar-Hall, @idunbarh, Industry P1 Evangelist
+- Ian Dunbar-Hall, @idunbarh, LM Software Factory Chief Engineer
 - Zayd Ma, @zayd.ma, 309th SWEG SkiCAMP/EDDGE
+- Maj Camdon Cady, @camdon.cady, Platform One
 
 ** Current BBTOC Chair, appointed July 2021
 
@@ -32,16 +32,25 @@ Chief Objective:
 
 ## Meetups
 
-Join Us! The TOC meets the first and third Tuesday each month at 1200 MST
-    [Zoomlink](https://us02web.zoom.us/j/89870537922?pwd=c2V5a1hLbGlYaWt0R1RHKzEzOTdEQT09)  
+Join Us! The TOC meets the first and third Tuesday each month at 1200 MST  
 
-    Meeting ID: 898 7053 7922  
-    Passcode: 609073  
+[Calendar Import (*.ics)](meetings/BBTOC.ics)
+
+    [Zoomlink](https://us02web.zoom.us/j/1616069730)  
+
+    Meeting ID: 161 606 9730  
+    Passcode: T4gw2D5p  
     One tap mobile  
-        +12532158782,,89870537922#,,,,*609073# US (Tacoma)  
-        +13462487799,,89870537922#,,,,*609073# US (Houston)  
+        +16692545252,,1616069730#,,,,*61487095# US (San Jose)  
+        +16468287666,,1616069730#,,,,*61487095# US (New York)  
 
-    Find your local number: https://us02web.zoom.us/u/kEiAxsWyZ  
+    Dial by your location
+        +1 669 254 5252 US (San Jose)
+        +1 646 828 7666 US (New York)
+    Meeting ID: 161 606 9730
+    Passcode: 61487095
+
+    Find your local number: https://www.zoomgov.com/u/ai7y7HWCn  
 
 ## Contribute
 
