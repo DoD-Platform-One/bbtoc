@@ -22,7 +22,7 @@ Chief Objectives:
 - Barak Stout, @barakstout1, Raft
 - Anthony Butt, @anthony.butt, GBSD/CSE-Corp
 - Tim Gast, @tim.gast, P1 Pioneer (BrainGu)
-- Ian Dunbar-Hall, @idunbarh, Industry P1 Evangelist
+- Ian Dunbar-Hall, @idunbarh, LM Software Factory Chief Engineer
 - Zayd Ma, @zayd.ma, 309th SWEG SkiCAMP/EDDGE
 - Maj Camdon Cady, @camdon.cady, Platform One
 
