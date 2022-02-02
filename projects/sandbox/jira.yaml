@@ -51,9 +51,6 @@ spec:
 
     # Incubating: List of images contained in the package.
     images:
-
-    # Incubating: List of images contained in the package.
-    images:
     # Incubating: Name of the image
     - name: "registry1.dso.mil/ironbank/atlassian/jira-data-center/jira-node"
 
