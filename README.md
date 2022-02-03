@@ -22,7 +22,7 @@ Chief Objectives:
 - Barak Stout, @barakstout1, Raft
 - Anthony Butt, @anthony.butt, GBSD/CSE-Corp
 - Tim Gast, @tim.gast, P1 Pioneer (BrainGu)
-- Ian Dunbar-Hall, @idunbarh, Industry P1 Evangelist
+- Ian Dunbar-Hall, @idunbarh, LM Software Factory Chief Engineer
 - Zayd Ma, @zayd.ma, 309th SWEG SkiCAMP/EDDGE
 - Maj Camdon Cady, @camdon.cady, Platform One
 
@@ -32,7 +32,10 @@ Chief Objectives:
 
 ## Meetups
 
-Join Us! The TOC meets the first and third Tuesday each month at 1200 MST
+Join Us! The TOC meets the first and third Tuesday each month at 1200 MST  
+
+[Calendar Import (*.ics)](meetings/BBTOC.ics)
+
     [Zoomlink](https://us02web.zoom.us/j/1616069730)  
 
     Meeting ID: 161 606 9730  

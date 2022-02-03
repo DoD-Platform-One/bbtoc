@@ -6,7 +6,7 @@ TOC membership exists formally and organically to add value to the ecosystem, it
 
 All members must adhere and agree to the following:
 
-- The TOC [Working Agreement](../WORKINGAGREEMENT)
+- The TOC [Working Agreement](../WORKINGAGREEMENT.md)
 - No two members can be from the same company
 - An organization should only have a single member on the TOC at any given time
 - Members must represent the best interests of the community without unchecked vendor bias.
