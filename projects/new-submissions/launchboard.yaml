@@ -1,15 +1,106 @@
-project:
-    name: Launchboard
-    description:  Launchboard is meant to be a centralized dashboard for P1 Development Teams.  Users will have a one-stop informational source that encompasses relevant information pertaining to courses they are registered for, projects in the pipeline, resources they have access to, and point of contact resources for any issues.
-    maturity-level: sandbox
-    repoUrl: https://repo1.dso.mil/platform-one/party-bus/launchboard
-    problemStatement: Provide a centralized dashboard to Software Factory customers.
-    initialMembers:
-        - name: Mitchell Moushon
-          repo1user: '@mitchell.moushon'
-        - name: Graham Smith
-          repo1user: '@graham.smith'
-        - name: Luke Glasscock
-          repo1user: '@luke.glasscock'
-        - name: Baban Faraj
-          repo1user: '@babanfaraj'
+apiVersion: bbtoc/v1alpha
+kind: Project
+metadata:
+  # Sandbox: Name of the product to be evaluated
+  name: "Launchboard"
+
+  # Sandbox: Product vendor (opensource if no vendor)
+  vendor: "opensource"
+
+  # Sandbox: Short description of the product
+  description: "Launchboard is meant to be a centralized dashboard for P1 Development Teams.  Users will have a one-stop informational source that encompasses relevant information pertaining to courses they are registered for, projects in the pipeline, resources they have access to, and point of contact resources for any issues."
+
+  # Sandbox: URL(s) to product website for further information
+  website:
+  - "https://launchboard.apps.dso.mil/"
+
+  # Sandbox: product source code repositories (e.g. github.com).  If not opensource, put "Proprietary"
+  sourceCode:
+  - "https://repo1.dso.mil/platform-one/party-bus/launchboard"
+
+  # Sandbox: Product licenses (e.g. Apache 2.0, GPL 3.0, MIT, Proprietary).  Include both free and paid tiers if they exist.
+  license:
+  - "Apache License 2.0"
+
+  # Sandbox: Value the product brings to the Big Bang community
+  purpose: "Launchboard is a Party Bus application that could have benefits to the broader Big Bang community by providing a centralized user dashboard to Software Factory customers."
+
+  # Maturity level of the package
+  maturityLevel: Sandbox # Sandbox, Incubating, or Graduated
+
+  # Sandbox: Points of contact for project (at least 2)
+  contacts:
+  - name: Mitchell Moushon
+    repo1user: '@mitchell.moushon'
+  - name: Graham Smith
+    repo1user: '@graham.smith'
+  - name: Baban Faraj
+    repo1user: '@babanfaraj'
+
+spec:
+  # Sandbox: Package(s) contained in the product (e.g. operator and application).  Each package will have its own repository in repo1.
+  packages:
+    # Sandbox: Name of the package
+
+  # front-end UI
+  - name: "launcboard-fe"
+
+    # Sandbox: Big Bang repository (i.e. https://repo.dso.mil/platform-one/big-bang/apps/sandbox/<your project>)
+    repository: "https://repo1.dso.mil/platform-one/big-bang/apps/sandbox/launchboard/launchboard-fe"
+
+    # Incubating: List of images contained in the package.
+    images:
+      # Incubating: Name of the image
+      - name: ""
+
+        # Incubating: Iron Bank approval request (https://repo1.dso.mil/dsop/<your project>/-/issues/1)
+        repository: ""
+
+        # Graduated: Iron Bank approval URL (https://ironbank.dso.mil/repomap/details;registry1Path=<your project path>)
+        approval: ""
+
+    # Graduated: Links to required documentation
+    documentation: []
+  # back-end API
+  - name: "launcboard-be"
+
+    # Sandbox: Big Bang repository (i.e. https://repo.dso.mil/platform-one/big-bang/apps/sandbox/<your project>)
+    repository: "https://repo1.dso.mil/platform-one/big-bang/apps/sandbox/launchboard/launchboard-be"
+
+    # Incubating: List of images contained in the package.
+    images:
+      # Incubating: Name of the image
+      - name: ""
+
+        # Incubating: Iron Bank approval request (https://repo1.dso.mil/dsop/<your project>/-/issues/1)
+        repository: ""
+
+        # Graduated: Iron Bank approval URL (https://ironbank.dso.mil/repomap/details;registry1Path=<your project path>)
+        approval: ""
+
+    # Graduated: Links to required documentation
+    documentation: []
+
+  # Name and date of required verifications (e.g. "John Doe, 7 Dec 2021")
+  signOffs:
+
+    # Sandbox: Verify required files (e.g. LICENSE, CODEOWNERS, CONTRIBUTING.md) in git repository
+    requiredFiles: ""
+
+    # Sandbox: Demonstratable product
+    productDemonstration: ""
+
+    # Incubating: demonstrated support through contributions and feature releases
+    committedSupport: ""
+
+    # Graduated: Full Big Bang implementation
+    bigbangImplementation: ""
+
+    # Graduated: Deployable against documented use cases
+    productDeployable: ""
+
+    # Graduated: Security support documentation
+    securityDocs: ""
+
+    # Graduated: Cyber security review and penetration testing
+    cybersecurity: ""
