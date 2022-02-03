@@ -69,6 +69,9 @@ spec:
 
     # Sandbox: Verify required files (e.g. license, codeowners, contributors) in git repository
     requiredFiles: "Ian Dunbar-Hall, 2 Feb 2022"
+    
+    # Sandbox: Demonstrable product
+    productDemonstration: "Ian Dunbar-Hall, 2 Feb 2022"
 
     # Incubating: demonstrated support through contributions and feature releases
     committedSupport: ""
