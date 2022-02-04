@@ -84,8 +84,11 @@ The chief goal of Graduate projects is to continue to expand and improve the pac
   * NIST 800-53 Controls documented iteratively using OSCAL - future requirement
   * Gatekeeper policies set to enforce with no violations
   * Network policies in place
-* Istio Support (pods istio injected with mTLS enforced unless exception is documented)
 * Prometheus metrics and Grafana dashboards
+* Istio Support
+  * document [istio-injection](https://istio.io/latest/docs/setup/additional-setup/sidecar-injection/#automatic-sidecar-injection) via the `.Values.istio.enabled` configuration item.  
+  * document mTLS settings via the [PeerAuthentication](https://istio.io/latest/docs/reference/config/security/peer_authentication/) object
+  * document default [AuthorizationPolicies](https://istio.io/latest/docs/tasks/security/authorization/) - future requirement
 * Penetration Testing and Cyber Security Review - future requirement
 
 Projects moving from incubation to graduation are tracked as [gitlab issues](https://repo1.dso.mil/platform-one/bbtoc/-/issues?scope=all&utf8=%E2%9C%93&state=opened&label_name[]=graduated) with the `graduated` label.
