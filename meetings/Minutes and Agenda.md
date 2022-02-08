@@ -1,5 +1,24 @@
 # Minutes and Agenda
 
+## 1 Feb 2022
+- New Sandbox product: Harbort [issue](https://repo1.dso.mil/platform-one/bbtoc/-/issues/68)
+- Sandbox project merge: Twistlock [MR](https://repo1.dso.mil/platform-one/bbtoc/-/merge_requests/67) 
+- Sanbox project merge: Confluence [MR](https://repo1.dso.mil/platform-one/bbtoc/-/merge_requests/62)
+- Sanbox project merge: Jira [MR](https://repo1.dso.mil/platform-one/bbtoc/-/merge_requests/61)
+- proposal template proposed updates [MR](https://repo1.dso.mil/platform-one/bbtoc/-/merge_requests/72)
+
+
+## 18 January 2022
+- Cancelled
+
+## 4 January 2022
+- New Sandbox Project: Jira [issue](https://repo1.dso.mil/platform-one/bbtoc/-/issues/58)
+- New Sandbox Project: Confluence [issue](https://repo1.dso.mil/platform-one/bbtoc/-/issues/57)
+- New Graduated Project: Fluentbit [issue](https://repo1.dso.mil/platform-one/bbtoc/-/issues/58)
+- New Graduated Project: Elasticsearch/Kibana [issue](https://repo1.dso.mil/platform-one/bbtoc/-/issues/57)
+- New Graduated Project: Twistlock [issue](https://repo1.dso.mil/platform-one/bbtoc/-/issues/60)
+- Review Proposal template updates [MR](https://repo1.dso.mil/platform-one/bbtoc/-/merge_requests/66)
+
 ## 2 November 2021
 - New Sandbox project: Launchboard [MR](https://repo1.dso.mil/platform-one/bbtoc/-/merge_requests/60)
 
