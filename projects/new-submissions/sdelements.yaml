@@ -1,0 +1,88 @@
+apiVersion: bbtoc/v1alpha
+kind: Project
+# NOTE: Remove lines that are not applicable
+metadata:
+  # Sandbox: Name of the product to be evaluated
+  name: "SDElements"
+
+  # Sandbox: Product vendor (opensource if no vendor)
+  vendor: "Security Compass"
+
+  # Sandbox: Short description of the product
+  description: "Risk assessment, threat modeling and secure coding platform"
+
+  # Sandbox: URL(s) to product website for further information
+  website:
+  - "https://www.securitycompass.com/sdelements/"
+
+  # Sandbox: product source code repositories (e.g. github.com).  If not opensource, put "Proprietary"
+  sourceCode:
+  - "https://repo1.dso.mil/dsop/security-compass/sd-elements/mod_wsgi"
+
+  # Sandbox: Product licenses (e.g. Apache 2.0, GPL 3.0, MIT, Proprietary).  Include both free and paid tiers if they exist.
+  license:
+  - "Proprietary"
+
+  # Sandbox: Value the product brings to the Big Bang community
+  purpose: "SDElements is a software platform that assists organizations with secure development practices, risk assessment and threat modeling"
+
+  # Maturity level of the package
+  maturityLevel: Sandbox # Sandbox, Incubating, or Graduated
+
+  # Sandbox: Points of contact for project (at least 2)
+  contacts:
+  - name: "Hrdayesh Patel"
+    repo1user: "hpatel"
+  - name: "Matthew Chum"
+    repo1user: "mchum"
+  - name: "Adam Gilbert"
+    repo1user: "agilbert"
+  - name: "Kevinkumar Patel"
+    repo1user: "kevinptl4"
+
+spec:
+  # Sandbox: Package(s) contained in the product (e.g. operator and application).  Each package will have its own repository in repo1.
+  packages:
+    # Sandbox: Name of the package
+  - name: "sdelements"
+
+    # Sandbox: Big Bang repository (i.e. https://repo.dso.mil/platform-one/big-bang/apps/sandbox/<your project>)
+    repository: "https://repo.dso.mil/platform-one/big-bang/apps/sandbox/sdelements"
+
+    # Incubating: List of images contained in the package.
+    images:
+      # Incubating: Name of the image
+      - name: ""
+
+        # Incubating: Iron Bank approval request (https://repo1.dso.mil/dsop/<your project>/-/issues/1)
+        repository: ""
+
+        # Graduated: Iron Bank approval URL (https://ironbank.dso.mil/repomap/details;registry1Path=<your project path>)
+        approval: ""
+
+    # Graduated: Links to required documentation
+    documentation: []
+
+  # Name and date of required verifications (e.g. "John Doe, 7 Dec 2021")
+  signOffs:
+
+    # Sandbox: Verify required files (e.g. LICENSE, CODEOWNERS, CONTRIBUTING.md) in git repository
+    requiredFiles: ""
+
+    # Sandbox: Demonstratable product
+    productDemonstration: ""
+
+    # Incubating: demonstrated support through contributions and feature releases
+    committedSupport: ""
+
+    # Graduated: Full Big Bang implementation
+    bigbangImplementation: ""
+
+    # Graduated: Deployable against documented use cases
+    productDeployable: ""
+
+    # Graduated: Security support documentation
+    securityDocs: ""
+
+    # Graduated: Cyber security review and penetration testing
+    cybersecurity: ""
