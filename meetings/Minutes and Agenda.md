@@ -1,7 +1,10 @@
 # Minutes and Agenda
 
+## 15 Feb 2022
+- New Sandbox project: Neuvector [MR](https://repo1.dso.mil/platform-one/bbtoc/-/merge_requests/78)
+
 ## 1 Feb 2022
-- New Sandbox product: Harbort [issue](https://repo1.dso.mil/platform-one/bbtoc/-/issues/68)
+- New Sandbox product: Harbor [issue](https://repo1.dso.mil/platform-one/bbtoc/-/issues/68)
 - Sandbox project merge: Twistlock [MR](https://repo1.dso.mil/platform-one/bbtoc/-/merge_requests/67) 
 - Sanbox project merge: Confluence [MR](https://repo1.dso.mil/platform-one/bbtoc/-/merge_requests/62)
 - Sanbox project merge: Jira [MR](https://repo1.dso.mil/platform-one/bbtoc/-/merge_requests/61)
