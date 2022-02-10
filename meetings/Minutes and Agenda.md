@@ -43,6 +43,7 @@
 - Pioneer Project updates: [#37 - Gitlab](https://repo1.dso.mil/platform-one/bbtoc/-/issues/37), [#38 - Monitoring](https://repo1.dso.mil/platform-one/bbtoc/-/issues/38), [#39 OPA Gatekeeper](https://repo1.dso.mil/platform-one/bbtoc/-/issues/39)
 
 ## 7 September 2021
+
 - TOC Overhaul [issue](https://repo1.dso.mil/platform-one/bbtoc/-/issues/41)
 
 ## 17 August 2021
