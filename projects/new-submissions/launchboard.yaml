@@ -30,8 +30,6 @@ metadata:
 
   # Sandbox: Points of contact for project (at least 2)
   contacts:
-  - name: Mitchell Moushon
-    repo1user: '@mitchell.moushon'
   - name: Graham Smith
     repo1user: '@graham.smith'
   - name: Baban Faraj
