@@ -27,7 +27,7 @@ metadata:
   purpose: "Service Mesh to provide ingress, mTLS and authorization policies"
 
   # Maturity level of the package
-  maturityLevel: Sandbox # Sandbox, Incubating, or Graduated
+  maturityLevel: Graduated # Sandbox, Incubating, or Graduated
 
   # Sandbox: Points of contact for project (at least 2)
   contacts:
