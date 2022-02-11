@@ -83,10 +83,10 @@ spec:
   signOffs:
 
     # Sandbox: Verify required files (e.g. LICENSE, CODEOWNERS, CONTRIBUTING.md) in git repository
-    requiredFiles: ""
+    requiredFiles: "@graham.smith, 11 Feb 2022"
 
     # Sandbox: Demonstratable product
-    productDemonstration: ""
+    productDemonstration: "@graham.smith, 11 Feb 2022"
 
     # Incubating: demonstrated support through contributions and feature releases
     committedSupport: ""
