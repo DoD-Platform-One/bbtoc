@@ -1,6 +1,8 @@
 # Minutes and Agenda
 
 ## 15 Feb 2022
+- !!! Graduated: Istio !!!
+- !!! Sandbox: Confluence, Harbor, Jira, Monitoring, OPA Gatekeeper, Twistlock, Launchboard !!!
 - New Sandbox project: Neuvector [MR](https://repo1.dso.mil/platform-one/bbtoc/-/merge_requests/78)
 - Discussion f/u on Gitlab project [issue](https://repo1.dso.mil/platform-one/bbtoc/-/issues/37)
 
