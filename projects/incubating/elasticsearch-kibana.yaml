@@ -2,6 +2,8 @@ apiVersion: bbtoc/v1alpha
 kind: Project
 metadata:
   name: "logging"
+  vendor: "Elastic"
+  description: "Reliably and security take data form any source, in any format, then search, analyze, and visualize it in real time."
   website:
     - "https://www.elastic.co/elastic-stack/"
   sourceCode:
@@ -26,15 +28,39 @@ spec:
     - name: "elasticsearch-kibana"
       repository: "https://repo1.dso.mil/platform-one/big-bang/apps/core/elasticsearch-kibana"
 
-  signOffs:
-    sandboxVerification:
-      - repo1user: "@andrew.greene"
-        date: "26JAN2022"
-    incubatingVerification:
-      - repo1user: "@andrew.greene"
-        date: "26JAN2022"
+  images:
+    # Incubating: Name of the image
+    - name: ""
 
-    # Graduated: Full Big Bang implementation
-    graduatedVerification:
-      - repo1user: ""
-        date: "DDMMMYYYY" # e.g. 01JAN2022
+      # Incubating: Iron Bank approval request (https://repo1.dso.mil/dsop/<your project>/-/issues/1)
+      repository: ""
+
+      # Graduated: Iron Bank approval URL (https://ironbank.dso.mil/repomap/details;registry1Path=<your project path>)
+      approval: ""
+
+    # Graduated: Links to required documentation
+    documentation: [ ]
+
+    # Name and date of required verifications (e.g. "John Doe, 7 Dec 2021")
+    signOffs:
+
+      # Sandbox: Verify required files (e.g. LICENSE, CODEOWNERS, CONTRIBUTING.md) in git repository
+      requiredFiles: ""
+
+      # Sandbox: Demonstratable product
+      productDemonstration: ""
+
+      # Incubating: demonstrated support through contributions and feature releases
+      committedSupport: ""
+
+      # Graduated: Full Big Bang implementation
+      bigbangImplementation: ""
+
+      # Graduated: Deployable against documented use cases
+      productDeployable: ""
+
+      # Graduated: Security support documentation
+      securityDocs: ""
+
+      # Graduated: Cyber security review and penetration testing
+      cybersecurity: ""
