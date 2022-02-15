@@ -5,6 +5,7 @@
 - !!! Sandbox: Confluence, Harbor, Jira, Monitoring, OPA Gatekeeper, Twistlock, Launchboard !!!
 - New Sandbox project: Neuvector [MR](https://repo1.dso.mil/platform-one/bbtoc/-/merge_requests/78)
 - Discussion f/u on Gitlab project [issue](https://repo1.dso.mil/platform-one/bbtoc/-/issues/37)
+- open discussion on community engagement and meetup ideas
 
 ## 1 Feb 2022
 - New Sandbox product: Harbor [issue](https://repo1.dso.mil/platform-one/bbtoc/-/issues/68)
