@@ -44,7 +44,7 @@ spec:
   - name: "Neuvector"
 
     # Sandbox: Big Bang repository (i.e. https://repo.dso.mil/platform-one/big-bang/apps/sandbox/<your project>)
-    repository: ""
+    repository: "https://repo1.dso.mil/platform-one/big-bang/apps/sandbox/neuvector"
 
     # Incubating: List of images contained in the package.
     images:
