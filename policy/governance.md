@@ -15,3 +15,11 @@ All members must adhere and agree to the following:
 
 - Chair: one appointed member will be nominated and designated chair for a 6 month duration. The chair is responsible for keeping the ship afloat, hosting meetings, keeping minutes, timeboxing, agenda, backlog management, etc...
 - Shepherd: for each proposed project a shepherd will be assigned. The shepherd is responsible for supporting projects engagement and interaction with the TOC, to include ensuring consistent and correct submissions, answering questions, and bringing topics before the TOC when appropriate; but is not responsible for the success of the project.
+
+
+## Issue Management
+
+The TOC is open to all and anyone is asked to submit [issues]() for any feedback, suggestion, comments, modifications, etc... To keep the process clean and progress flowing, we will follow these guidelines around issues:
+- Issues will be marked as stale after 1 month of inactivity
+- Stale issues will be closed after 2 weeks of inactivity
+- Issues may be reopened for valid reasons
