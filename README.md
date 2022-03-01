@@ -1,6 +1,6 @@
 # Big Bang Technical Oversight Committee (BBTOC)
 
-BBTOC is the open governance body of the Big Bang ecosystem and maintainers of community engagements and contributions. We are inspired heavily by the [CNCF TOC](https://github.com/cncf/toc); anything you see there is consistent with the outcome we'd like to see here.
+BBTOC o. We are inspired heavily by the [CNCF TOC](https://github.com/cncf/toc); anything you see there is consistent with the outcome we'd like to see here.
 
 \~The BBTOC scale contributions by the DoD technical and user community, while retaining integrity and increasing quality in support of our mission. ([source](https://github.com/cncf/toc/blob/master/sigs/README.md))
 
