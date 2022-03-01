@@ -19,7 +19,7 @@ All members must adhere and agree to the following:
 
 ## Issue Management
 
-The TOC is open to all and anyone is asked to submit [issues]() for any feedback, suggestion, comments, modifications, etc... To keep the process clean and progress flowing, we will follow these guidelines around issues:
+The TOC is open to all and anyone is asked to submit [issue](https://repo1.dso.mil/platform-one/bbtoc/-/issues/new) for any feedback, suggestion, comments, modifications, etc... To keep the process clean and progress flowing, we will follow these guidelines around issues:
 - Issues will be marked as stale after 1 month of inactivity
 - Stale issues will be closed after 2 weeks of inactivity
 - Issues may be reopened for valid reasons
