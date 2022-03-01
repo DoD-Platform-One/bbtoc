@@ -1,8 +1,8 @@
 # Overview
 
-The Technical Oversight Committee serves as the conduit to support collaboration and evangelize community contributions to the Big Bang opensource ecosystem.
+The Technical Oversight Committee (TOC) serves as the conduit to support collaboration and evangelize community contributions to the Big Bang open source ecosystem.
 
-- The Technical Oversight Committee ensures **Users** of have access to high quality projects.
+- The Technical Oversight Committee ensures **Users** have access to high quality projects.
 - The Technical Oversight Committee ensures **Contributors** have support to build a security focused project, and build an active user base to ensure longevity and ability to be used in production setting.
 
 This policy describes the TOC project lifecycle, from sandbox to archival. It describes the requirements a project must meet in order to be classified and matured.
@@ -25,15 +25,15 @@ graph LR
 
 #### Sandbox Project Goals
 
-1. Encourages visibility of early work that might add value to the community as a Big Bang package
+1. Encourage visibility of early work that might add value to the community as a Big Bang package
 2. Nurture projects on their path to adoption.
 3. Facilitate alignment with existing projects, as appropriate.
 4. Reduce the barrier to maturity by providing a community of support for engagement, governance, security, and policy recommendations
 
 #### Sandbox Project Requirements
 
-- Project are proposed following the [process outlined here](https://repo1.dso.mil/platform-one/bbtoc/-/blob/master/projects/getting-started/README.md)
-- Sandbox projects must meet the following criteria:
+- Projects are proposed following the [process outlined here](https://repo1.dso.mil/platform-one/bbtoc/-/blob/master/projects/getting-started/README.md)
+- Sandbox projects must meet the following criteria:  
   1. Code repository is in an unclassified, accessible repository (repo1 is desireable)
   2. Code repository must contain an Open source `LICENSE` file at the root of the repository
   3. Code repository must contain a `CONTRIBUTING.md` file at the root of the repository and provide sufficient information on how one can contribute
@@ -49,7 +49,7 @@ graph LR
 
 ### Incubating
 
-`Incubating` projects have adoption and show value added, but have not reach maturity to commit to long term support to end users.
+`Incubating` projects have adoption and show value added, but have not reached the maturity to commit to long term support to end users.
 
 #### Incubating Project Goals
 
@@ -60,8 +60,8 @@ graph LR
 To mature to `Incubating` stage, a project must meet the `Sandbox` stage requirements plus:
 
 - Active use by at least two customers and/or organizations
-- Demonstrated support, through contribution and feature release consistent with [Big Bang guidelines](https://repo1.dso.mil/platform-one/big-bang/bigbang)
-- Have begun or completed an Iron Bank approval
+- Demonstrated support, through contributions and feature releases consistent with [Big Bang guidelines](https://repo1.dso.mil/platform-one/big-bang/bigbang)
+- Have begun or completed an [Iron Bank](https://p1.dso.mil/#/products/iron-bank/) approval
 
 Projects moving from sandbox to incubation are tracked as [gitlab issues](https://repo1.dso.mil/platform-one/bbtoc/-/issues?scope=all&utf8=%E2%9C%93&state=opened&label_name[]=graduated) with the `incubation` label.
 
@@ -71,7 +71,7 @@ Projects moving from sandbox to incubation are tracked as [gitlab issues](https:
 
 #### Graduated Project Goals
 
-The chief goal of Graduate projects is to continue to expand and improve the package, it's usage, and the number of customers contributing and consuming the package.
+The chief goal of Graduated projects is to continue to expand and improve the package, its usage, and the number of customers contributing and consuming the package.
 
 #### Graduated Project Requirements
 
@@ -81,8 +81,8 @@ The chief goal of Graduate projects is to continue to expand and improve the pac
 - Full implementation of [Big Bang's Package Integration Guide](https://repo1.dso.mil/platform-one/big-bang/bigbang/-/blob/master/docs/developer/package-integration.md), including ...
   - Passing CICD Pipelines
   - Deployment with FluxCD Helm Releases
-  - Istio service mesh integration
-  - Prometheus metrics exporting and Grafana dashboards
+  - [Istio](https://istio.io/) service mesh integration
+  - [Prometheus](https://prometheus.io/) metrics exporting and [Grafana](https://grafana.com/) dashboards
   - Database hooks (if database is used)
   - Object storage hooks (if object storage is used)
   - Single sign-on (either directly or using authservice)
@@ -96,7 +96,14 @@ The chief goal of Graduate projects is to continue to expand and improve the pac
   - Security policies used (e.g. Kyverno, Gatekeeper), including exceptions/justifications
   - Network policies used
   - [OSCAL](https://pages.nist.gov/OSCAL/) yaml document describing the NIST 800 53 Rev 5 controls that the package provides to applications.
-- Penetration Testing and Cyber Security Review
+  - Gatekeeper policies set to enforce with no violations
+  - Network policies in place
+- Prometheus metrics and Grafana dashboards
+- Istio Support
+  - document [istio-injection](https://istio.io/latest/docs/setup/additional-setup/sidecar-injection/#automatic-sidecar-injection) via the `.Values.istio.enabled` configuration item.  
+  - document mTLS settings via the [PeerAuthentication](https://istio.io/latest/docs/reference/config/security/peer_authentication/) object
+  - document default [AuthorizationPolicies](https://istio.io/latest/docs/tasks/security/authorization/) - future requirement
+- Penetration Testing and Cyber Security Review - future requirement
 
 Projects moving from incubation to graduation are tracked as [gitlab issues](https://repo1.dso.mil/platform-one/bbtoc/-/issues?scope=all&utf8=%E2%9C%93&state=opened&label_name[]=graduated) with the `graduated` label.
 
@@ -112,6 +119,6 @@ Projects are subject to an semi-annual review. This is intended to be a lightwei
 
 The review should clearly address the following:
 
-- Signs of active contributions and maturation~
+- Signs of active contributions and maturation.
 - Project still meets the requirements of its maturity level.
 - How can the TOC help you achieve your upcoming goals?
