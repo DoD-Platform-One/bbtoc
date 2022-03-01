@@ -19,3 +19,10 @@ Have a new package to be added to the TOC? You're in the right place.
 The TOC is not here to gatekeep projects, instead...  
 We want to advocate and help maximize collaboration.   
 We want to guide projects through the process of classification, sandbox to incubating to graduated.
+
+
+## Useful utilities and notes
+
+- Incubating [requirements]([issue](https://repo1.dso.mil/platform-one/bbtoc/-/issues/new) introduce iron bank images
+  - [Zarf tool](https://github.com/defenseunicorns/zarf/blob/master/docs/prepare.md) can help collect images for a helm chart
+  - [HIP Identifying Images for Helm Chart](https://github.com/helm/community/pull/215)
