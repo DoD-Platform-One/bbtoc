@@ -13,7 +13,7 @@ metadata:
     - "Elastic License 2.0"
     - "SSPLv1"
   purpose: "Elastic and Kibana are used as part of the default logging stack in BB clusters for aggregating, searching, and visualizing logs."
-  maturityLevel: "Graduated"
+  maturityLevel: "Incubating"
   contacts:
     - name: Kavitha Thulasiraman
       repo1user: '@kavitha'
@@ -30,13 +30,14 @@ spec:
 
   images:
     # Incubating: Name of the image
-    - name: ""
+    - name: "docker pull registry1.dso.mil/ironbank/elastic/elasticsearch/elasticsearch:7.17.1"
+    - name: "docker pull registry1.dso.mil/ironbank/elastic/kibana/kibana:7.16.2"
 
       # Incubating: Iron Bank approval request (https://repo1.dso.mil/dsop/<your project>/-/issues/1)
-      repository: ""
+      repository: "https://ironbank.dso.mil/repomap/parent?vendor=Elastic&product=elasticsearch&page=1&sort=1"
 
       # Graduated: Iron Bank approval URL (https://ironbank.dso.mil/repomap/details;registry1Path=<your project path>)
-      approval: ""
+      approval: "https://ironbank.dso.mil/repomap/parent?vendor=Elastic&product=elasticsearch&page=1&sort=1"
 
     # Graduated: Links to required documentation
     documentation: [ ]
@@ -45,13 +46,13 @@ spec:
     signOffs:
 
       # Sandbox: Verify required files (e.g. LICENSE, CODEOWNERS, CONTRIBUTING.md) in git repository
-      requiredFiles: ""
+      requiredFiles: "Andrew Greene, 28 FEB 2022"
 
       # Sandbox: Demonstratable product
-      productDemonstration: ""
+      productDemonstration: "Andrew Greene, 28 FEB 2022"
 
       # Incubating: demonstrated support through contributions and feature releases
-      committedSupport: ""
+      committedSupport: "Andrew Greene, 28 FEB 2022"
 
       # Graduated: Full Big Bang implementation
       bigbangImplementation: ""
