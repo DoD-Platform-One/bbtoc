@@ -44,6 +44,8 @@ graph LR
 
 1.  Is the project a fit for Big Bang and the [DoD DevSecOps reference Design](https://dodcio.defense.gov/Portals/0/Documents/Library/DevSecOpsReferenceDesign.pdf)
 2.  Does the project appear to be on a good path to becoming well-governed?
+3. Does the project account for the [DoD Cloud SRG](https://public.cyber.mil/dccs/)
+4. Does the project and CODEOWNERS take into consideration the [NSA Kubernetes HArdening Guidance](https://media.defense.gov/2021/Aug/03/2002820425/-1/-1/1/CTR_KUBERNETES%20HARDENING%20GUIDANCE.PDF)?
 
 - Sandbox projects are tracked as [gitlab issues](https://repo1.dso.mil/platform-one/bbtoc/-/issues?scope=all&utf8=%E2%9C%93&state=opened&label_name[]=sandbox) with the `sandbox` label.
 
