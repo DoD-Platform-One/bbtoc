@@ -35,7 +35,7 @@ graph LR
 - Projects are proposed following the [process outlined here](https://repo1.dso.mil/platform-one/bbtoc/-/blob/master/projects/getting-started/README.md)
 - Sandbox projects must meet the following criteria:  
   1. Code repository is in an unclassified, accessible repository (repo1 is desireable)
-  2. Code repository must contain an Open source `LICENSE` file at the root of the repository
+  2. Code repository must contain a `LICENSE` file at the root of the repository
   3. Code repository must contain a `CONTRIBUTING.md` file at the root of the repository and provide sufficient information on how one can contribute
   4. Code repository must contain a `CODEOWNERS` file
   5. The project must have a clearly defined purpose
@@ -43,7 +43,9 @@ graph LR
 - Consistent with Sandbox project goals the TOC looks for:
 
 1.  Is the project a fit for Big Bang and the [DoD DevSecOps reference Design](https://dodcio.defense.gov/Portals/0/Documents/Library/DevSecOpsReferenceDesign.pdf)
-2.  Does the project appear to be on a good path to becoming well-governed and vendor-neutral?
+2.  Does the project appear to be on a good path to becoming well-governed?
+3. Does the project account for the [DoD Cloud SRG](https://public.cyber.mil/dccs/)
+4. Does the project and CODEOWNERS take into consideration the [NSA Kubernetes HArdening Guidance](https://media.defense.gov/2021/Aug/03/2002820425/-1/-1/1/CTR_KUBERNETES%20HARDENING%20GUIDANCE.PDF)?
 
 - Sandbox projects are tracked as [gitlab issues](https://repo1.dso.mil/platform-one/bbtoc/-/issues?scope=all&utf8=%E2%9C%93&state=opened&label_name[]=sandbox) with the `sandbox` label.
 

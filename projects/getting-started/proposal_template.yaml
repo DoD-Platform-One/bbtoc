@@ -23,9 +23,6 @@ metadata:
   license:
   - ""
 
-  # Sandbox: Value the product brings to the Big Bang community
-  purpose: ""
-
   # Maturity level of the package
   maturityLevel: Sandbox # Sandbox, Incubating, or Graduated
 
