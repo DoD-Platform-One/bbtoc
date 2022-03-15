@@ -35,7 +35,7 @@ graph LR
 - Projects are proposed following the [process outlined here](https://repo1.dso.mil/platform-one/bbtoc/-/blob/master/projects/getting-started/README.md)
 - Sandbox projects must meet the following criteria:  
   1. Code repository is in an unclassified, accessible repository (repo1 is desireable)
-  2. Code repository must contain an Open source `LICENSE` file at the root of the repository
+  2. Code repository must contain a `LICENSE` file at the root of the repository
   3. Code repository must contain a `CONTRIBUTING.md` file at the root of the repository and provide sufficient information on how one can contribute
   4. Code repository must contain a `CODEOWNERS` file
   5. The project must have a clearly defined purpose
@@ -43,7 +43,9 @@ graph LR
 - Consistent with Sandbox project goals the TOC looks for:
 
 1.  Is the project a fit for Big Bang and the [DoD DevSecOps reference Design](https://dodcio.defense.gov/Portals/0/Documents/Library/DevSecOpsReferenceDesign.pdf)
-2.  Does the project appear to be on a good path to becoming well-governed and vendor-neutral?
+2.  Does the project appear to be on a good path to becoming well-governed?
+3. Does the project account for the [DoD Cloud SRG](https://public.cyber.mil/dccs/)
+4. Does the project and CODEOWNERS take into consideration the [NSA Kubernetes HArdening Guidance](https://media.defense.gov/2021/Aug/03/2002820425/-1/-1/1/CTR_KUBERNETES%20HARDENING%20GUIDANCE.PDF)?
 
 - Sandbox projects are tracked as [gitlab issues](https://repo1.dso.mil/platform-one/bbtoc/-/issues?scope=all&utf8=%E2%9C%93&state=opened&label_name[]=sandbox) with the `sandbox` label.
 
@@ -91,17 +93,19 @@ The chief goal of Graduated projects is to continue to expand and improve the pa
   - Policy enforcement (e.g. Kyverno, Gatekeeper) in place
   - Required package documentation
 - Teams should be able to deploy the package, for any documented use case without issue
-* Security Stakeholders (Teams, Authorizing Officials, etc...) can obtain requisite documentation as part of the package to feed into an Authority to Operate (ATO)
-  * Software Bill of Materials (SBOMs) - future requirement
-  * NIST 800-53 Controls documented iteratively using OSCAL - future requirement
-  * Gatekeeper policies set to enforce with no violations
-  * Network policies in place
-* Prometheus metrics and Grafana dashboards
-* Istio Support
-  * document [istio-injection](https://istio.io/latest/docs/setup/additional-setup/sidecar-injection/#automatic-sidecar-injection) via the `.Values.istio.enabled` configuration item.  
-  * document mTLS settings via the [PeerAuthentication](https://istio.io/latest/docs/reference/config/security/peer_authentication/) object
-  * document default [AuthorizationPolicies](https://istio.io/latest/docs/tasks/security/authorization/) - future requirement
-* Penetration Testing and Cyber Security Review - future requirement
+- Security Stakeholders (Teams, Authorizing Officials, etc...) can obtain requisite documentation as part of the package to feed into an Authority to Operate (ATO)
+  - Software Bill of Materials (SBOMs)
+  - Security policies used (e.g. Kyverno, Gatekeeper), including exceptions/justifications
+  - Network policies used
+  - [OSCAL](https://pages.nist.gov/OSCAL/) yaml document describing the NIST 800 53 Rev 5 controls that the package provides to applications.
+  - Gatekeeper policies set to enforce with no violations
+  - Network policies in place
+- Prometheus metrics and Grafana dashboards
+- Istio Support
+  - document [istio-injection](https://istio.io/latest/docs/setup/additional-setup/sidecar-injection/#automatic-sidecar-injection) via the `.Values.istio.enabled` configuration item.  
+  - document mTLS settings via the [PeerAuthentication](https://istio.io/latest/docs/reference/config/security/peer_authentication/) object
+  - document default [AuthorizationPolicies](https://istio.io/latest/docs/tasks/security/authorization/) - future requirement
+- Penetration Testing and Cyber Security Review - future requirement
 
 Projects moving from incubation to graduation are tracked as [gitlab issues](https://repo1.dso.mil/platform-one/bbtoc/-/issues?scope=all&utf8=%E2%9C%93&state=opened&label_name[]=graduated) with the `graduated` label.
 

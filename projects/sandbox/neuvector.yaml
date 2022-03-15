@@ -3,55 +3,63 @@ kind: Project
 # NOTE: Remove lines that are not applicable
 metadata:
   # Sandbox: Name of the product to be evaluated
-  name: ""
+  name: "neuvector"
 
   # Sandbox: Product vendor (opensource if no vendor)
   vendor: ""
 
   # Sandbox: Short description of the product
-  description: ""
+  description: "Runtime security"
 
   # Sandbox: URL(s) to product website for further information
   website:
-  - ""
+  - "https://neuvector.com/"
 
   # Sandbox: product source code repositories (e.g. github.com).  If not opensource, put "Proprietary"
   sourceCode:
-  - ""
+  - "https://github.com/neuvector/neuvector"
+  - "https://github.com/neuvector/neuvector-helm"
 
   # Sandbox: Product licenses (e.g. Apache 2.0, GPL 3.0, MIT, Proprietary).  Include both free and paid tiers if they exist.
   license:
-  - ""
+  - "Apache 2.0"
+
+  # Sandbox: Value the product brings to the Big Bang community
+  purpose: "Open Source Runtime Security"
 
   # Maturity level of the package
   maturityLevel: Sandbox # Sandbox, Incubating, or Graduated
 
   # Sandbox: Points of contact for project (at least 2)
   contacts:
-  - name: ""
-    repo1user: ""
-  - name: ""
-    repo1user: ""
+  - name: "Thomas Runyon"
+    repo1user: "runyontr"
+  - name: "Adam Toy"
+    repo1user: "atoy"
 
 spec:
   # Sandbox: Package(s) contained in the product (e.g. operator and application).  Each package will have its own repository in repo1.
   packages:
     # Sandbox: Name of the package
-  - name: ""
+  - name: "Neuvector"
 
     # Sandbox: Big Bang repository (i.e. https://repo.dso.mil/platform-one/big-bang/apps/sandbox/<your project>)
-    repository: ""
+    repository: "https://repo1.dso.mil/platform-one/big-bang/apps/sandbox/neuvector"
 
     # Incubating: List of images contained in the package.
     images:
       # Incubating: Name of the image
-      - name: ""
+      - name: "controller"
 
         # Incubating: Iron Bank approval request (https://repo1.dso.mil/dsop/<your project>/-/issues/1)
         repository: ""
 
         # Graduated: Iron Bank approval URL (https://ironbank.dso.mil/repomap/details;registry1Path=<your project path>)
         approval: ""
+      - name: "enforcer"
+      - name: "manager"
+      - name: "scanner"
+      - name: "updater"
 
     # Graduated: Links to required documentation
     documentation: []
@@ -60,10 +68,10 @@ spec:
   signOffs:
 
     # Sandbox: Verify required files (e.g. LICENSE, CODEOWNERS, CONTRIBUTING.md) in git repository
-    requiredFiles: ""
+    requiredFiles: "Andrew Greene, 15 Mar 2022"
 
     # Sandbox: Demonstratable product
-    productDemonstration: ""
+    productDemonstration: "Andrew Greene, 15 Mar 2022"
 
     # Incubating: demonstrated support through contributions and feature releases
     committedSupport: ""
