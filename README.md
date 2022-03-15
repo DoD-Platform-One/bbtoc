@@ -25,6 +25,7 @@ Chief Objectives:
 - Ian Dunbar-Hall, @idunbarh, LM Software Factory Chief Engineer
 - Zayd Ma, @zayd.ma, 309th SWEG SkiCAMP/EDDGE
 - Maj Camdon Cady, @camdon.cady, Platform One
+- Jeff McLamb, @mclamb, MIT/LL
 
 ** Current BBTOC Chair, appointed July 2021
 
