@@ -27,7 +27,7 @@ metadata:
   purpose: "Runtime Security"
 
   # Maturity level of the package
-  maturityLevel: Sandbox # Sandbox, Incubating, or Graduated
+  maturityLevel: Incubating # Sandbox, Incubating, or Graduated
 
   # Sandbox: Points of contact for project (at least 2)
   contacts:
@@ -72,7 +72,7 @@ spec:
     productDemonstration: "Thomas Runyon, 29 Jan 2022"
 
     # Incubating: demonstrated support through contributions and feature releases
-    committedSupport: ""
+    committedSupport: "Micah Nagel, 4 Apr 2022"
 
     # Graduated: Full Big Bang implementation
     bigbangImplementation: "Thomas Runyon, 29 Jan 2022"
