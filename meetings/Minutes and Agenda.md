@@ -2,6 +2,7 @@
 
 ## 5 Aprile 2022
 - !!! Graduated: Fluentbit !!! 
+- !!! Incubating: Twistlock !!!
 - !!! Welcome Maj Sterling "Tag" as TOC member !!!
 - Nomination: David Krupa [issue](https://repo1.dso.mil/platform-one/bbtoc/-/issues/78)
 - Nomination: Hitesh Sharma [issue](https://repo1.dso.mil/platform-one/bbtoc/-/issues/79)
