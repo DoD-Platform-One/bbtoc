@@ -1,5 +1,8 @@
 # Minutes and Agenda
 
+## 5 Aprile 2022
+- !!! Graduated: Fluentbit !!! 
+
 ## 15 Mar 2022
 - !!! Incubating: Fluentbit !!!
 - !!! Sandbox: Neuvector !!!
