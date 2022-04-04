@@ -6,6 +6,7 @@
 - !!! Welcome Maj Sterling "Tag" as TOC member !!!
 - Nomination: David Krupa [issue](https://repo1.dso.mil/platform-one/bbtoc/-/issues/78)
 - Nomination: Hitesh Sharma [issue](https://repo1.dso.mil/platform-one/bbtoc/-/issues/79)
+- Demo: SBOM CLI for BB Charts
 - Introducing SIGs [MR](https://repo1.dso.mil/platform-one/bbtoc/-/merge_requests/86)
 
 ## 15 Mar 2022
