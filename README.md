@@ -62,12 +62,13 @@ Join Us! The TOC meets the first and third Tuesday each month at 1200 MST
     └── governance.md   <<< How we operate
 ├── process
     └── README.md       <<< How projects get classified
-└── projects
+├── projects
     ├── archived        <<< Archived projects
     ├── getting-started <<< Start here for a new project
     ├── graduated       <<< Graduated projects
     ├── incubating      <<< Incubating projects
     └── sandbox         <<< Sandbox projects
+└── sigs                <<< Special Interest Groups
 ```
 
 
