@@ -1,5 +1,14 @@
 # Minutes and Agenda
 
+## 5 Aprile 2022
+- !!! Graduated: Fluentbit !!! 
+- !!! Incubating: Twistlock !!!
+- !!! Welcome Maj Sterling "Tag" as TOC member !!!
+- Nomination: David Krupa [issue](https://repo1.dso.mil/platform-one/bbtoc/-/issues/78)
+- Nomination: Hitesh Sharma [issue](https://repo1.dso.mil/platform-one/bbtoc/-/issues/79)
+- Demo: SBOM CLI for BB Charts
+- Introducing SIGs [MR](https://repo1.dso.mil/platform-one/bbtoc/-/merge_requests/86)
+
 ## 15 Mar 2022
 - !!! Incubating: Fluentbit !!!
 - !!! Sandbox: Neuvector !!!
