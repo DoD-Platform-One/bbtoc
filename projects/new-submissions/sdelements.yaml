@@ -23,9 +23,6 @@ metadata:
   license:
   - "Proprietary"
 
-  # Sandbox: Value the product brings to the Big Bang community
-  purpose: "SDElements is a software platform that assists organizations with secure development practices, risk assessment and threat modeling"
-
   # Maturity level of the package
   maturityLevel: Sandbox # Sandbox, Incubating, or Graduated
 
