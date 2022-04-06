@@ -17,7 +17,7 @@ metadata:
 
   # Sandbox: product source code repositories (e.g. github.com).  If not opensource, put "Proprietary"
   sourceCode:
-  - "https://repo1.dso.mil/dsop/security-compass/sd-elements/mod_wsgi"
+  - "Proprietary"
 
   # Sandbox: Product licenses (e.g. Apache 2.0, GPL 3.0, MIT, Proprietary).  Include both free and paid tiers if they exist.
   license:
