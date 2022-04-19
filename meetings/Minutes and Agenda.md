@@ -1,6 +1,9 @@
 # Minutes and Agenda
 
-## 5 Aprile 2022
+## 19 April 2022 - Cancelled
+- !!! Welcome Hitesh Sharma and David Krupa as TOC members !!!
+
+## 5 April 2022
 - !!! Graduated: Fluentbit !!! 
 - !!! Incubating: Twistlock !!!
 - !!! Welcome Maj Sterling "Tag" as TOC member !!!
