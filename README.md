@@ -21,12 +21,13 @@ Chief Objectives:
 - Gabe Scarberry, @gabe,  Big Bang PM
 - Barak Stout, @barakstout1, Raft
 - Anthony Butt, @anthony.butt, GBSD/CSE-Corp
-- Tim Gast, @tim.gast, P1 Pioneer (BrainGu)
 - Ian Dunbar-Hall, @idunbarh, LM Software Factory Chief Engineer
 - Zayd Ma, @zayd.ma, 309th SWEG SkiCAMP/EDDGE
 - Maj Camdon Cady, @camdon.cady, Platform One
 - Jeff McLamb, @mclamb, MIT/LL
 - Maj James "Tag" Sterling, @jwsterling, DAF Rapid Capabilities Office
+- David Krupa, @david-bl, Black Label - LevelUP - BrainGu
+- Hitesh Sharma, @hsharma, SpaceCAMP - MXS - Raft
 
 ** Current BBTOC Chair, appointed July 2021
 
