@@ -8,7 +8,7 @@ Chief Objectives:
 
 - Enable community collaboration across organizations and use cases
 - Enabled collaborative development of solutions, solving problems for the majority
-- We exist to connect and collaborate, not gatekeep and control
+- We exist to connect and collaborate, not gate keep and control
 - We are not a standards body, nor do we influence funding of various efforts
 
 ## Members
@@ -53,6 +53,24 @@ Join Us! The TOC meets the first and third Tuesday each month at 1200 MST
     Passcode: 61487095
 
     Find your local number: https://www.zoomgov.com/u/ai7y7HWCn  
+
+## Making sense of it all
+
+```
+├── meetings            <<< Previous meetup minutes and agenda
+├── policy
+    └── governance.md   <<< How we operate
+├── process
+    └── README.md       <<< How projects get classified
+├── projects
+    ├── archived        <<< Archived projects
+    ├── getting-started <<< Start here for a new project
+    ├── graduated       <<< Graduated projects
+    ├── incubating      <<< Incubating projects
+    └── sandbox         <<< Sandbox projects
+└── sigs                <<< Special Interest Groups
+```
+
 
 ## Contribute
 
