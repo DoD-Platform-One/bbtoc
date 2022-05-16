@@ -40,10 +40,11 @@ graph LR
   4. Code repository must contain a `CODEOWNERS` file
   5. The project must have a clearly defined purpose
   6. The project must have a demonstrable prototype (intent is to prevent immature projects with minimal code in place)
+  7. The project must have begun its integration with big bang [Big Bang's Package Integration Guide](https://repo1.dso.mil/platform-one/big-bang/bigbang/-/blob/master/docs/developer/package-integration.md)
 - Consistent with Sandbox project goals the TOC looks for:
 
-1.  Is the project a fit for Big Bang and the [DoD DevSecOps reference Design](https://dodcio.defense.gov/Portals/0/Documents/Library/DevSecOpsReferenceDesign.pdf)
-2.  Does the project appear to be on a good path to becoming well-governed?
+1. Is the project a fit for Big Bang and the [DoD DevSecOps reference Design](https://dodcio.defense.gov/Portals/0/Documents/Library/DevSecOpsReferenceDesign.pdf)
+2. Does the project appear to be on a good path to becoming well-governed?
 3. Does the project account for the [DoD Cloud SRG](https://public.cyber.mil/dccs/)
 4. Does the project and CODEOWNERS take into consideration the [NSA Kubernetes HArdening Guidance](https://media.defense.gov/2021/Aug/03/2002820425/-1/-1/1/CTR_KUBERNETES%20HARDENING%20GUIDANCE.PDF)?
 
