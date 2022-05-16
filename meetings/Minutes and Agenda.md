@@ -2,6 +2,7 @@
 
 ## 17 May 2022
 - !!! Graduated: Twistlock !!!
+- Sandbox requirement update [MR](https://repo1.dso.mil/platform-one/bbtoc/-/merge_requests/95)
 - SIG: Kubernetes Distribution
 
 ## 2 May 2022
