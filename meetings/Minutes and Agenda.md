@@ -1,6 +1,16 @@
 # Minutes and Agenda
 
-## 5 Aprile 2022
+## 17 May 2022
+- !!! Graduated: Twistlock !!!
+- SIG: Kubernetes Distribution
+
+## 2 May 2022
+- SIG: Infrastructure
+
+## 19 April 2022
+- Cancelled
+
+## 5 April 2022
 - !!! Graduated: Fluentbit !!! 
 - !!! Incubating: Twistlock !!!
 - !!! Welcome Maj Sterling "Tag" as TOC member !!!
