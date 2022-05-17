@@ -4,6 +4,7 @@
 - !!! Graduated: Twistlock !!!
 - Sandbox requirement update [MR](https://repo1.dso.mil/platform-one/bbtoc/-/merge_requests/95)
 - SIG: Kubernetes Distribution
+- Zayd Ma - stepping down, new responsibilities, not contributing enough to deserve a seat
 
 ## 2 May 2022
 - SIG: Infrastructure
