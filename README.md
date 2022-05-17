@@ -22,7 +22,6 @@ Chief Objectives:
 - Barak Stout, @barakstout1, Raft
 - Anthony Butt, @anthony.butt, GBSD/CSE-Corp
 - Ian Dunbar-Hall, @idunbarh, LM Software Factory Chief Engineer
-- Zayd Ma, @zayd.ma, 309th SWEG SkiCAMP/EDDGE
 - Maj Camdon Cady, @camdon.cady, Platform One
 - Jeff McLamb, @mclamb, MIT/LL
 - Maj James "Tag" Sterling, @jwsterling, DAF Rapid Capabilities Office
