@@ -1,5 +1,16 @@
 # Minutes and Agenda
 
+
+## 7 June 2022
+- SIG: Big Bang Core
+- Synchronize BBTOC package maturity with BB Integration Guide [issue](https://repo1.dso.mil/platform-one/bbtoc/-/issues/82)
+- Static Site Support feature request [issue](https://repo1.dso.mil/platform-one/bbtoc/-/issues/81)
+- Discuss the following problem statements:
+  - It's difficult to deploy Big Bang Core because you have to pay to license it, does this negatively impact adoption? 
+  - How can we improve the consistency of the different artifact types in Big Bang?
+  - What are other problems in the Big Bang ecosystem which make it difficult to use the product?
+    - It difficult to ________ Big Bang because ________________________________.
+
 ## 17 May 2022
 - !!! Graduated: Twistlock !!!
 - Sandbox requirement update [MR](https://repo1.dso.mil/platform-one/bbtoc/-/merge_requests/95)
