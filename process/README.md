@@ -34,20 +34,8 @@ graph LR
 
 - Projects are proposed following the [process outlined here](https://repo1.dso.mil/platform-one/bbtoc/-/blob/master/projects/getting-started/README.md)
 - Sandbox projects must meet the following criteria:  
-  1. Code repository is in an unclassified, accessible repository (repo1 is desireable)
-  2. Code repository must contain a `LICENSE` file at the root of the repository
-  3. Code repository must contain a `CONTRIBUTING.md` file at the root of the repository and provide sufficient information on how one can contribute
-  4. Code repository must contain a `CODEOWNERS` file
-  5. The project must have a clearly defined purpose
-  6. The project must have a demonstrable prototype (intent is to prevent immature projects with minimal code in place)
-- Consistent with Sandbox project goals the TOC looks for:
-
-1.  Is the project a fit for Big Bang and the [DoD DevSecOps reference Design](https://dodcio.defense.gov/Portals/0/Documents/Library/DevSecOpsReferenceDesign.pdf)
-2.  Does the project appear to be on a good path to becoming well-governed?
-3. Does the project account for the [DoD Cloud SRG](https://public.cyber.mil/dccs/)
-4. Does the project and CODEOWNERS take into consideration the [NSA Kubernetes HArdening Guidance](https://media.defense.gov/2021/Aug/03/2002820425/-1/-1/1/CTR_KUBERNETES%20HARDENING%20GUIDANCE.PDF)?
-
-- Sandbox projects are tracked as [gitlab issues](https://repo1.dso.mil/platform-one/bbtoc/-/issues?scope=all&utf8=%E2%9C%93&state=opened&label_name[]=sandbox) with the `sandbox` label.
+  1. Completion of [Big Bang Package: Upstream Integration](https://repo1.dso.mil/platform-one/big-bang/bigbang/-/blob/master/docs/developer/package-integration/package-integration-upstream.md)
+  2. Completion of [Big Bang Package: Pipeline Integration](https://repo1.dso.mil/platform-one/big-bang/bigbang/-/blob/master/docs/developer/package-integration/package-integration-pipeline.md)
 
 ### Incubating
 
@@ -60,12 +48,12 @@ graph LR
 #### Incubating Project Requirements
 
 To mature to `Incubating` stage, a project must meet the `Sandbox` stage requirements plus:
-
-- Active use by at least two customers and/or organizations
-- Demonstrated support, through contributions and feature releases consistent with [Big Bang guidelines](https://repo1.dso.mil/platform-one/big-bang/bigbang)
-- Have begun or completed an [Iron Bank](https://p1.dso.mil/#/products/iron-bank/) approval
-
-Projects moving from sandbox to incubation are tracked as [gitlab issues](https://repo1.dso.mil/platform-one/bbtoc/-/issues?scope=all&utf8=%E2%9C%93&state=opened&label_name[]=graduated) with the `incubation` label.
+  1. Completion of [Big Bang Package: Flux Integration](https://repo1.dso.mil/platform-one/big-bang/bigbang/-/blob/master/docs/developer/package-integration/package-integration-flux.md)
+  2. Have begun [Big Bang Package: Service Mesh Integration](https://repo1.dso.mil/platform-one/big-bang/bigbang/-/blob/master/docs/developer/package-integration/package-integration-service-mesh.md)
+  3. Review remaining steps of the [Big Bang Package Integration Guide](https://repo1.dso.mil/platform-one/big-bang/bigbang/-/blob/master/docs/developer/package-integration.md)
+  4. Have begun or completed [Iron Bank](https://p1.dso.mil/#/products/iron-bank/) approval
+  5. Active use by at least two customers and/or organizations
+  6. Demonstrated support, through contributions and feature releases consistent with [Big Bang guidelines](https://repo1.dso.mil/platform-one/big-bang/bigbang)
 
 ### Graduated
 
@@ -77,35 +65,17 @@ The chief goal of Graduated projects is to continue to expand and improve the pa
 
 #### Graduated Project Requirements
 
-- Meet requirements for `Incubating` status
-- Active production use by multiple organizations/customers
-- Base images approved in [Iron Bank](https://p1.dso.mil/#/products/iron-bank/)
-- Full implementation of [Big Bang's Package Integration Guide](https://repo1.dso.mil/platform-one/big-bang/bigbang/-/blob/master/docs/developer/package-integration.md), including ...
-  - Passing CICD Pipelines
-  - Deployment with FluxCD Helm Releases
-  - [Istio](https://istio.io/) service mesh integration
-  - [Prometheus](https://prometheus.io/) metrics exporting and [Grafana](https://grafana.com/) dashboards
-  - Database hooks (if database is used)
-  - Object storage hooks (if object storage is used)
-  - Single sign-on (either directly or using authservice)
-  - Passing Helm tests
-  - Network policies (ingress and egress) in place
-  - Policy enforcement (e.g. Kyverno, Gatekeeper) in place
-  - Required package documentation
-- Teams should be able to deploy the package, for any documented use case without issue
-- Security Stakeholders (Teams, Authorizing Officials, etc...) can obtain requisite documentation as part of the package to feed into an Authority to Operate (ATO)
-  - Software Bill of Materials (SBOMs)
-  - Security policies used (e.g. Kyverno, Gatekeeper), including exceptions/justifications
-  - Network policies used
-  - [OSCAL](https://pages.nist.gov/OSCAL/) yaml document describing the NIST 800 53 Rev 5 controls that the package provides to applications.
-  - Gatekeeper policies set to enforce with no violations
-  - Network policies in place
-- Prometheus metrics and Grafana dashboards
-- Istio Support
-  - document [istio-injection](https://istio.io/latest/docs/setup/additional-setup/sidecar-injection/#automatic-sidecar-injection) via the `.Values.istio.enabled` configuration item.  
-  - document mTLS settings via the [PeerAuthentication](https://istio.io/latest/docs/reference/config/security/peer_authentication/) object
-  - document default [AuthorizationPolicies](https://istio.io/latest/docs/tasks/security/authorization/) - future requirement
-- Penetration Testing and Cyber Security Review - future requirement
+To mature to `Graduated` stage, a project must meet the `Incubating` stage requirements plus:
+1. Completion of [Big Bang Package: Service Mesh Integration](https://repo1.dso.mil/platform-one/big-bang/bigbang/-/blob/master/docs/developer/package-integration/package-integration-service-mesh.md)
+2. Completion of [Big Bang Package: Monitoring](https://repo1.dso.mil/platform-one/big-bang/bigbang/-/blob/master/docs/developer/package-integration/package-integration-monitoring.md)
+3. Completion of [Big Bang Package: Testing](https://repo1.dso.mil/platform-one/big-bang/bigbang/-/blob/master/docs/developer/package-integration/package-integration-testing.md)
+4. Completion of [Big Bang Package: Network Policies](https://repo1.dso.mil/platform-one/big-bang/bigbang/-/blob/master/docs/developer/package-integration/package-integration-network-policies.md)
+5. Completion of [Big Bang Package: Policy Enforcement](https://repo1.dso.mil/platform-one/big-bang/bigbang/-/blob/master/docs/developer/package-integration/package-integration-policy-enforcement.md)
+6. Completion of [Big Bang Package: Documentation](https://repo1.dso.mil/platform-one/big-bang/bigbang/-/blob/master/docs/developer/package-integration/package-integration-documentation.md), as applicable
+7. Completion of other [Big Bang Integration Guides](https://repo1.dso.mil/platform-one/big-bang/bigbang/-/blob/master/docs/developer/package-integration.md), as applicable. (i.e. Database integration, SSO integration, etc...)
+8. Active production use by multiple (3+) customers and/or organizations
+9. [Iron Bank Acceptance Baseline Criteria (ABCs) and Overall Risk Assessment (ORA)](https://repo1.dso.mil/dsop/dccscr/-/tree/master/ABC/ORA%20Documentation) met for base images 
+10. Security Stakeholders can obtain requisite documentation as part of the package in support of Authority to Operate (ATO)
 
 Projects moving from incubation to graduation are tracked as [gitlab issues](https://repo1.dso.mil/platform-one/bbtoc/-/issues?scope=all&utf8=%E2%9C%93&state=opened&label_name[]=graduated) with the `graduated` label.
 
