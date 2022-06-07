@@ -2,6 +2,7 @@
 
 
 ## 7 June 2022
+- SIG: Big Bang Core
 - Synchronize BBTOC package maturity with BB Integration Guide [issue](https://repo1.dso.mil/platform-one/bbtoc/-/issues/82)
 - Static Site Support feature request [issue](https://repo1.dso.mil/platform-one/bbtoc/-/issues/81)
 - Discuss the following problem statements:
