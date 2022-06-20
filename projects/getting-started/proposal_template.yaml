@@ -59,23 +59,11 @@ spec:
   # Name and date of required verifications (e.g. "John Doe, 7 Dec 2021")
   signOffs:
 
-    # Sandbox: Verify required files (e.g. LICENSE, CODEOWNERS, CONTRIBUTING.md) in git repository
-    requiredFiles: ""
+    # Sandbox: Verification of requirements
+    sandboxVerification: ""
 
-    # Sandbox: Demonstratable product
-    productDemonstration: ""
+    # Incubating: Verification of requirements
+    incubatingVerification: ""
 
-    # Incubating: demonstrated support through contributions and feature releases
-    committedSupport: ""
-
-    # Graduated: Full Big Bang implementation
-    bigbangImplementation: ""
-
-    # Graduated: Deployable against documented use cases
-    productDeployable: ""
-
-    # Graduated: Security support documentation
-    securityDocs: ""
-
-    # Graduated: Cyber security review and penetration testing
-    cybersecurity: ""
+    # Graduated: Verification of requirements
+    graduatedVerification: ""
