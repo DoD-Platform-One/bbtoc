@@ -51,7 +51,7 @@ To mature to `Incubating` stage, a project must meet the `Sandbox` stage require
   1. Completion of [Big Bang Package: Flux Integration](https://repo1.dso.mil/platform-one/big-bang/bigbang/-/blob/master/docs/developer/package-integration/package-integration-flux.md)
   2. Have begun [Big Bang Package: Service Mesh Integration](https://repo1.dso.mil/platform-one/big-bang/bigbang/-/blob/master/docs/developer/package-integration/package-integration-service-mesh.md)
   3. Review remaining steps of the [Big Bang Package Integration Guide](https://repo1.dso.mil/platform-one/big-bang/bigbang/-/blob/master/docs/developer/package-integration.md)
-  4. Have begun or completed [Iron Bank](https://p1.dso.mil/#/products/iron-bank/) approval
+  4. Have begun submission for [Iron Bank](https://p1.dso.mil/#/products/iron-bank/)
   5. Active use by at least two customers and/or organizations
   6. Demonstrated support, through contributions and feature releases consistent with [Big Bang guidelines](https://repo1.dso.mil/platform-one/big-bang/bigbang)
 
@@ -74,7 +74,7 @@ To mature to `Graduated` stage, a project must meet the `Incubating` stage requi
 6. Completion of [Big Bang Package: Documentation](https://repo1.dso.mil/platform-one/big-bang/bigbang/-/blob/master/docs/developer/package-integration/package-integration-documentation.md), as applicable
 7. Completion of other [Big Bang Integration Guides](https://repo1.dso.mil/platform-one/big-bang/bigbang/-/blob/master/docs/developer/package-integration.md), as applicable. (i.e. Database integration, SSO integration, etc...)
 8. Active production use by multiple (3+) customers and/or organizations
-9. [Iron Bank Acceptance Baseline Criteria (ABCs) and Overall Risk Assessment (ORA)](https://repo1.dso.mil/dsop/dccscr/-/tree/master/ABC/ORA%20Documentation) met for base images 
+9. [Iron Bank Acceptance Baseline Criteria (ABCs) and Overall Risk Assessment (ORA)](https://repo1.dso.mil/dsop/dccscr/-/tree/master/ABC/ORA%20Documentation) met at least verified status for base images 
 10. Security Stakeholders can obtain requisite documentation as part of the package in support of Authority to Operate (ATO)
 
 Projects moving from incubation to graduation are tracked as [gitlab issues](https://repo1.dso.mil/platform-one/bbtoc/-/issues?scope=all&utf8=%E2%9C%93&state=opened&label_name[]=graduated) with the `graduated` label.
