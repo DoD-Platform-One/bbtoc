@@ -1,0 +1,25 @@
+apiVersion: bbtoc/v1alpha
+kind: Project
+metadata:
+  name: "Kubevirt"
+  vendor: "opensource"
+  description: "KubeVirt is a virtual machine management add-on for Kubernetes. The aim is to provide a common ground for virtualization solutions on top of Kubernetes."
+  website:
+  - "https://kubevirt.io/"
+  sourceCode:
+  - "https://github.com/kubevirt/kubevirt"
+  license:
+  - "Apache 2.0"
+  maturityLevel: Sandbox
+  contacts:
+  - name: "Andrew Greene"
+    repo1user: "@andrew.greene"
+  - name: "Rob Mengert"
+    repo1user: "@rmengert"
+
+spec:
+  packages:
+  - name: "Kubevirt"
+    repository: "https://repo1.dso.mil/platform-one/big-bang/apps/third-party/kubevirt"
+  signOffs:
+    sandboxVerification: "Andrew Greene 21 June 2022"
