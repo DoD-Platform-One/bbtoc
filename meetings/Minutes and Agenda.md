@@ -1,6 +1,13 @@
 # Minutes and Agenda
 
-
+## 21 June 2022
+- SIG: Cybersecurity
+- Discuss: "Research Spike: Audit Big Bang Security Posture for CRAs in Customer Environments" [issue](https://repo1.dso.mil/groups/platform-one/big-bang/-/epics/213)
+- New project (needs shepherd): Apache Spark [issue](https://repo1.dso.mil/platform-one/bbtoc/-/issues/83)
+- New project (needs shepherd): Kubevirt [mr](https://repo1.dso.mil/platform-one/bbtoc/-/merge_requests/100)
+- A few noteworthy links shared:
+  - [Big Bang 2.0](https://repo1.dso.mil/groups/platform-one/big-bang/-/epics/217)
+  - [Big Bang Docs](https://docs-bigbang.dso.mil/1.36.0/) [repo](https://repo1.dso.mil/platform-one/big-bang/apps/sandbox/bb-docs-generator/)
 ## 7 June 2022
 - SIG: Big Bang Core
 - Synchronize BBTOC package maturity with BB Integration Guide [issue](https://repo1.dso.mil/platform-one/bbtoc/-/issues/82)
