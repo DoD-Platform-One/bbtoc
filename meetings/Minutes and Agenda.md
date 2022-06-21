@@ -4,6 +4,8 @@
 - SIG: Cybersecurity
 - Discuss: "Research Spike: Audit Big Bang Security Posture for CRAs in Customer Environments" [issue](https://repo1.dso.mil/groups/platform-one/big-bang/-/epics/213)
 - New project (needs shepherd): Apache Spark [issue](https://repo1.dso.mil/platform-one/bbtoc/-/issues/83)
+- New project (needs shepherd): Kubevirt [mr](https://repo1.dso.mil/platform-one/bbtoc/-/merge_requests/100)
+
 ## 7 June 2022
 - SIG: Big Bang Core
 - Synchronize BBTOC package maturity with BB Integration Guide [issue](https://repo1.dso.mil/platform-one/bbtoc/-/issues/82)
