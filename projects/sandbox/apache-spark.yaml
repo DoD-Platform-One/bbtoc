@@ -1,0 +1,30 @@
+apiVersion: bbtoc/v1alpha
+kind: Project
+metadata:
+  name: "Apache Spark"
+  vendor: "opensource"
+  description: "Apache Spark is a multi-language engine for executing data engineering, data science, and machine learning on single-node machines or clusters."
+  website:
+  - "https://spark.apache.org/"
+  sourceCode:
+  - "https://github.com/apache/spark"
+  - "https://github.com/GoogleCloudPlatform/spark-on-k8s-operator"
+  license:
+  - "Apache 2.0"
+  maturityLevel: Sandbox
+  contacts:
+  - name: "Lucas Rodriguez"
+    repo1user: "lucas.rodriguez"
+  - name: "TBD"
+    repo1user: "TBD"
+
+spec:
+  packages:
+  - name: "Apache Spark"
+    repository: "https://repo.dso.mil/platform-one/big-bang/apps/sandbox/apache-spark"
+  signOffs:
+    # Sandbox: Verify required files (e.g. LICENSE, CODEOWNERS, CONTRIBUTING.md) in git repository
+    requiredFiles: ""
+    # Sandbox: Demonstratable product
+    productDemonstration: ""
+
