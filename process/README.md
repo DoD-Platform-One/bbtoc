@@ -33,9 +33,9 @@ graph LR
 #### Sandbox Project Requirements
 
 - Projects are proposed following the [process outlined here](https://repo1.dso.mil/platform-one/bbtoc/-/blob/master/projects/getting-started/README.md)
-- Sandbox projects must meet the following criteria:  
-  1. Completion of [Big Bang Package: Upstream Integration](https://repo1.dso.mil/platform-one/big-bang/bigbang/-/blob/master/docs/developer/package-integration/package-integration-upstream.md)
-  2. Completion of [Big Bang Package: Pipeline Integration](https://repo1.dso.mil/platform-one/big-bang/bigbang/-/blob/master/docs/developer/package-integration/package-integration-pipeline.md)
+- Sandbox projects must meet the following criteria:
+  1. Completion of [Big Bang Package: Upstream Integration](https://repo1.dso.mil/platform-one/big-bang/bigbang/-/blob/master/docs/developer/package-integration/upstream.md)
+  2. Completion of [Big Bang Package: Pipeline Integration](https://repo1.dso.mil/platform-one/big-bang/bigbang/-/blob/master/docs/developer/package-integration/pipeline.md)
 
 ### Incubating
 
@@ -48,9 +48,10 @@ graph LR
 #### Incubating Project Requirements
 
 To mature to `Incubating` stage, a project must meet the `Sandbox` stage requirements plus:
-  1. Completion of [Big Bang Package: Flux Integration](https://repo1.dso.mil/platform-one/big-bang/bigbang/-/blob/master/docs/developer/package-integration/package-integration-flux.md)
-  2. Have begun [Big Bang Package: Service Mesh Integration](https://repo1.dso.mil/platform-one/big-bang/bigbang/-/blob/master/docs/developer/package-integration/package-integration-service-mesh.md)
-  3. Review remaining steps of the [Big Bang Package Integration Guide](https://repo1.dso.mil/platform-one/big-bang/bigbang/-/blob/master/docs/developer/package-integration.md)
+
+  1. Completion of [Big Bang Package: Flux Integration](https://repo1.dso.mil/platform-one/big-bang/bigbang/-/blob/master/docs/developer/package-integration/flux.md)
+  2. Have begun [Big Bang Package: Service Mesh Integration](https://repo1.dso.mil/platform-one/big-bang/bigbang/-/blob/master/docs/developer/package-integration/service-mesh.md)
+  3. Review remaining steps of the [Big Bang Package Integration Guide](https://repo1.dso.mil/platform-one/big-bang/bigbang/-/blob/master/docs/developer/package-integration/README.md)
   4. Have begun submission for [Iron Bank](https://p1.dso.mil/#/products/iron-bank/)
   5. Active use by at least two customers and/or organizations
   6. Demonstrated support, through contributions and feature releases consistent with [Big Bang guidelines](https://repo1.dso.mil/platform-one/big-bang/bigbang)
@@ -66,15 +67,16 @@ The chief goal of Graduated projects is to continue to expand and improve the pa
 #### Graduated Project Requirements
 
 To mature to `Graduated` stage, a project must meet the `Incubating` stage requirements plus:
-1. Completion of [Big Bang Package: Service Mesh Integration](https://repo1.dso.mil/platform-one/big-bang/bigbang/-/blob/master/docs/developer/package-integration/package-integration-service-mesh.md)
-2. Completion of [Big Bang Package: Monitoring](https://repo1.dso.mil/platform-one/big-bang/bigbang/-/blob/master/docs/developer/package-integration/package-integration-monitoring.md)
-3. Completion of [Big Bang Package: Testing](https://repo1.dso.mil/platform-one/big-bang/bigbang/-/blob/master/docs/developer/package-integration/package-integration-testing.md)
-4. Completion of [Big Bang Package: Network Policies](https://repo1.dso.mil/platform-one/big-bang/bigbang/-/blob/master/docs/developer/package-integration/package-integration-network-policies.md)
-5. Completion of [Big Bang Package: Policy Enforcement](https://repo1.dso.mil/platform-one/big-bang/bigbang/-/blob/master/docs/developer/package-integration/package-integration-policy-enforcement.md)
-6. Completion of [Big Bang Package: Documentation](https://repo1.dso.mil/platform-one/big-bang/bigbang/-/blob/master/docs/developer/package-integration/package-integration-documentation.md), as applicable
-7. Completion of other [Big Bang Integration Guides](https://repo1.dso.mil/platform-one/big-bang/bigbang/-/blob/master/docs/developer/package-integration.md), as applicable. (i.e. Database integration, SSO integration, etc...)
+
+1. Completion of [Big Bang Package: Service Mesh Integration](https://repo1.dso.mil/platform-one/big-bang/bigbang/-/blob/master/docs/developer/package-integration/service-mesh.md)
+2. Completion of [Big Bang Package: Monitoring](https://repo1.dso.mil/platform-one/big-bang/bigbang/-/blob/master/docs/developer/package-integration/monitoring.md)
+3. Completion of [Big Bang Package: Testing](https://repo1.dso.mil/platform-one/big-bang/bigbang/-/blob/master/docs/developer/package-integration/testing.md)
+4. Completion of [Big Bang Package: Network Policies](https://repo1.dso.mil/platform-one/big-bang/bigbang/-/blob/master/docs/developer/package-integration/network-policies.md)
+5. Completion of [Big Bang Package: Policy Enforcement](https://repo1.dso.mil/platform-one/big-bang/bigbang/-/blob/master/docs/developer/package-integration/policy-enforcement.md)
+6. Completion of [Big Bang Package: Documentation](https://repo1.dso.mil/platform-one/big-bang/bigbang/-/blob/master/docs/developer/package-integration/documentation.md), as applicable
+7. Completion of other [Big Bang Integration Guides](https://repo1.dso.mil/platform-one/big-bang/bigbang/-/blob/master/docs/developer/package-integration/README.md), as applicable. (i.e. Database integration, SSO integration, etc...)
 8. Active production use by multiple (3+) customers and/or organizations
-9. [Iron Bank Acceptance Baseline Criteria (ABCs) and Overall Risk Assessment (ORA)](https://repo1.dso.mil/dsop/dccscr/-/tree/master/ABC/ORA%20Documentation) met at least verified status for base images 
+9. [Iron Bank Acceptance Baseline Criteria (ABCs) and Overall Risk Assessment (ORA)](https://repo1.dso.mil/dsop/dccscr/-/tree/master/ABC/ORA%20Documentation) met at least verified status for base images
 10. Security Stakeholders can obtain requisite documentation as part of the package in support of Authority to Operate (ATO)
 
 Projects moving from incubation to graduation are tracked as [gitlab issues](https://repo1.dso.mil/platform-one/bbtoc/-/issues?scope=all&utf8=%E2%9C%93&state=opened&label_name[]=graduated) with the `graduated` label.
