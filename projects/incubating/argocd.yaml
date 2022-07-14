@@ -1,0 +1,72 @@
+apiVersion: bbtoc/v1alpha
+kind: Project
+# NOTE: Remove lines that are not applicable
+metadata:
+  # Sandbox: Name of the product to be evaluated
+  name: ArgoCD
+
+  # Sandbox: Product vendor (opensource if no vendor)
+  vendor: CNCF
+
+  # Sandbox: Short description of the product
+  description: Argo CD is a declarative, GitOps continuous delivery tool for Kubernetes.
+
+  # Sandbox: URL(s) to product website for further information
+  website:
+  - https://argoproj.github.io/cd/
+
+  # Sandbox: product source code repositories (e.g. github.com).  If not opensource, put "Proprietary"
+  sourceCode:
+  - https://github.com/argoproj/argo-cd
+
+  # Sandbox: Product licenses (e.g. Apache 2.0, GPL 3.0, MIT, Proprietary).  Include both free and paid tiers if they exist.
+  license:
+  - Apache 2.0
+
+  # Maturity level of the package
+  maturityLevel: Incubating # Sandbox, Incubating, or Graduated
+
+  # Sandbox: Points of contact for project (at least 2)
+  contacts:
+  - name: Evan Rush
+    repo1user: '@evan.rush'
+  - name: Branden Cobb
+    repo1user: '@brandencobb'
+  - name: Ernest Chuant
+    repo1user: '@echuang'
+
+spec:
+  # Sandbox: Package(s) contained in the product (e.g. operator and application).  Each package will have its own repository in repo1.
+  packages:
+    # Sandbox: Name of the package
+  - name: ArgoCD
+
+    # Sandbox: Big Bang repository (i.e. https://repo.dso.mil/platform-one/big-bang/apps/sandbox/<your project>)
+    repository: https://repo1.dso.mil/platform-one/big-bang/apps/core/argocd
+
+    # Incubating: List of images contained in the package.
+    images:
+      - name: ArgoCD
+        repository: https://repo1.dso.mil/dsop/big-bang/argocd
+        approval: https://ironbank.dso.mil/repomap/details;registry1Path=opensource%252Fargoproj%252Fargocd
+
+    # Graduated: Links to required documentation
+    documentation:
+    # (MISSING) https://repo1.dso.mil/platform-one/big-bang/bigbang/-/blob/master/charter/packages/
+    - https://repo1.dso.mil/platform-one/big-bang/bigbang/-/blob/master/charter/BigBangPackages.md#argocd
+    - https://repo1.dso.mil/platform-one/big-bang/bigbang/-/blob/master/docs/guides/using-bigbang/default-credentials.md
+    - https://repo1.dso.mil/platform-one/big-bang/bigbang/-/blob/master/docs/understanding-bigbang/licensing-expectations.md
+    - https://repo1.dso.mil/platform-one/big-bang/bigbang/-/blob/master/docs/guides/prerequisites/minimum-hardware-requirements.md
+
+  # Name and date of required verifications (e.g. "John Doe, 7 Dec 2021")
+  signOffs:
+
+    # Sandbox: Verification of requirements
+    sandboxVerification: Michael McLeroy, 13 Jul 2022
+
+    # Incubating: Verification of requirements
+    incubatingVerification: Michael McLeroy, 13 Jul 2022
+
+    # Graduated: Verification of requirements
+    # Only missing architecture doc
+    graduatedVerification: ""
