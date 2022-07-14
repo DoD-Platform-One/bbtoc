@@ -1,0 +1,61 @@
+apiVersion: bbtoc/v1alpha
+kind: Project
+metadata:
+  name: "logging"
+  vendor: "Elastic"
+  description: "Reliably and security take data form any source, in any format, then search, analyze, and visualize it in real time."
+  website:
+    - "https://www.elastic.co/elastic-stack/"
+  sourceCode:
+    - "https://github.com/elastic/elasticsearch"
+    - "https://github.com/elastic/kibana"
+    - "https://github.com/elastic/cloud-on-k8s"
+  license:
+    - "Elastic License 2.0"
+    - "SSPLv1"
+  maturityLevel: "Incubating"
+  contacts:
+    - name: Kavitha Thulasiraman
+      repo1user: '@kavitha'
+    - name: Ryan Garcia
+      repo1user: '@ryan.j.garcia'
+    - name: Evan Rush
+      repo1user: '@evan.rush'
+    - name: Ronnie Webb
+      repo1user: '@ronwebb'
+spec:
+  packages:
+    - name: Elasticsearch and Kibana
+      repository: "https://repo1.dso.mil/platform-one/big-bang/apps/core/elasticsearch-kibana"
+      images:
+        - name: "Elasticsearch"
+          repository: "https://repo1.dso.mil/dsop/elastic/elasticsearch/elasticsearch"
+          approval: "https://ironbank.dso.mil/repomap/details;registry1Path=elastic%252Felasticsearch%252Felasticsearch"
+        - name: "Kibana"
+          repository: "https://repo1.dso.mil/dsop/elastic/kibana/kibana"
+          approval: "https://ironbank.dso.mil/repomap/details;registry1Path=elastic%252Fkibana%252Fkibana"
+    - name: Elasticsearch Cloud on Kubernetes Operator
+      repository: "https://repo1.dso.mil/platform-one/big-bang/apps/core/eck-operator"
+      images:
+        - name: "Operator"
+          repository: "https://repo1.dso.mil/dsop/elastic/eck-operator/eck-operator"
+          approval: "https://ironbank.dso.mil/repomap/details;registry1Path=elastic%252Feck-operator%252Feck-operator"
+
+  documentation:
+    - https://repo1.dso.mil/platform-one/big-bang/bigbang/-/blob/master/charter/packages/elasticsearch-kibana/Architecture.md
+    - https://repo1.dso.mil/platform-one/big-bang/bigbang/-/blob/master/charter/BigBangPackages.md#logging
+    - https://repo1.dso.mil/platform-one/big-bang/bigbang/-/blob/master/docs/guides/using-bigbang/default-credentials.md
+    - https://repo1.dso.mil/platform-one/big-bang/bigbang/-/blob/master/docs/understanding-bigbang/licensing-expectations.md
+    - https://repo1.dso.mil/platform-one/big-bang/bigbang/-/blob/master/docs/guides/prerequisites/minimum-hardware-requirements.md
+
+  # Name and date of required verifications (e.g. "John Doe, 7 Dec 2021")
+  signOffs:
+
+    # Sandbox: Verification of requirements
+    sandboxVerification: "Andrew Greene, 28 FEB 2022"
+
+    # Incubating: Verification of requirements
+    incubatingVerification: "Andrew Greene, 28 FEB 2022"
+
+    # Graduated: Verification of requirements
+    graduatedVerification: Michael McLeroy, 12 Jul 2022
