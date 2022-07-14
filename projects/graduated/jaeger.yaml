@@ -1,0 +1,73 @@
+apiVersion: bbtoc/v1alpha
+kind: Project
+# NOTE: Remove lines that are not applicable
+metadata:
+  # Sandbox: Name of the product to be evaluated
+  name: Jaeger
+
+  # Sandbox: Product vendor (opensource if no vendor)
+  vendor: CNCF
+
+  # Sandbox: Short description of the product
+  description: Distributed Tracing Platform
+
+  # Sandbox: URL(s) to product website for further information
+  website:
+  - https://www.jaegertracing.io/
+
+  # Sandbox: product source code repositories (e.g. github.com).  If not opensource, put "Proprietary"
+  sourceCode:
+  - https://github.com/jaegertracing/jaeger
+  - https://github.com/jaegertracing/jaeger-operator
+
+  # Sandbox: Product licenses (e.g. Apache 2.0, GPL 3.0, MIT, Proprietary).  Include both free and paid tiers if they exist.
+  license:
+  - Apache 2.0
+
+  # Maturity level of the package
+  maturityLevel: Graduated # Sandbox, Incubating, or Graduated
+
+  # Sandbox: Points of contact for project (at least 2)
+  contacts:
+  - name: Michael McLeroy
+    repo1user: '@michaelmcleroy'
+  - name: "Thomas Runyon"
+    repo1user: "@runyontr"
+
+spec:
+  # Sandbox: Package(s) contained in the product (e.g. operator and application).  Each package will have its own repository in repo1.
+  packages:
+    # Sandbox: Name of the package
+  - name: Jaeger
+
+    # Sandbox: Big Bang repository (i.e. https://repo.dso.mil/platform-one/big-bang/apps/sandbox/<your project>)
+    repository: https://repo1.dso.mil/platform-one/big-bang/apps/core/jaeger
+
+    # Incubating: List of images contained in the package.
+    images:
+      - name: All-in-one
+        repository: https://repo1.dso.mil/dsop/opensource/jaegertracing/all-in-one
+        approval: https://ironbank.dso.mil/repomap/details;registry1Path=opensource%252Fjaegertracing%252Fall-in-one
+      - name: Operator
+        repository: https://repo1.dso.mil/dsop/opensource/jaegertracing/jaeger-operator
+        approval: https://ironbank.dso.mil/repomap/details;registry1Path=opensource%252Fjaegertracing%252Fjaeger-operator
+
+    # Graduated: Links to required documentation
+    documentation:
+    - https://repo1.dso.mil/platform-one/big-bang/bigbang/-/blob/master/charter/packages/jaeger/Architecture.md
+    - https://repo1.dso.mil/platform-one/big-bang/bigbang/-/blob/master/charter/BigBangPackages.md
+    - https://repo1.dso.mil/platform-one/big-bang/bigbang/-/blob/master/docs/understanding-bigbang/licensing-expectations.md
+    - https://repo1.dso.mil/platform-one/big-bang/bigbang/-/blob/master/docs/guides/prerequisites/minimum-hardware-requirements.md
+
+
+  # Name and date of required verifications (e.g. "John Doe, 7 Dec 2021")
+  signOffs:
+
+    # Sandbox: Verification of requirements
+    sandboxVerification: Michael McLeroy, 12 Jul 2022
+
+    # Incubating: Verification of requirements
+    incubatingVerification: Michael McLeroy, 12 Jul 2022
+
+    # Graduated: Verification of requirements
+    graduatedVerification: Michael McLeroy, 12 Jul 2022
