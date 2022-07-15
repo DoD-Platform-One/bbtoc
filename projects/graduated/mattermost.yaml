@@ -6,7 +6,7 @@ metadata:
   name: Mattermost
 
   # Sandbox: Product vendor (opensource if no vendor)
-  vendor: Atlassian
+  vendor: Mattermost
 
   # Sandbox: Short description of the product
   description: Mattermost is a secure, open source platform for communication, collaboration, and workflow orchestration across tools and teams.
