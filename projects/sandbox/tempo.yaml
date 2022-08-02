@@ -1,0 +1,75 @@
+apiVersion: bbtoc/v1alpha
+kind: Project
+# NOTE: Remove lines that are not applicable
+metadata:
+  # Sandbox: Name of the product to be evaluated
+  name: Tempo
+
+  # Sandbox: Product vendor (opensource if no vendor)
+  vendor: Grafana Labs
+
+  # Sandbox: Short description of the product
+  description: Grafana Tempo is an open source, easy-to-use, and high-scale distributed tracing backend.
+
+  # Sandbox: URL(s) to product website for further information
+  website:
+  - https://grafana.com/oss/tempo/
+
+  # Sandbox: product source code repositories (e.g. github.com).  If not opensource, put "Proprietary"
+  sourceCode:
+  - https://github.com/grafana/tempo
+
+  # Sandbox: Product licenses (e.g. Apache 2.0, GPL 3.0, MIT, Proprietary).  Include both free and paid tiers if they exist.
+  license:
+  - GNU Affero GPL 3.0
+  - Apache 2.0
+
+  # Maturity level of the package
+  maturityLevel: Sandbox # Sandbox, Incubating, or Graduated
+
+  # Sandbox: Points of contact for project (at least 2)
+  contacts:
+  - name: Brandt Keller
+    repo1user: '@brandt.w.keller'
+  - name: Ryan Garcia
+    repo1user: '@ryan.j.garcia'
+  - name: Ernest Chuang
+    repo1user: '@echuang'
+
+spec:
+  # Sandbox: Package(s) contained in the product (e.g. operator and application).  Each package will have its own repository in repo1.
+  packages:
+    # Sandbox: Name of the package
+  - name: Tempo
+
+    # Sandbox: Big Bang repository (i.e. https://repo.dso.mil/platform-one/big-bang/apps/sandbox/<your project>)
+    repository: https://repo1.dso.mil/platform-one/big-bang/apps/sandbox/tempo
+
+    # Incubating: List of images contained in the package.
+    images:
+      - name: Tempo
+        repository: https://repo1.dso.mil/dsop/opensource/grafana/tempo
+        approval: https://ironbank.dso.mil/repomap/details;registry1Path=opensource%252Fgrafana%252Ftempo
+      - name: Tempo Query
+        repository: https://repo1.dso.mil/dsop/opensource/grafana/tempo-query
+        approval: https://ironbank.dso.mil/repomap/details;registry1Path=opensource%252Fgrafana%252Ftempo-query
+
+    # Graduated: Links to required documentation
+    documentation:
+    # (MISSING) https://repo1.dso.mil/platform-one/big-bang/bigbang/-/blob/master/charter/packages/
+    # (MISSING) https://repo1.dso.mil/platform-one/big-bang/bigbang/-/blob/master/charter/BigBangPackages.md
+    # (MISSING) https://repo1.dso.mil/platform-one/big-bang/bigbang/-/blob/master/docs/guides/using-bigbang/default-credentials.md
+    # (MISSING) https://repo1.dso.mil/platform-one/big-bang/bigbang/-/blob/master/docs/understanding-bigbang/licensing-expectations.md
+    # (MISSING) https://repo1.dso.mil/platform-one/big-bang/bigbang/-/blob/master/docs/guides/prerequisites/minimum-hardware-requirements.md
+
+  # Name and date of required verifications (e.g. "John Doe, 7 Dec 2021")
+  signOffs:
+
+    # Sandbox: Verification of requirements
+    sandboxVerification: Michael McLeroy, 13 Jul 2022
+
+    # Incubating: Verification of requirements
+    incubatingVerification: ""
+
+    # Graduated: Verification of requirements
+    graduatedVerification: ""
