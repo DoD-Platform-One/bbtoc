@@ -1,5 +1,10 @@
 # Minutes and Agenda
 
+## 2 Aug 2022
+- !!! Sandbox: Kubevirt !!!
+- Andrew Stepping down as Chair
+- All the MRs... live
+
 ## 21 June 2022
 - SIG: Cybersecurity
 - Discuss: "Research Spike: Audit Big Bang Security Posture for CRAs in Customer Environments" [issue](https://repo1.dso.mil/groups/platform-one/big-bang/-/epics/213)
