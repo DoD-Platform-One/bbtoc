@@ -1,0 +1,114 @@
+apiVersion: bbtoc/v1alpha
+kind: Project
+# NOTE: Remove lines that are not applicable
+metadata:
+  # Sandbox: Name of the product to be evaluated
+  name: "Gitlab"
+
+  # Sandbox: Product vendor (opensource if no vendor)
+  vendor: "Gitlab"
+
+  # Sandbox: Short description of the product
+  description: "Web based git repository manager with wiki and issue-tracking features."
+
+  # Sandbox: URL(s) to product website for further information
+  website:
+  - "https://about.gitlab.com/"
+
+  # Sandbox: product source code repositories (e.g. github.com).  If not opensource, put "Proprietary"
+  sourceCode:
+  - "https://gitlab.com/gitlab-org/gitlab"
+
+  # Sandbox: Product licenses (e.g. Apache 2.0, GPL 3.0, MIT, Proprietary).  Include both free and paid tiers if they exist.
+  license:
+  - MIT (Community Edition)
+  - Proprietary (Enterprise Edition)
+
+  # Maturity level of the package
+  maturityLevel: Graduated # Sandbox, Incubating, or Graduated
+
+  # Sandbox: Points of contact for project (at least 2)
+  contacts:
+  - name: "Kevin Wilder"
+    repo1user: "kevin.wilder"
+  - name: "Ryan Garcia"
+    repo1user: "ryan.j.garcia"
+
+spec:
+  # Sandbox: Package(s) contained in the product (e.g. operator and application).  Each package will have its own repository in repo1.
+  packages:
+    # Sandbox: Name of the package
+  - name: Gitlab
+
+    # Sandbox: Big Bang repository (i.e. https://repo.dso.mil/platform-one/big-bang/apps/sandbox/<your project>)
+    repository: https://repo1.dso.mil/platform-one/big-bang/apps/developer-tools/gitlab
+
+    # Incubating: List of images contained in the package.
+    images:
+      - name: Gitaly
+        repository: https://repo1.dso.mil/dsop/gitlab/gitlab/gitaly
+        approval: https://ironbank.dso.mil/repomap/details;registry1Path=gitlab%252Fgitlab%252Fgitaly
+      - name: Exporter
+        repository: https://repo1.dso.mil/dsop/gitlab/gitlab/gitlab-exporter
+        approval: https://ironbank.dso.mil/repomap/details;registry1Path=gitlab%252Fgitlab%252Fgitlab-exporter
+      - name: Shell
+        repository: https://repo1.dso.mil/dsop/gitlab/gitlab/gitlab-shell
+        approval: https://ironbank.dso.mil/repomap/details;registry1Path=gitlab%252Fgitlab%252Fgitlab-shell
+      - name: Toolbox
+        repository: https://repo1.dso.mil/dsop/gitlab/gitlab/gitlab-toolbox
+        approval: https://ironbank.dso.mil/repomap/details;registry1Path=gitlab%252Fgitlab%252Fgitlab-toolbox
+      - name: Webservice
+        repository: https://repo1.dso.mil/dsop/gitlab/gitlab/gitlab-webservice
+        approval: https://ironbank.dso.mil/repomap/details;registry1Path=gitlab%252Fgitlab%252Fgitlab-webservice
+      - name: Sidekiq
+        repository: https://repo1.dso.mil/dsop/gitlab/gitlab/gitlab-sidekiq
+        approval: https://ironbank.dso.mil/repomap/details;registry1Path=gitlab%252Fgitlab%252Fgitlab-sidekiq
+      - name: Workhorse
+        repository: https://repo1.dso.mil/dsop/gitlab/gitlab/gitlab-workhorse
+        approval: https://ironbank.dso.mil/repomap/details;registry1Path=gitlab%252Fgitlab%252Fgitlab-workhorse
+      - name: Container Registry
+        repository: https://repo1.dso.mil/dsop/gitlab/gitlab/gitlab-container-registry
+        approval: https://ironbank.dso.mil/repomap/details;registry1Path=gitlab%252Fgitlab%252Fgitlab-container-registry
+      - name: Alpine Certificates
+        repository: https://repo1.dso.mil/dsop/gitlab/gitlab/alpine-certificates
+        approval: https://ironbank.dso.mil/repomap/details;registry1Path=gitlab%252Fgitlab%252Falpine-certificates
+      - name: Cloudflare SSL Self Sign
+        repository: https://repo1.dso.mil/dsop/gitlab/gitlab/cfssl-self-sign
+        approval: https://ironbank.dso.mil/repomap/details;registry1Path=gitlab%252Fgitlab%252Fcfssl-self-sign
+      - name: Kubectl
+        repository: https://repo1.dso.mil/dsop/gitlab/gitlab/kubectl
+        approval: https://ironbank.dso.mil/repomap/details;registry1Path=gitlab%252Fgitlab%252Fkubectl
+
+  - name: GitLab Runners
+
+    # Sandbox: Big Bang repository (i.e. https://repo.dso.mil/platform-one/big-bang/apps/sandbox/<your project>)
+    repository: https://repo1.dso.mil/platform-one/big-bang/apps/developer-tools/gitlab-runner
+
+    # Incubating: List of images contained in the package.
+    images:
+      - name: Runner
+        repository: https://repo1.dso.mil/dsop/gitlab/gitlab-runner/gitlab-runner
+        approval: https://ironbank.dso.mil/repomap/details;registry1Path=gitlab%252Fgitlab-runner%252Fgitlab-runner
+      - name: Runner Helper
+        repository: https://repo1.dso.mil/dsop/gitlab/gitlab-runner/gitlab-runner-helper
+        approval: https://ironbank.dso.mil/repomap/details;registry1Path=gitlab%252Fgitlab-runner%252Fgitlab-runner-helper
+
+    # Graduated: Links to required documentation
+    documentation:
+    - https://repo1.dso.mil/platform-one/big-bang/bigbang/-/blob/master/charter/packages/gitlab/Architecture.md
+    - https://repo1.dso.mil/platform-one/big-bang/bigbang/-/blob/master/charter/BigBangPackages.md#gitlab
+    - https://repo1.dso.mil/platform-one/big-bang/bigbang/-/blob/master/docs/guides/using-bigbang/default-credentials.md
+    - https://repo1.dso.mil/platform-one/big-bang/bigbang/-/blob/master/docs/understanding-bigbang/licensing-expectations.md
+    - https://repo1.dso.mil/platform-one/big-bang/bigbang/-/blob/master/docs/guides/prerequisites/minimum-hardware-requirements.md
+
+  # Name and date of required verifications (e.g. "John Doe, 7 Dec 2021")
+  signOffs:
+
+    # Sandbox: Verification of requirements
+    sandboxVerification: "Andrew Greene, 28 FEB 2022"
+
+    # Incubating: Verification of requirements
+    incubatingVerification: "Andrew Greene, 28 FEB 2022"
+
+    # Graduated: Verification of requirements
+    graduatedVerification: Michael McLeroy, 12 Jul 2022
