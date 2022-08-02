@@ -17,14 +17,11 @@ metadata:
 
   # Sandbox: product source code repositories (e.g. github.com).  If not opensource, put "Proprietary"
   sourceCode:
-  - "https://github.com/istio/istio"
+  - https://github.com/istio/istio
 
   # Sandbox: Product licenses (e.g. Apache 2.0, GPL 3.0, MIT, Proprietary).  Include both free and paid tiers if they exist.
   license:
   - "Apache 2.0"
-
-  # Sandbox: Value the product brings to the Big Bang community
-  purpose: "Service Mesh to provide ingress, mTLS and authorization policies"
 
   # Maturity level of the package
   maturityLevel: Graduated # Sandbox, Incubating, or Graduated
@@ -50,45 +47,36 @@ spec:
     # Incubating: List of images contained in the package.
     images:
       - name: "istio-cni"
-        repository: "https://repo1.dso.mil/dsop/opensource/istio/1.11/install-cni"
+        repository: "https://repo1.dso.mil/dsop/opensource/istio/1.13/install-cni"
         approval: "https://ironbank.dso.mil/repomap/details;registry1Path=opensource%252Fistio%252Finstall-cni?page=1&sort=1"
       - name: proxyv2
-        repository: https://repo1.dso.mil/dsop/opensource/istio/1.11/proxyv2
+        repository: https://repo1.dso.mil/dsop/opensource/istio/1.13/proxyv2
         approval: https://ironbank.dso.mil/repomap/details;registry1Path=opensource%252Fistio%252Fproxyv2?page=1&sort=1
       - name: pilot
-        repository: https://repo1.dso.mil/dsop/opensource/istio/1.11/pilot
+        repository: https://repo1.dso.mil/dsop/opensource/istio/1.13/pilot
         approval: https://ironbank.dso.mil/repomap/details;registry1Path=opensource%252Fistio%252Fpilot?page=1&sort=1
 
   - name: istio-operator
     repository: https://repo1.dso.mil/platform-one/big-bang/apps/core/istio-operator
     images:
     - name: operator
-      repository: https://repo1.dso.mil/dsop/opensource/istio/1.11/operator
+      repository: https://repo1.dso.mil/dsop/opensource/istio/1.13/operator
       approval: https://ironbank.dso.mil/repomap/details;registry1Path=opensource%252Fistio%252Foperator?page=1&sort=1
     # Graduated: Links to required documentation
-    documentation: []
+    documentation:
+    - https://repo1.dso.mil/platform-one/big-bang/bigbang/-/blob/master/charter/packages/istio/Architecture.md
+    - https://repo1.dso.mil/platform-one/big-bang/bigbang/-/blob/master/charter/BigBangPackages.md
+    - https://repo1.dso.mil/platform-one/big-bang/bigbang/-/blob/master/docs/understanding-bigbang/licensing-expectations.md
+    - https://repo1.dso.mil/platform-one/big-bang/bigbang/-/blob/master/docs/guides/prerequisites/minimum-hardware-requirements.md
 
   # Name and date of required verifications (e.g. "John Doe, 7 Dec 2021")
   signOffs:
 
-    # Sandbox: Verify required files (e.g. LICENSE, CODEOWNERS, CONTRIBUTING.md) in git repository
-    requiredFiles: "Thomas Runyon, 7 Feb 2022"
+    # Sandbox: Verification of requirements
+    sandboxVerification: "Thomas Runyon, 7 Feb 2022"
 
-    # Sandbox: Demonstratable product
-    productDemonstration: "Thomas Runyon, 7 Feb 2022"
+    # Incubating: Verification of requirements
+    incubatingVerification: "Thomas Runyon, 7 Feb 2022"
 
-    # Incubating: demonstrated support through contributions and feature releases
-    committedSupport: "Thomas Runyon, 7 Feb 2022"
-
-    # Graduated: Full Big Bang implementation
-    bigbangImplementation: "Thomas Runyon, 7 Feb 2022"
-
-    # Graduated: Deployable against documented use cases
-    productDeployable: "Thomas Runyon, 7 Feb 2022"
-
-    # Graduated: Security support documentation
-    securityDocs: "Thomas Runyon, 7 Feb 2022"
-
-    # Graduated: Cyber security review and penetration testing
-    cybersecurity: "Thomas Runyon, 7 Feb 2022"
-
+    # Graduated: Verification of requirements
+    graduatedVerification: "Thomas Runyon, 7 Feb 2022"
