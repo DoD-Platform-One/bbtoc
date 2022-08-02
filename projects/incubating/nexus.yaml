@@ -1,0 +1,81 @@
+apiVersion: bbtoc/v1alpha
+kind: Project
+# NOTE: Remove lines that are not applicable
+metadata:
+  # Sandbox: Name of the product to be evaluated
+  name: Nexus Repository
+
+  # Sandbox: Product vendor (opensource if no vendor)
+  vendor: Sonatype
+
+  # Sandbox: Short description of the product
+  description: Manage binaries and build artifacts across your software supply chain
+
+  # Sandbox: URL(s) to product website for further information
+  website:
+  - https://www.sonatype.com/products/nexus-repository
+  - https://help.sonatype.com/repomanager3
+
+  # Sandbox: product source code repositories (e.g. github.com).  If not opensource, put "Proprietary"
+  sourceCode:
+  - https://github.com/sonatype/nexus-public
+
+  # Sandbox: Product licenses (e.g. Apache 2.0, GPL 3.0, MIT, Proprietary).  Include both free and paid tiers if they exist.
+  license:
+  - Eclipse Public License 1.0
+
+  # Maturity level of the package
+  maturityLevel: Incubating # Sandbox, Incubating, or Graduated
+
+  # Sandbox: Points of contact for project (at least 2)
+  contacts:
+  - name: Kevin Wilder
+    repo1user: '@kevin.wilder'
+  - name: Ariel Shnitzer
+    repo1user: '@ariel.shnitzer'
+  - name: Grant Duncklee
+    repo1user: '@grant.duncklee'
+  - name: Michael McLeroy
+    repo1user: '@michaelmcleroy'
+  - name: Branden Cobb
+    repo1user: '@brandencobb'
+
+spec:
+  # Sandbox: Package(s) contained in the product (e.g. operator and application).  Each package will have its own repository in repo1.
+  packages:
+    # Sandbox: Name of the package
+  - name: Nexus Repository
+
+    # Sandbox: Big Bang repository (i.e. https://repo.dso.mil/platform-one/big-bang/apps/sandbox/<your project>)
+    repository: https://repo1.dso.mil/platform-one/big-bang/apps/developer-tools/nexus
+
+    # Incubating: List of images contained in the package.
+    images:
+      # Incubating: Name of the image
+      - name: Nexus Repository
+
+        # Incubating: Iron Bank approval request (https://repo1.dso.mil/dsop/<your project>/-/issues/1)
+        repository: https://repo1.dso.mil/dsop/sonatype/nexus/nexus
+
+        # Graduated: Iron Bank approval URL (https://ironbank.dso.mil/repomap/details;registry1Path=<your project path>)
+        approval: https://ironbank.dso.mil/repomap/details;registry1Path=sonatype%252Fnexus%252Fnexus
+
+    # Graduated: Links to required documentation
+    documentation:
+    # (MISSING) https://repo1.dso.mil/platform-one/big-bang/bigbang/-/blob/master/charter/packages/
+    - https://repo1.dso.mil/platform-one/big-bang/bigbang/-/blob/master/charter/BigBangPackages.md#nexus
+    - https://repo1.dso.mil/platform-one/big-bang/bigbang/-/blob/master/docs/guides/using-bigbang/default-credentials.md
+    - https://repo1.dso.mil/platform-one/big-bang/bigbang/-/blob/master/docs/understanding-bigbang/licensing-expectations.md
+    - https://repo1.dso.mil/platform-one/big-bang/bigbang/-/blob/master/docs/guides/prerequisites/minimum-hardware-requirements.md
+
+  # Name and date of required verifications (e.g. "John Doe, 7 Dec 2021")
+  signOffs:
+
+    # Sandbox: Verification of requirements
+    sandboxVerification: Michael McLeroy, 13 Jul 2022
+
+    # Incubating: Verification of requirements
+    incubatingVerification: Michael McLeroy, 13 Jul 2022
+
+    # Graduated: Verification of requirements
+    graduatedVerification: ""
