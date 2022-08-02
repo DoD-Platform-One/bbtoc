@@ -5,10 +5,10 @@ metadata:
   name: fluentbit
 
   # Sandbox: Product vendor (opensource if no vendor)
-  vendor: fluent
+  vendor: CNCF (sub-project under fluentd)
 
   # Sandbox: Short description of the product
-  description: Logging Component (Log Forwarder)
+  description: Logging processor and forwarder
 
   # Sandbox: URL(s) to product website for further information
   website:
@@ -22,11 +22,8 @@ metadata:
   license:
   - "Apache 2.0"
 
-  # Sandbox: Value the product brings to the Big Bang community
-  purpose: "Leightweight and opensource log forwarder with a myriad of configuration items and available outputs"
-
   # Maturity level of the package
-  maturityLevel: Incubating
+  maturityLevel: Graduated
 
   # Sandbox: Points of contact for project (at least 2)
   contacts:
@@ -50,33 +47,23 @@ spec:
     images:
       - name: "fluent-bit"
         repository: "https://repo1.dso.mil/dsop/opensource/fluent/fluent-bit"
-        approval: "https://registry1.dso.mil/harbor/projects/3/repositories/opensource%2Ffluent%2Ffluent-bit"
+        approval: "https://ironbank.dso.mil/repomap/details;registry1Path=opensource%252Ffluent%252Ffluent-bit"
 
     documentation:
-    - https://repo1.dso.mil/platform-one/big-bang/apps/core/fluentbit/-/blob/main/README.md
-    - https://repo1.dso.mil/platform-one/big-bang/apps/core/fluentbit/-/blob/main/docs/
     - https://repo1.dso.mil/platform-one/big-bang/bigbang/-/blob/master/charter/packages/fluentbit/Architecture.md
+    - https://repo1.dso.mil/platform-one/big-bang/bigbang/-/blob/master/charter/BigBangPackages.md#logging
+    - https://repo1.dso.mil/platform-one/big-bang/bigbang/-/blob/master/docs/understanding-bigbang/licensing-expectations.md
+    - https://repo1.dso.mil/platform-one/big-bang/bigbang/-/blob/master/docs/guides/prerequisites/minimum-hardware-requirements.md
+
 
   # Name and date of required verifications (e.g. "John Doe, 7 Dec 2021")
   signOffs:
 
-    # Sandbox: Verify required files (e.g. LICENSE, CODEOWNERS, CONTRIBUTING.md) in git repository
-    requiredFiles: "Ryan Garcia, 2 Mar 2022"
+    # Sandbox: Verification of requirements
+    sandboxVerification: Ryan Garcia, 2 Mar 2022
 
-    # Sandbox: Demonstratable product
-    productDemonstration: "Ryan Garcia, 2 Mar 2022"
+    # Incubating: Verification of requirements
+    incubatingVerification: Ryan Garcia, 2 Mar 2022
 
-    # Incubating: demonstrated support through contributions and feature releases
-    committedSupport: "Ryan Garcia, 2 Mar 2022"
-
-    # Graduated: Full Big Bang implementation
-    bigbangImplementation: "Ryan Garcia, 2 Mar 2022"
-
-    # Graduated: Deployable against documented use cases
-    productDeployable: "Ryan Garcia, 2 Mar 2022"
-
-    # Graduated: Security support documentation
-    securityDocs: "Ryan Garcia, 2 Mar 2022"
-
-    # Graduated: Cyber security review and penetration testing
-    cybersecurity: "Gabe Scarberry, 31 Mar 2022"
+    # Graduated: Verification of requirements
+    graduatedVerification: Ryan Garcia, 2 Mar 2022

@@ -6,10 +6,13 @@ metadata:
   name: "Prisma Cloud Compute"
 
   # Sandbox: Product vendor (opensource if no vendor)
-  vendor: "Prisma Cloud"
+  vendor: "Palo Alto"
 
   # Sandbox: Short description of the product
-  description: "The Twistlock Platform provides vulnerability management and compliance across the application lifecycle by scanning images and serverless functions to prevent security and compliance issues from progressing through the development pipeline, and continuously monitoring all registries and environments."
+  description: >-
+    The Twistlock Platform provides vulnerability management and compliance across the application lifecycle by scanning images
+    and serverless functions to prevent security and compliance issues from progressing through the development pipeline, and
+    continuously monitoring all registries and environments.
 
   # Sandbox: URL(s) to product website for further information
   website:
@@ -22,9 +25,6 @@ metadata:
   # Sandbox: Product licenses (e.g. Apache 2.0, GPL 3.0, MIT, Proprietary).  Include both free and paid tiers if they exist.
   license:
   - "Proprietary"
-
-  # Sandbox: Value the product brings to the Big Bang community
-  purpose: "Runtime Security"
 
   # Maturity level of the package
   maturityLevel: Graduated # Sandbox, Incubating, or Graduated
@@ -47,41 +47,34 @@ spec:
   - name: "Twistlock"
 
     # Sandbox: Big Bang repository (i.e. https://repo.dso.mil/platform-one/big-bang/apps/sandbox/<your project>)
-    repository: "Proprietary"
+    repository: https://repo1.dso.mil/platform-one/big-bang/apps/security-tools/twistlock
 
     # Incubating: List of images contained in the package.
     images:
       - name: "console"
-        repository: "https://repo1.dso.mil/dsop/twistlock/console/console/-/issues/1"
+        repository: https://repo1.dso.mil/dsop/twistlock/console/console
         approval: "https://ironbank.dso.mil/repomap/details;registry1Path=twistlock%252Fconsole%252Fconsole"
       - name: "defender"
-        repository: "https://repo1.dso.mil/dsop/twistlock/defender/defender/-/issues/1"
+        repository: https://repo1.dso.mil/dsop/twistlock/defender/defender
         approval: "https://ironbank.dso.mil/repomap/details;registry1Path=twistlock%252Fdefender%252Fdefender"
 
     # Graduated: Links to required documentation
     documentation:
-    - "https://repo1.dso.mil/platform-one/big-bang/apps/security-tools/twistlock/-/tree/main/docs"
+    - https://repo1.dso.mil/platform-one/big-bang/apps/security-tools/twistlock/-/tree/main/docs
+    - https://repo1.dso.mil/platform-one/big-bang/bigbang/-/blob/master/charter/packages/twistlock/Architecture.md
+    - https://repo1.dso.mil/platform-one/big-bang/bigbang/-/blob/master/charter/BigBangPackages.md#twistlock
+    - https://repo1.dso.mil/platform-one/big-bang/bigbang/-/blob/master/docs/guides/using-bigbang/default-credentials.md
+    - https://repo1.dso.mil/platform-one/big-bang/bigbang/-/blob/master/docs/understanding-bigbang/licensing-expectations.md
+    - https://repo1.dso.mil/platform-one/big-bang/bigbang/-/blob/master/docs/guides/prerequisites/minimum-hardware-requirements.md
 
   # Name and date of required verifications (e.g. "John Doe, 7 Dec 2021")
   signOffs:
 
-    # Sandbox: Verify required files (e.g. license, codeowners, contributors) in git repository
-    requiredFiles: "Thomas Runyon, 29 Jan 2022"
+    # Sandbox: Verification of requirements
+    sandboxVerification: "Thomas Runyon, 29 Jan 2022"
 
-    # Sandbox: Demonstratable product
-    productDemonstration: "Thomas Runyon, 29 Jan 2022"
+    # Incubating: Verification of requirements
+    incubatingVerification: "Micah Nagel, 4 Apr 2022"
 
-    # Incubating: demonstrated support through contributions and feature releases
-    committedSupport: "Micah Nagel, 4 Apr 2022"
-
-    # Graduated: Full Big Bang implementation
-    bigbangImplementation: "Thomas Runyon, 29 Jan 2022"
-
-    # Graduated: Deployable against documented use cases
-    productDeployable: "Thomas Runyon, 29 Jan 2022"
-
-    # Graduated: Security support documentation
-    securityDocs: "Thomas Runyon, 29 Jan 2022"
-
-    # Graduated: Cyber security review and penetration testing
-    cybersecurity: "Gabe Scarberry, 13 May 2022"
+    # Graduated: Verification of requirements
+    graduatedVerification: "Thomas Runyon, 29 Jan 2022"
