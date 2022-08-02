@@ -1,0 +1,75 @@
+apiVersion: bbtoc/v1alpha
+kind: Project
+# NOTE: Remove lines that are not applicable
+metadata:
+  # Sandbox: Name of the product to be evaluated
+  name: Mattermost
+
+  # Sandbox: Product vendor (opensource if no vendor)
+  vendor: Mattermost
+
+  # Sandbox: Short description of the product
+  description: Mattermost is a secure, open source platform for communication, collaboration, and workflow orchestration across tools and teams.
+
+  # Sandbox: URL(s) to product website for further information
+  website:
+  - https://mattermost.com/
+
+  # Sandbox: product source code repositories (e.g. github.com).  If not opensource, put "Proprietary"
+  sourceCode:
+  - https://github.com/mattermost/mattermost-server
+  - https://github.com/mattermost/mattermost-operator
+
+  # Sandbox: Product licenses (e.g. Apache 2.0, GPL 3.0, MIT, Proprietary).  Include both free and paid tiers if they exist.
+  license:
+  - MIT
+
+  # Maturity level of the package
+  maturityLevel: Graduated # Sandbox, Incubating, or Graduated
+
+  # Sandbox: Points of contact for project (at least 2)
+  contacts:
+  - name: Micah Nagel
+    repo1user: '@micah.nagel'
+  - name: Branden Cobb
+    repo1user: '@brandencobb'
+  - name: Jason Karause
+    repo1user: '@jasonkrause'
+
+spec:
+  # Sandbox: Package(s) contained in the product (e.g. operator and application).  Each package will have its own repository in repo1.
+  packages:
+
+  - name: Mattermost Operator
+    repository: https://repo1.dso.mil/platform-one/big-bang/apps/collaboration-tools/mattermost-operator
+    images:
+      - name: Operator
+        repository: https://repo1.dso.mil/dsop/opensource/mattermost/mattermost-operator
+        approval: https://ironbank.dso.mil/repomap/details;registry1Path=opensource%252Fmattermost%252Fmattermost-operator
+
+  - name: Mattermost
+    repository: https://repo1.dso.mil/platform-one/big-bang/apps/collaboration-tools/mattermost
+    images:
+      - name: Mattermost
+        repository: https://repo1.dso.mil/dsop/opensource/mattermost/mattermost-operator
+        approval: https://ironbank.dso.mil/repomap/details;registry1Path=opensource%252Fmattermost%252Fmattermost-operator
+
+    # Graduated: Links to required documentation
+    documentation:
+    - https://repo1.dso.mil/platform-one/big-bang/bigbang/-/blob/master/charter/packages/mattermost/Architecture.md
+    - https://repo1.dso.mil/platform-one/big-bang/bigbang/-/blob/master/charter/BigBangPackages.md#mattermost
+    - https://repo1.dso.mil/platform-one/big-bang/bigbang/-/blob/master/docs/guides/using-bigbang/default-credentials.md
+    - https://repo1.dso.mil/platform-one/big-bang/bigbang/-/blob/master/docs/understanding-bigbang/licensing-expectations.md
+    - https://repo1.dso.mil/platform-one/big-bang/bigbang/-/blob/master/docs/guides/prerequisites/minimum-hardware-requirements.md
+
+  # Name and date of required verifications (e.g. "John Doe, 7 Dec 2021")
+  signOffs:
+
+    # Sandbox: Verification of requirements
+    sandboxVerification: Michael McLeroy, 13 Jul 2022
+
+    # Incubating: Verification of requirements
+    incubatingVerification: Michael McLeroy, 13 Jul 2022
+
+    # Graduated: Verification of requirements
+    graduatedVerification: Michael McLeroy, 13 Jul 2022
