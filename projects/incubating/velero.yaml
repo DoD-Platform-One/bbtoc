@@ -1,0 +1,81 @@
+apiVersion: bbtoc/v1alpha
+kind: Project
+# NOTE: Remove lines that are not applicable
+metadata:
+  # Sandbox: Name of the product to be evaluated
+  name: Velero
+
+  # Sandbox: Product vendor (opensource if no vendor)
+  vendor: VMware
+
+  # Sandbox: Short description of the product
+  description: Velero is an open source tool to safely backup and restore, perform disaster recovery, and migrate Kubernetes cluster resources and persistent volumes.
+
+  # Sandbox: URL(s) to product website for further information
+  website:
+  - https://velero.io/
+
+  # Sandbox: product source code repositories (e.g. github.com).  If not opensource, put "Proprietary"
+  sourceCode:
+  - https://github.com/vmware-tanzu/velero
+
+  # Sandbox: Product licenses (e.g. Apache 2.0, GPL 3.0, MIT, Proprietary).  Include both free and paid tiers if they exist.
+  license:
+  - Apache 2.0
+
+  # Maturity level of the package
+  maturityLevel: Incubating # Sandbox, Incubating, or Graduated
+
+  # Sandbox: Points of contact for project (at least 2)
+  contacts:
+  - name: Micah Nagel
+    repo1user: '@micah.nagel'
+  - name: Tunde Oladipupo
+    repo1user: '@toladipupo'
+  - name: Riley O'Donnell
+    repo1user: '@riley.odonnell'
+  - name: Patrick Kelly
+    repo1user: '@snekcode'
+
+spec:
+  # Sandbox: Package(s) contained in the product (e.g. operator and application).  Each package will have its own repository in repo1.
+  packages:
+    # Sandbox: Name of the package
+  - name: Velero
+
+    # Sandbox: Big Bang repository (i.e. https://repo.dso.mil/platform-one/big-bang/apps/sandbox/<your project>)
+    repository: https://repo1.dso.mil/platform-one/big-bang/apps/cluster-utilities/velero
+
+    # Incubating: List of images contained in the package.
+    images:
+      - name: Velero
+        repository: https://repo1.dso.mil/dsop/opensource/velero/velero
+        approval: https://ironbank.dso.mil/repomap/details;registry1Path=opensource%252Fvelero%252Fvelero
+      - name: Plugin for CSI
+        repository: https://repo1.dso.mil/dsop/opensource/velero/velero-plugin-for-csi
+        approval: https://ironbank.dso.mil/repomap/details;registry1Path=opensource%252Fvelero%252Fvelero-plugin-for-csi
+      - name: Plugin for AWS
+        repository: https://repo1.dso.mil/dsop/opensource/velero/velero-plugin-for-aws
+        approval: https://ironbank.dso.mil/repomap/details;registry1Path=opensource%252Fvelero%252Fvelero-plugin-for-aws
+      - name: Plugin for Azure
+        repository: https://repo1.dso.mil/dsop/opensource/velero/velero-plugin-for-microsoft-azure
+        approval: https://ironbank.dso.mil/repomap/details;registry1Path=opensource%252Fvelero%252Fvelero-plugin-for-microsoft-azure
+
+    # Graduated: Links to required documentation
+    documentation:
+    # (MISSING) https://repo1.dso.mil/platform-one/big-bang/bigbang/-/blob/master/charter/packages
+    - https://repo1.dso.mil/platform-one/big-bang/bigbang/-/blob/master/charter/BigBangPackages.md#velero
+    - https://repo1.dso.mil/platform-one/big-bang/bigbang/-/blob/master/docs/understanding-bigbang/licensing-expectations.md
+    - https://repo1.dso.mil/platform-one/big-bang/bigbang/-/blob/master/docs/guides/prerequisites/minimum-hardware-requirements.md
+
+  # Name and date of required verifications (e.g. "John Doe, 7 Dec 2021")
+  signOffs:
+
+    # Sandbox: Verification of requirements
+    sandboxVerification: Michael McLeroy, 13 Jul 2022
+
+    # Incubating: Verification of requirements
+    incubatingVerification: Michael McLeroy, 13 Jul 2022
+
+    # Graduated: Verification of requirements
+    graduatedVerification: ""
