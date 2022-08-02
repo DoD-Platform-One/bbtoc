@@ -1,0 +1,93 @@
+apiVersion: bbtoc/v1alpha
+kind: Project
+# NOTE: Remove lines that are not applicable
+metadata:
+  # Sandbox: Name of the product to be evaluated
+  name: MinIO
+
+  # Sandbox: Product vendor (opensource if no vendor)
+  vendor: MinIO
+
+  # Sandbox: Short description of the product
+  description: MinIO is a High Performance Object Storage that is API compatible with Amazon S3 cloud storage service
+
+  # Sandbox: URL(s) to product website for further information
+  website:
+  - https://min.io/
+
+  # Sandbox: product source code repositories (e.g. github.com).  If not opensource, put "Proprietary"
+  sourceCode:
+  - https://github.com/minio/minio
+  - https://github.com/minio/operator
+
+  # Sandbox: Product licenses (e.g. Apache 2.0, GPL 3.0, MIT, Proprietary).  Include both free and paid tiers if they exist.
+  license:
+  - GNU Affero GPL 3.0
+
+  # Maturity level of the package
+  maturityLevel: Graduated # Sandbox, Incubating, or Graduated
+
+  # Sandbox: Points of contact for project (at least 2)
+  contacts:
+  - name: Lynn Still
+    repo1user: "@LynnStill"
+  - name: Branden Cobb
+    repo1user: "@brandencobb"
+  - name: Kevin Wilder
+    repo1user: "@kevin.wilder"
+
+spec:
+  # Sandbox: Package(s) contained in the product (e.g. operator and application).  Each package will have its own repository in repo1.
+  packages:
+    # Sandbox: Name of the package
+  - name: Operator
+
+    # Sandbox: Big Bang repository (i.e. https://repo.dso.mil/platform-one/big-bang/apps/sandbox/<your project>)
+    repository: https://repo1.dso.mil/platform-one/big-bang/apps/application-utilities/minio-operator
+
+    # Incubating: List of images contained in the package.
+    images:
+      # Incubating: Name of the image
+      - name: Operator
+
+        # Incubating: Iron Bank approval request (https://repo1.dso.mil/dsop/<your project>/-/issues/1)
+        repository: https://repo1.dso.mil/dsop/opensource/minio/minio-operator
+
+        # Graduated: Iron Bank approval URL (https://ironbank.dso.mil/repomap/details;registry1Path=<your project path>)
+        approval: https://ironbank.dso.mil/repomap/details;registry1Path=opensource%252Fminio%252Foperator
+
+  - name: Minio
+
+    # Sandbox: Big Bang repository (i.e. https://repo.dso.mil/platform-one/big-bang/apps/sandbox/<your project>)
+    repository: https://repo1.dso.mil/platform-one/big-bang/apps/application-utilities/minio
+
+    # Incubating: List of images contained in the package.
+    images:
+      # Incubating: Name of the image
+      - name: Minio
+
+        # Incubating: Iron Bank approval request (https://repo1.dso.mil/dsop/<your project>/-/issues/1)
+        repository: https://repo1.dso.mil/dsop/opensource/minio/minio
+
+        # Graduated: Iron Bank approval URL (https://ironbank.dso.mil/repomap/details;registry1Path=<your project path>)
+        approval: https://ironbank.dso.mil/repomap/details;registry1Path=opensource%252Fminio%252Fminio
+
+    # Graduated: Links to required documentation
+    documentation:
+    - https://repo1.dso.mil/platform-one/big-bang/bigbang/-/blob/master/charter/packages/minio/Architecture.md
+    - https://repo1.dso.mil/platform-one/big-bang/bigbang/-/blob/master/charter/BigBangPackages.md#minio
+    - https://repo1.dso.mil/platform-one/big-bang/bigbang/-/blob/master/docs/guides/using-bigbang/default-credentials.md
+    - https://repo1.dso.mil/platform-one/big-bang/bigbang/-/blob/master/docs/understanding-bigbang/licensing-expectations.md
+    - https://repo1.dso.mil/platform-one/big-bang/bigbang/-/blob/master/docs/guides/prerequisites/minimum-hardware-requirements.md
+
+  # Name and date of required verifications (e.g. "John Doe, 7 Dec 2021")
+  signOffs:
+
+    # Sandbox: Verification of requirements
+    sandboxVerification: Michael McLeroy, 13 Jul 2022
+
+    # Incubating: Verification of requirements
+    incubatingVerification: Michael McLeroy, 13 Jul 2022
+
+    # Graduated: Verification of requirements
+    graduatedVerification: Michael McLeroy, 13 Jul 2022
