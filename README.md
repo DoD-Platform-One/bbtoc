@@ -78,6 +78,7 @@ We readily welcome any and all community engagement!
 
 1. Join us for our [meetups](#meetups)
 2. Submit an [issue](https://repo1.dso.mil/platform-one/bbtoc/-/issues/new) for ideas, questions, feedback, etc...
+3. Join us in Mattermost in the [#topic---bbtoc](https://chat.il2.dso.mil/platform-one/channels/topic---bbtoc) channel on the [Platform One](https://chat.il2.dso.mil/platform-one) team in [IL2 Mattermost](https://chat.il2.dso.mil). If you need an invite to the Platform One team anyone in [this list](https://repo1.dso.mil/platform-one/bbtoc/-/graphs/master) should be able to send you one.
 
 ---
 
