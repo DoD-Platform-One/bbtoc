@@ -37,7 +37,7 @@ metadata:
   - name: "Kevinkumar Patel"
     repo1user: "kevinptl4"
   - name: "Allen Ji"
-    username: "aji"
+    username: "aji_sc"
 
 spec:
   # Sandbox: Package(s) contained in the product (e.g. operator and application).  Each package will have its own repository in repo1.
