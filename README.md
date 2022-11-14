@@ -11,26 +11,23 @@ Chief Objectives:
 - We exist to connect and collaborate, not gate keep and control
 - We are not a standards body, nor do we influence funding of various efforts
 
+## Chairmembers
+
+- Maj Camdon Cady, @camdon.cady, Platform One (appointed Sept 2022)
+- Jeff McLamb, @mclamb, MIT/LL (appointed Sept 2022)
+
 ## Members
 
-- Phillip Record, @phillip.record, "I'm just Phillip"
-- Matt Huston, @matthew.huston , CISO of Platform One
-- Andrew Greene**, @andrew.greene, Party Bus Anchor Engineer
-- Blake Burkhart, @blake.burkhart, Iron Bank
 - Chad Elkins, @celkins, CNAP Anchor
-- Gabe Scarberry, @gabe,  Big Bang PM
 - Barak Stout, @barakstout1, Raft
 - Anthony Butt, @anthony.butt, GBSD/CSE-Corp
 - Ian Dunbar-Hall, @idunbarh, LM Software Factory Chief Engineer
-- Maj Camdon Cady, @camdon.cady, Platform One
-- Jeff McLamb, @mclamb, MIT/LL
-- Maj James "Tag" Sterling, @jwsterling, DAF Rapid Capabilities Office
 - David Krupa, @david-bl, Black Label - LevelUP - BrainGu
 - Hitesh Sharma, @hsharma, SpaceCAMP - MXS - Raft
 
-** Current BBTOC Chair, appointed July 2021
+** BBTOC Voting Member
 
-** How and why do these members exist? [governance](policy/governance.md)
+How and why do these members exist? [governance](policy/governance.md)
 
 ## Meetups
 
