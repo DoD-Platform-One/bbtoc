@@ -18,12 +18,9 @@ Chief Objectives:
 
 ## Members
 
-- Chad Elkins, @celkins, CNAP Anchor
 - Barak Stout, @barakstout1, Raft
 - Anthony Butt, @anthony.butt, GBSD/CSE-Corp
 - Ian Dunbar-Hall, @idunbarh, LM Software Factory Chief Engineer
-- David Krupa, @david-bl, Black Label - LevelUP - BrainGu
-- Hitesh Sharma, @hsharma, SpaceCAMP - MXS - Raft
 
 ** BBTOC Voting Member
 
@@ -67,7 +64,6 @@ Join Us! The TOC meets the first and third Tuesday each month at 1200 MST
     └── sandbox         <<< Sandbox projects
 └── sigs                <<< Special Interest Groups
 ```
-
 
 ## Contribute
 

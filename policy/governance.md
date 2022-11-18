@@ -15,7 +15,7 @@ All members must adhere and agree to the following:
 ### Roles
 
 - Chair: up to two appointed member(s) will be nominated and designated chair/co-chair for a 6 month duration. The chair/co-chair is responsible for keeping the ship afloat, hosting meetings, keeping minutes, timeboxing, agenda, backlog management, etc...
-- Voting Members: DoD employee or appointed individual representing a DoD project/program office who retain voting privileges to assist with Big Bang Team's backlog prioritization
+- Voting Members: DoD employee or appointed individual representing a DoD project/program office who retain voting privileges on SIG creation, member nominations, package promotion, and Big Bang Backlog Prioritization
 - Shepherd: for each proposed project a shepherd will be assigned. The shepherd is responsible for supporting projects engagement and interaction with the TOC, to include ensuring consistent and correct submissions, answering questions, and bringing topics before the TOC when appropriate; but is not responsible for the success of the project.
 
 ## Issue Management
