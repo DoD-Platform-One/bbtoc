@@ -1,7 +1,5 @@
+# CODEOWNERS
+* @ryan.thompson.44 @barakstout1 @anthony.butt @idunbarh @camdon.cady @mclamb
 
-CODEOWNERS @phillip.record @matthew.huston @andrew.greene @blake.burkhart @celkins @gabe @barakstout1 @anthony.butt @idunbarh @zayd.ma @camdon.cady @mclamb @jwsterling @david-bl @hsharma
-
-**/* @root
-
-# Meetings, Agenda, Minutes are owned by the current TOC Chair
-meetings/** @andrew.greene 
+# Meetings, Agenda, Minutes are owned by the current TOC Chair(s)
+/meetings/ @camdon.cady @mclamb
