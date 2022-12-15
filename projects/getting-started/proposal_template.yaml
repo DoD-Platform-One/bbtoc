@@ -39,7 +39,7 @@ spec:
     # Sandbox: Name of the package
   - name: ""
 
-    # Sandbox: Big Bang repository (i.e. https://repo.dso.mil/platform-one/big-bang/apps/sandbox/<your project>)
+    # Sandbox: Big Bang repository (i.e. https://repo1.dso.mil/platform-one/big-bang/apps/sandbox/<your project>)
     repository: ""
 
     # Incubating: List of images contained in the package.

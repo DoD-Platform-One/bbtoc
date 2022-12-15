@@ -37,7 +37,7 @@ metadata:
   - name: "Kevinkumar Patel"
     repo1user: "kevinptl4"
   - name: "Allen Ji"
-    username: "Ji""
+    username: "Ji"
 
 spec:
   # Sandbox: Package(s) contained in the product (e.g. operator and application).  Each package will have its own repository in repo1.
@@ -45,8 +45,8 @@ spec:
     # Sandbox: Name of the package
   - name: "sdelements"
 
-    # Sandbox: Big Bang repository (i.e. https://repo.dso.mil/platform-one/big-bang/apps/sandbox/<your project>)
-    repository: "https://repo.dso.mil/platform-one/big-bang/apps/sandbox/sdelements"
+    # Sandbox: Big Bang repository (i.e. https://repo1.dso.mil/platform-one/big-bang/apps/sandbox/<your project>)
+    repository: "https://repo1.dso.mil/platform-one/big-bang/apps/sandbox/sdelements"
 
     # Incubating: List of images contained in the package.
     images:
@@ -66,7 +66,7 @@ spec:
   signOffs:
 
     # Sandbox: Verification of requirements
-    sandboxVerification: "Michael McLeroy, 15 Nov 2022"
+    sandboxVerification: "Ian Dunbar-Hall, 15 Dec 2022"
 
     # Incubating: Verification of requirements
     incubatingVerification: ""
