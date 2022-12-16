@@ -3,44 +3,50 @@ kind: Project
 # NOTE: Remove lines that are not applicable
 metadata:
   # Sandbox: Name of the product to be evaluated
-  name: ""
+  name: "SDElements"
 
   # Sandbox: Product vendor (opensource if no vendor)
-  vendor: ""
+  vendor: "Security Compass"
 
   # Sandbox: Short description of the product
-  description: ""
+  description: "Risk assessment, threat modeling and secure coding platform"
 
   # Sandbox: URL(s) to product website for further information
   website:
-  - ""
+  - "https://www.securitycompass.com/sdelements/"
 
   # Sandbox: product source code repositories (e.g. github.com).  If not opensource, put "Proprietary"
   sourceCode:
-  - ""
+  - "Proprietary"
 
   # Sandbox: Product licenses (e.g. Apache 2.0, GPL 3.0, MIT, Proprietary).  Include both free and paid tiers if they exist.
   license:
-  - ""
+  - "Proprietary"
 
   # Maturity level of the package
   maturityLevel: Sandbox # Sandbox, Incubating, or Graduated
 
   # Sandbox: Points of contact for project (at least 2)
   contacts:
-  - name: ""
-    repo1user: ""
-  - name: ""
-    repo1user: ""
+  - name: "Hrdayesh Patel"
+    repo1user: "hpatel"
+  - name: "Matthew Chum"
+    repo1user: "mchum"
+  - name: "Adam Gilbert"
+    repo1user: "agilbert"
+  - name: "Kevinkumar Patel"
+    repo1user: "kevinptl4"
+  - name: "Allen Ji"
+    username: "Ji"
 
 spec:
   # Sandbox: Package(s) contained in the product (e.g. operator and application).  Each package will have its own repository in repo1.
   packages:
     # Sandbox: Name of the package
-  - name: ""
+  - name: "sdelements"
 
     # Sandbox: Big Bang repository (i.e. https://repo1.dso.mil/platform-one/big-bang/apps/sandbox/<your project>)
-    repository: ""
+    repository: "https://repo1.dso.mil/platform-one/big-bang/apps/sandbox/sdelements"
 
     # Incubating: List of images contained in the package.
     images:
@@ -60,7 +66,7 @@ spec:
   signOffs:
 
     # Sandbox: Verification of requirements
-    sandboxVerification: ""
+    sandboxVerification: "Ian Dunbar-Hall, 15 Dec 2022"
 
     # Incubating: Verification of requirements
     incubatingVerification: ""
