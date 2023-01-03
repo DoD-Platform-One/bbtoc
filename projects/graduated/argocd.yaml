@@ -24,7 +24,7 @@ metadata:
   - Apache 2.0
 
   # Maturity level of the package
-  maturityLevel: Incubating # Sandbox, Incubating, or Graduated
+  maturityLevel: Graduated # Sandbox, Incubating, or Graduated
 
   # Sandbox: Points of contact for project (at least 2)
   contacts:
@@ -52,11 +52,11 @@ spec:
 
     # Graduated: Links to required documentation
     documentation:
-    # (MISSING) https://repo1.dso.mil/platform-one/big-bang/bigbang/-/blob/master/charter/packages/
-    - https://repo1.dso.mil/platform-one/big-bang/bigbang/-/blob/master/charter/BigBangPackages.md#argocd
+    - https://repo1.dso.mil/platform-one/big-bang/bigbang/-/blob/master/docs/understanding-bigbang/package-architecture/argocd.md
+    - https://repo1.dso.mil/platform-one/big-bang/bigbang/-/blob/master/docs/packages.md#cluster-utilities
     - https://repo1.dso.mil/platform-one/big-bang/bigbang/-/blob/master/docs/guides/using-bigbang/default-credentials.md
-    - https://repo1.dso.mil/platform-one/big-bang/bigbang/-/blob/master/docs/understanding-bigbang/licensing-expectations.md
-    - https://repo1.dso.mil/platform-one/big-bang/bigbang/-/blob/master/docs/guides/prerequisites/minimum-hardware-requirements.md
+    - https://repo1.dso.mil/platform-one/big-bang/bigbang/-/blob/master/docs/understanding-bigbang/licensing-model.md
+    - https://repo1.dso.mil/platform-one/big-bang/bigbang/-/blob/master/docs/prerequisites/minimum-hardware-requirements.md
 
   # Name and date of required verifications (e.g. "John Doe, 7 Dec 2021")
   signOffs:
@@ -68,5 +68,4 @@ spec:
     incubatingVerification: Michael McLeroy, 13 Jul 2022
 
     # Graduated: Verification of requirements
-    # Only missing architecture doc
-    graduatedVerification: ""
+    graduatedVerification: Michael McLeroy, 03 Jan 2023
