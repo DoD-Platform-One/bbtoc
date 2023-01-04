@@ -25,7 +25,7 @@ metadata:
   - Apache 2.0
 
   # Maturity level of the package
-  maturityLevel: Sandbox # Sandbox, Incubating, or Graduated
+  maturityLevel: Incubating # Sandbox, Incubating, or Graduated
 
   # Sandbox: Points of contact for project (at least 2)
   contacts:
@@ -53,10 +53,10 @@ spec:
 
     # Graduated: Links to required documentation
     documentation:
-    - https://repo1.dso.mil/platform-one/big-bang/bigbang/-/blob/master/charter/packages/loki/Architecture.md
-    # (MISSING) https://repo1.dso.mil/platform-one/big-bang/bigbang/-/blob/master/charter/BigBangPackages.md
-    # (MISSING) https://repo1.dso.mil/platform-one/big-bang/bigbang/-/blob/master/docs/understanding-bigbang/licensing-expectations.md
-    # (MISSING) https://repo1.dso.mil/platform-one/big-bang/bigbang/-/blob/master/docs/guides/prerequisites/minimum-hardware-requirements.md
+    - https://repo1.dso.mil/platform-one/big-bang/bigbang/-/blob/master/docs/understanding-bigbang/package-architecture/promtail.md
+    - https://repo1.dso.mil/platform-one/big-bang/bigbang/-/blob/master/docs/packages.md#core
+    # - (MISSING) https://repo1.dso.mil/platform-one/big-bang/bigbang/-/blob/master/docs/understanding-bigbang/licensing-model.md
+    # - (MISSING) https://repo1.dso.mil/platform-one/big-bang/bigbang/-/blob/master/docs/prerequisites/minimum-hardware-requirements.md
 
   # Name and date of required verifications (e.g. "John Doe, 7 Dec 2021")
   signOffs:
@@ -65,7 +65,7 @@ spec:
     sandboxVerification: Michael McLeroy, 13 Jul 2022
 
     # Incubating: Verification of requirements
-    incubatingVerification: ""
+    incubatingVerification: Michael McLeroy, 4 Jan 2023
 
     # Graduated: Verification of requirements
     graduatedVerification: ""
