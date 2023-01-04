@@ -24,7 +24,7 @@ metadata:
   - Apache 2.0
 
   # Maturity level of the package
-  maturityLevel: Incubating # Sandbox, Incubating, or Graduated
+  maturityLevel: Graduated # Sandbox, Incubating, or Graduated
 
   # Sandbox: Points of contact for project (at least 2)
   contacts:
