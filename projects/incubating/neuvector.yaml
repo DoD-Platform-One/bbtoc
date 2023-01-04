@@ -1,0 +1,84 @@
+apiVersion: bbtoc/v1alpha
+kind: Project
+# NOTE: Remove lines that are not applicable
+metadata:
+  # Sandbox: Name of the product to be evaluated
+  name: NeuVector
+
+  # Sandbox: Product vendor (opensource if no vendor)
+  vendor: Suse
+
+  # Sandbox: Short description of the product
+  description: "Runtime security"
+
+  # Sandbox: URL(s) to product website for further information
+  website:
+  - "https://neuvector.com/"
+
+  # Sandbox: product source code repositories (e.g. github.com).  If not opensource, put "Proprietary"
+  sourceCode:
+  - "https://github.com/neuvector/neuvector"
+  - "https://github.com/neuvector/neuvector-helm"
+
+  # Sandbox: Product licenses (e.g. Apache 2.0, GPL 3.0, MIT, Proprietary).  Include both free and paid tiers if they exist.
+  license:
+  - "Apache 2.0"
+
+  # Sandbox: Value the product brings to the Big Bang community
+  purpose: "Open Source Runtime Security"
+
+  # Maturity level of the package
+  maturityLevel: Incubating # Sandbox, Incubating, or Graduated
+
+  # Sandbox: Points of contact for project (at least 2)
+  contacts:
+  - name: Michael McLeroy
+    repo1user: michaelmcleroy
+  - name: Micah Nagel
+    repo1user: micah.nagel
+  - name: Dave Vigil
+    repo1user: davevigil
+
+spec:
+  # Sandbox: Package(s) contained in the product (e.g. operator and application).  Each package will have its own repository in repo1.
+  packages:
+    # Sandbox: Name of the package
+  - name: "Neuvector"
+
+    # Sandbox: Big Bang repository (i.e. https://repo.dso.mil/platform-one/big-bang/apps/sandbox/<your project>)
+    repository: "https://repo1.dso.mil/platform-one/big-bang/apps/sandbox/neuvector"
+
+    # Incubating: List of images contained in the package.
+    images:
+      - name: controller
+        repository: https://repo1.dso.mil/dsop/neuvector/neuvector/controller
+        approval: https://ironbank.dso.mil/repomap/details;registry1Path=neuvector%252Fneuvector%252Fcontroller
+      - name: enforcer
+        repository: https://repo1.dso.mil/dsop/neuvector/neuvector/enforcer
+        approval: https://ironbank.dso.mil/repomap/details;registry1Path=neuvector%252Fneuvector%252Fenforcer
+      - name: manager
+        repository: https://repo1.dso.mil/dsop/neuvector/neuvector/manager
+        approval: https://ironbank.dso.mil/repomap/details;registry1Path=neuvector%252Fneuvector%252Fmanager
+      - name: scanner
+        repository: https://repo1.dso.mil/dsop/neuvector/neuvector/scanner
+        approval: https://ironbank.dso.mil/repomap/details;registry1Path=neuvector%252Fneuvector%252Fscanner
+
+    # Graduated: Links to required documentation
+    documentation: []
+    # - (MISSING) https://repo1.dso.mil/platform-one/big-bang/bigbang/-/blob/master/docs/understanding-bigbang/package-architecture/
+    # - (MISSING) https://repo1.dso.mil/platform-one/big-bang/bigbang/-/blob/master/docs/packages.md
+    # - (MISSING) https://repo1.dso.mil/platform-one/big-bang/bigbang/-/blob/master/docs/guides/using-bigbang/default-credentials.md
+    # - (MISSING) https://repo1.dso.mil/platform-one/big-bang/bigbang/-/blob/master/docs/understanding-bigbang/licensing-model.md
+    # - (MISSING) https://repo1.dso.mil/platform-one/big-bang/bigbang/-/blob/master/docs/prerequisites/minimum-hardware-requirements.md
+
+  # Name and date of required verifications (e.g. "John Doe, 7 Dec 2021")
+  signOffs:
+
+    # Sandbox: Verification of requirements
+    sandboxVerification: Andrew Greene, 15 Mar 2022
+
+    # Incubating: Verification of requirements
+    incubatingVerification: Michael McLeroy, 4 Jan 2023
+
+    # Graduated: Verification of requirements
+    graduatedVerification: ""
