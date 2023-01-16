@@ -27,7 +27,7 @@ SIGs will remain active until voluntarely dissolved or are removed by the BBTOC.
 
 ### Active BBTOC SIGs
 
-There are no currently active SIGs.
+[Security SIG](./active%20sigs/Security%20SIG.md)
 
 ### Archived BBTOC SIGs
 
