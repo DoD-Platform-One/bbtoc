@@ -1,7 +1,7 @@
 # Security SIG
 
 - Focus: Security. Initially security isolation
-- Chairperson: Blake Burkhart (@blake.burkhart.2)
+- Chairperson: Blake Burkhart (@blake.burkhart)
 - Meeting Schedule: TBD
 - Meeting Link: TBD
 
