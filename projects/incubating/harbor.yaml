@@ -42,7 +42,7 @@ spec:
   - name: harbor
 
     # Sandbox: Big Bang repository (i.e. https://repo.dso.mil/platform-one/big-bang/apps/sandbox/<your project>)
-    repository: harbor
+    repository: "https://repo1.dso.mil/platform-one/big-bang/apps/sandbox/harbor"
 
     # Incubating: List of images contained in the package.
     images:
