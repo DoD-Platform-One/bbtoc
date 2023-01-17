@@ -26,7 +26,7 @@ metadata:
   - MIT License
 
   # Maturity level of the package
-  maturityLevel: Incubating # Sandbox, Incubating, or Graduated
+  maturityLevel: Graduated # Sandbox, Incubating, or Graduated
 
   # Sandbox: Points of contact for project (at least 2)
   contacts:
@@ -56,7 +56,7 @@ spec:
         approval: https://ironbank.dso.mil/repomap/details;registry1Path=nirmata%252Fkyvernopre
   - name: Kyverno Policies
     repository: https://repo1.dso.mil/platform-one/big-bang/apps/sandbox/kyverno-policies
-    image: []
+    images: [] # No images used
   - name: Kyverno Reporter
     repository: https://repo1.dso.mil/platform-one/big-bang/apps/sandbox/kyverno-reporter
     images:
@@ -66,10 +66,10 @@ spec:
 
     # Graduated: Links to required documentation
     documentation:
-    - https://repo1.dso.mil/platform-one/big-bang/bigbang/-/blob/master/charter/packages/kyverno/Architecture.md
-    - https://repo1.dso.mil/platform-one/big-bang/bigbang/-/blob/master/charter/BigBangPackages.md#kyverno
-    - https://repo1.dso.mil/platform-one/big-bang/bigbang/-/blob/master/docs/understanding-bigbang/licensing-expectations.md
-    - (MISSING) https://repo1.dso.mil/platform-one/big-bang/bigbang/-/blob/master/docs/guides/prerequisites/minimum-hardware-requirements.md
+    - https://repo1.dso.mil/platform-one/big-bang/bigbang/-/blob/master/docs/understanding-bigbang/package-architecture/kyverno.md
+    - https://repo1.dso.mil/platform-one/big-bang/bigbang/-/blob/master/docs/packages.md
+    - https://repo1.dso.mil/platform-one/big-bang/bigbang/-/blob/master/docs/understanding-bigbang/licensing-model.md
+    - https://repo1.dso.mil/platform-one/big-bang/bigbang/-/blob/master/docs/prerequisites/minimum-hardware-requirements.md
 
   # Name and date of required verifications (e.g. "John Doe, 7 Dec 2021")
   signOffs:
@@ -81,5 +81,4 @@ spec:
     incubatingVerification: Michael McLeroy, 12 Jul 2022
 
     # Graduated: Verification of requirements
-    graduatedVerification: ""
-    # Items missing: Monitoring integration using Kyverno Reporter
+    graduatedVerification: Michael McLeroy, 03 Jan 2022
