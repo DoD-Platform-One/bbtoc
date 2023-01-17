@@ -1,0 +1,104 @@
+apiVersion: bbtoc/v1alpha
+kind: Project
+metadata:
+  # Sandbox: Name of the product to be evaluated
+  name: Harbor
+
+  # Sandbox: Product vendor (opensource if no vendor)
+  vendor: opensource - CNCF Graduated
+
+  # Sandbox: Short description of the product
+  description: Open source registry that secures artifacts with policies and role-based access control, ensures images are scanned and free from vulnerabilities, and signs images as trusted
+
+  # Sandbox: URL(s) to product website for further information
+  website:
+  - https://goharbor.io/
+
+  # Sandbox: product source code repositories (e.g. github.com).  If not opensource, put "Proprietary"
+  sourceCode:
+  - https://github.com/goharbor/harbor
+
+  # Sandbox: Product licenses (e.g. Apache 2.0, GPL 3.0, MIT, Proprietary).  Include both free and paid tiers if they exist.
+  license:
+  - Apache 2.0
+
+  # Sandbox: Value the product brings to the Big Bang community
+  purpose: Provide an alternative, low-cost image registry solution.  Officially support current solution used by Platform One's Iron Bank.
+
+  # Maturity level of the package
+  maturityLevel: Incubating # Sandbox, Incubating, or Graduated
+
+  # Sandbox: Points of contact for project (at least 2)
+  contacts:
+  - name: Michael McLeroy
+    repo1user: michaelmcleroy
+  - name: Ariel Shnitzer
+    repo1user: ariel.shnitzer
+
+spec:
+  # Sandbox: Package(s) contained in the product (e.g. operator and application).  Each package will have its own repository in repo1.
+  packages:
+    # Sandbox: Name of the package
+  - name: harbor
+
+    # Sandbox: Big Bang repository (i.e. https://repo.dso.mil/platform-one/big-bang/apps/sandbox/<your project>)
+    repository: "https://repo1.dso.mil/platform-one/big-bang/apps/sandbox/harbor"
+
+    # Incubating: List of images contained in the package.
+    images:
+      - name: Chart Museum
+        repository: https://repo1.dso.mil/dsop/opensource/goharbor/chartmuseum
+        approval: https://ironbank.dso.mil/repomap/details;registry1Path=opensource%252Fgoharbor%252Fchartmuseum
+      - name: Harbor Core
+        repository: https://repo1.dso.mil/dsop/opensource/goharbor/harbor-core
+        approval: https://ironbank.dso.mil/repomap/details;registry1Path=opensource%252Fgoharbor%252Fharbor-core?page=1&sort=1
+      - name: Harbor Database
+        repository: https://repo1.dso.mil/dsop/opensource/goharbor/harbor-db
+        approval: https://ironbank.dso.mil/repomap/details;registry1Path=opensource%252Fgoharbor%252Fharbor-db
+      - name: Harbor Exporter
+        repository: https://repo1.dso.mil/dsop/opensource/goharbor/harbor-exporter
+        approval: https://ironbank.dso.mil/repomap/details;registry1Path=opensource%252Fgoharbor%252Fharbor-exporter
+      - name: Harbor Job Service
+        repository: https://repo1.dso.mil/dsop/opensource/goharbor/harbor-jobservice
+        approval: https://ironbank.dso.mil/repomap/details;registry1Path=opensource%252Fgoharbor%252Fharbor-jobservice?page=1&sort=1
+      - name: Harbor Log
+        repository: https://repo1.dso.mil/dsop/opensource/goharbor/harbor-log
+        approval: https://ironbank.dso.mil/repomap/details;registry1Path=opensource%252Fgoharbor%252Fharbor-log?page=1&sort=1
+      - name: Harbor Portal
+        repository: https://repo1.dso.mil/dsop/opensource/goharbor/harbor-portal
+        approval: https://ironbank.dso.mil/repomap/details;registry1Path=opensource%252Fgoharbor%252Fharbor-portal
+      - name: Haror Registry Control
+        repository: https://repo1.dso.mil/dsop/opensource/goharbor/harbor-registryctl
+        approval: https://ironbank.dso.mil/repomap/details;registry1Path=opensource%252Fgoharbor%252Fharbor-registryctl
+      - name: Notary Server
+        repository: https://repo1.dso.mil/dsop/opensource/goharbor/notary-server
+        approval: https://ironbank.dso.mil/repomap/details;registry1Path=opensource%252Fgoharbor%252Fnotary-server
+      - name: Notary Signer
+        repository: https://repo1.dso.mil/dsop/opensource/goharbor/notary-signer
+        approval: https://ironbank.dso.mil/repomap/details;registry1Path=opensource%252Fgoharbor%252Fnotary-signer?page=1&sort=1
+      - name: Registry
+        repository: https://repo1.dso.mil/dsop/opensource/goharbor/registry
+        approval: https://ironbank.dso.mil/repomap/details;registry1Path=opensource%252Fgoharbor%252Fregistry
+      - name: Trivy Adapter
+        repository: https://repo1.dso.mil/dsop/opensource/goharbor/trivy-adapter
+        approval: https://ironbank.dso.mil/repomap/details;registry1Path=opensource%252Fgoharbor%252Ftrivy-adapter?page=1&sort=1
+
+    # Graduated: Links to required documentation
+    documentation: []
+    # - (MISSING) https://repo1.dso.mil/platform-one/big-bang/bigbang/-/blob/master/docs/understanding-bigbang/package-architecture/
+    # - (MISSING) https://repo1.dso.mil/platform-one/big-bang/bigbang/-/blob/master/docs/packages.md
+    # - (MISSING) https://repo1.dso.mil/platform-one/big-bang/bigbang/-/blob/master/docs/guides/using-bigbang/default-credentials.md
+    # - (MISSING) https://repo1.dso.mil/platform-one/big-bang/bigbang/-/blob/master/docs/understanding-bigbang/licensing-model.md
+    # - (MISSING) https://repo1.dso.mil/platform-one/big-bang/bigbang/-/blob/master/docs/prerequisites/minimum-hardware-requirements.md
+
+  # Name and date of required verifications (e.g. "John Doe, 7 Dec 2021")
+  signOffs:
+
+    # Sandbox: Verification of requirements
+    sandboxVerification: Michael McLeroy, 31 Jan 2022
+
+    # Incubating: Verification of requirements
+    incubatingVerification: Michael McLeroy, 4 Jan 2023
+
+    # Graduated: Verification of requirements
+    graduatedVerification: ""
