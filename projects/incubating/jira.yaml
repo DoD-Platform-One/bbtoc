@@ -27,7 +27,7 @@ metadata:
   purpose: "Issue Tracking, Collaboration"
 
   # Maturity level of the package
-  maturityLevel: Sandbox # Sandbox, Incubating, or Graduated
+  maturityLevel: Incubating # Sandbox, Incubating, or Graduated
 
   # Sandbox: Points of contact for project (at least 2)
   contacts:
@@ -52,38 +52,22 @@ spec:
     # Incubating: List of images contained in the package.
     images:
     # Incubating: Name of the image
-    - name: "registry1.dso.mil/ironbank/atlassian/jira-data-center/jira-node"
-
-      # Incubating: Iron Bank approval request (https://repo1.dso.mil/dsop/<your project>/-/issues/1)
-      repository: "https://repo1.dso.mil/dsop/atlassian/jira-data-center/jira-node/-/issues/24"
-
-      # Graduated: Iron Bank approval URL (https://ironbank.dso.mil/repomap/details;registry1Path=<your project path>)
-      approval: "https://ironbank.dso.mil/repomap/details;registry1Path=atlassian%252Fjira-data-center%252Fjira-node?page=1&sort=1"
+    - name: Jira Node
+      repository: https://repo1.dso.mil/dsop/atlassian/jira-data-center/jira-node/
+      approval: https://ironbank.dso.mil/repomap/details;registry1Path=atlassian%252Fjira-data-center%252Fjira-node?page=1&sort=1
 
     # Graduated: Links to required documentation
-    documentation: 
+    documentation:
     - "https://repo1.dso.mil/platform-one/big-bang/apps/third-party/jira/-/tree/main/docs"
 
   # Name and date of required verifications (e.g. "John Doe, 7 Dec 2021")
   signOffs:
 
-    # Sandbox: Verify required files (e.g. license, codeowners, contributors) in git repository
-    requiredFiles: "Ian Dunbar-Hall, 2 Feb 2022"
-    
-    # Sandbox: Demonstrable product
-    productDemonstration: "Ian Dunbar-Hall, 2 Feb 2022"
+    # Sandbox: Verification of requirements
+    sandboxVerification: Ian Dunbar-Hall, 2 Feb 2022
 
-    # Incubating: demonstrated support through contributions and feature releases
-    committedSupport: ""
+    # Incubating: Verification of requirements
+    incubatingVerification: Michael McLeroy, 4 Jan 2023
 
-    # Graduated: Full Big Bang implementation
-    bigbangImplementation: ""
-
-    # Graduated: Deployable against documented use cases
-    productDeployable: ""
-
-    # Graduated: Security support documentation
-    securityDocs: ""
-
-    # Graduated: Cyber security review and penetration testing
-    cybersecurity: ""
+    # Graduated: Verification of requirements
+    graduatedVerification: ""
