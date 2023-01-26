@@ -28,7 +28,9 @@ How and why do these members exist? [governance](policy/governance.md)
 
 ## Meetups
 
-Join Us! The TOC meets the first and third Tuesday each month at 1200 MST  
+Join Us! The TOC meets the first and third Tuesday each month at 1200 MST
+
+Please join the [BBTOC mailing list](https://mailman.mit.edu/mailman/listinfo/bbtoc) to receive official calendar invites (and cancelations) to meetings. You can also import the ICS below, however it will not be updated if announcements or changes are made.
 
 [Calendar Import (*.ics)](meetings/BBTOC.ics)
 
@@ -69,9 +71,10 @@ Join Us! The TOC meets the first and third Tuesday each month at 1200 MST
 
 We readily welcome any and all community engagement!
 
-1. Join us for our [meetups](#meetups)
-2. Submit an [issue](https://repo1.dso.mil/platform-one/bbtoc/-/issues/new) for ideas, questions, feedback, etc...
-3. Join us in Mattermost in the [#topic---bbtoc](https://chat.il2.dso.mil/platform-one/channels/topic---bbtoc) channel on the [Platform One](https://chat.il2.dso.mil/platform-one) team in [IL2 Mattermost](https://chat.il2.dso.mil). If you need an invite to the Platform One team anyone in [this list](https://repo1.dso.mil/platform-one/bbtoc/-/graphs/master) should be able to send you one.
+1. Subscribe to the [BBTOC mailing list](https://mailman.mit.edu/mailman/listinfo/bbtoc) 
+2. Join us for our [meetups](#meetups)
+3. Submit an [issue](https://repo1.dso.mil/platform-one/bbtoc/-/issues/new) for ideas, questions, feedback, etc...
+4. Join us in Mattermost in the [#topic---bbtoc](https://chat.il2.dso.mil/platform-one/channels/topic---bbtoc) channel on the [Platform One](https://chat.il2.dso.mil/platform-one) team in [IL2 Mattermost](https://chat.il2.dso.mil). If you need an invite to the Platform One team anyone in [this list](https://repo1.dso.mil/platform-one/bbtoc/-/graphs/master) should be able to send you one.
 
 ---
 
