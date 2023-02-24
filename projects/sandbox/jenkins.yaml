@@ -1,0 +1,27 @@
+apiVersion: bbtoc/v1alpha
+kind: Project
+metadata:
+  name: "Jenkins"
+  vendor: "opensource"
+  description: "The leading open source automation server, Jenkins provides hundreds of plugins to support building, deploying and automating any project."
+  website:
+  - "https://www.jenkins.io/"
+  sourceCode:
+  - "https://github.com/jenkinsci/jenkins"
+  license:
+  - "MIT"
+  maturityLevel: Sandbox # Sandbox, Incubating, or Graduated
+  contacts:
+  - name: "Branden Cobb"
+    repo1user: "@BrandenCobb"
+  - name: "Evan Rush"
+    repo1user: "@evan.rush"
+spec:
+  packages:
+  - name: "Jenkins"
+    repository: "https://repo1.dso.mil/platform-one/big-bang/apps/sandbox/jenkins"
+    images:
+      - name: "jenkins-lts"
+        repository: "https://repo1.dso.mil/dsop/opensource/jenkins/jenkins-lts/-/issues/1"
+  signOffs:
+    sandboxVerification: ""
