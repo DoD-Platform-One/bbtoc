@@ -1,0 +1,117 @@
+# BB TOC Security SIG 2022-02-28 Meeting Notes
+
+### Discussed security runtimes/sandboxes/isolation
+
+* **[Kata Containers](https://katacontainers.io/)**
+    * Creates micro VMs for each container
+    * Supports multiple hypervisors:
+        * Dragonball
+        * Cloud Hypervisor
+        * Firecracker
+        * QEMU
+    * Uses VMs, so requires bare metal or nested virtualization
+    * May have a fixed resource overhead (requires x amount of RAM, and x vCPUs), but may be very fast at runtime
+    * Blake Burkhart reviewed "kata-deploy" which is a DaemonSet for installing Kata Containers onto nodes. If we use Kata Containers, it would need to become an IB image and BB package.
+* **[gVisor](https://gvisor.dev/)**
+    * May have lower fixed overhead, but will have a percentage speed penalty on any syscall
+    * Does not use VMs, no host requirements
+    * This week, Google added a new "systrap" mode to gVisor. This may be much faster and lower CPU overhead than the older ptrace based mode. https://github.com/google/gvisor/pull/8571
+* **[KubeVirt](https://kubevirt.io/)**
+    * Runs VMs, not containers. But should also provide security isolation. Needs review for using it as a security boundary
+* **[sysbox](https://github.com/nestybox/sysbox)**
+    * Don't know much about it. Not VMs. Maybe closer to gVisor. Should provide more isolation than a standard container, while also allowing more privileged operations inside the container.
+
+### Notes on IL5 AWS Dedicated Tenancy + VMs Requiring Virtualization (AWS Metal Instances)
+
+Standard AWS EC2 instances do not support nested virtualization. AWS "metal" instances do allow virtualization (they're usually very large instances because you get the whole machine)
+
+There is an IL5 requirement for using Dedicated Tenancy EC2 instances in AWS: https://d0.awsstatic.com/whitepapers/compliance/AWS_DOD_CSM_Reference_Architecture.pdf
+
+> The AWS services that require dedicated tenancy are EC2, Elastic MapReduce, Elastic Beanstalk, Amazon WorkSpaces, Elastic Kubernetes Service without Fargate, and Elastic Container Service without AWS Fargate.
+
+There is a price premium for Dedicated Tenancy VMs, because AWS dedicates an entire machine to your EC2 instances (if you have multiple EC2 instances, they might share hardware however).
+
+**However, there appears to be no price difference between dedicated and non-dedicated _metal_ EC2 instances.** If a user already has IL5 as a requirement, and can consolidate their cluster into fewer but larger metal instances, the price premium may be avoided. Also, you can then run VMs on your instances.
+
+### Discussed node isolation
+
+Instead of isolating each Pod, a tenant could be isolated to a Node. This requires the Node to be a security boundary. This needs review of all RBAC policies and DaemonSets on each node, to ensure they don't provide a method for lateral movement. This is also good overall hardening of the Kubernetes cluster.
+
+* [rbac-tool](https://github.com/alcideio/rbac-tool) is a tool for visualizing RBAC policies 
+* [kube-hunter](https://github.com/aquasecurity/kube-hunter) was also mentioned as another tool for reviewing Kubernetes cluster security
+
+### Discussed Security of Rootless Docker Build Tools
+
+Blake Burkhart performed some prior research into using Kaniko, Buildkit, img, buildah and Podman within a CI environment such as GitLab CI on Kubernetes.
+
+Rootless containers do not provide PID isolation. It is possible for a rootless container (or a RUN statement in a Dockerfile) to read the command line arguments of other processes inside the Pod.
+
+A vulnerability was discovered and fixed in Buildah that allowed reading from environment variables outside the rootless container. Kaniko does not provide any namespace, process, or mount isolation by design.
+
+In a CI environment, this can be an issue if your users cannot control the pipeline definition (e.g. can't edit `.gitlab-ci.yml) or you build untrusted Dockerfiles. It may not be a concern at all for many users if they do use the rootless container as a security boundary. The issue is that environment variables (GitLab CI variables/secrets) or other processes' command line arguments may be exposed to an untrusted Dockerfile.
+
+Research: https://gist.github.com/bburky/30a66ab6fd0cfc79dcd8e7810b06ff26
+
+### Discussed use cases of securely isolated workloads
+
+The most common use case seemed to be CI runners.
+
+Another use case was a multi-tenant cluster, with tenant containers (custom code?). The specific use case, would be only isolating a small number of containers (one tenant) in a larger cluster.
+
+The use case might be the tenant having some custom written webapps, but protecting the cluster from their code. However, another use case may allow the tenant to talk to various services (examples were elasticsearch or kafka), this would require allowlisting communication to these services and creating service accounts within those tools.
+
+### Discussed Rootless Kubernetes Clusters
+
+* https://kubernetes.io/docs/tasks/administer-cluster/kubelet-in-userns/
+* https://docs.k3s.io/advanced#running-rootless-servers-experimental
+
+There was also interest in researching running Kubernetes components rootlessly. Would need to research what limitations are imposed on workloads inside the cluster.
+
+Possible use cases might be for general cluster hardening, or potentially running a cluster inside CI.
+
+Upstream Kubernetes documentation has some information. Also, k3s has a rootless mode which may be easy to test and use.
+
+
+# Kata Containers (kata-deploy) installation notes
+
+https://github.com/kata-containers/kata-containers/tree/main/docs/install#packaged-installation-methods
+
+## DaemonSet based installation
+https://github.com/kata-containers/kata-containers/tree/main/docs/install#kata-deploy-installation  
+https://github.com/kata-containers/kata-containers/blob/main/tools/packaging/kata-deploy/README.md
+
+Deploys RBAC to allow labelling nodes plus a DaemonSet. DaemonSet installs the necessary Kata binaries, configuration files, and virtual machine artifacts on the node. Then adds node label + reconfiguration of CRI-O/containerd to add runtimeClasses.
+
+Supports the following (just containerd path config per distro):
+
+* k3s
+* rke2
+* vanilla Kubernetes
+
+Installs configurations for multiple hypervisors: https://github.com/kata-containers/kata-containers/blob/main/docs/hypervisors.md
+* Dragonball
+* Cloud Hypervisor
+* Firecracker
+* QEMU
+
+Packaged with Kustomize (k3s and rke2 are overlays). But they just reconfigure the hostPath for containerd-conf. Could be switched to Helm if desired. (BB?)
+
+Also a Docker image containing all the required artifacts. (IB?)
+
+## OS package based installation
+https://github.com/kata-containers/kata-containers/tree/main/docs/install#official-packages
+
+Alternately, Kata Containers can be installed as an OS p
+
+Packages available for:
+* CentOS
+* Fedora
+
+## Kata setup/installation overview
+
+each node has a runtime
+RuntimeClass nodeSelector selects labeled nodes and a handler
+workload selects runtimeClass
+
+Need (BB?) policy to enforce runtimeClass where desired?
+Test using it with CI such as GitLab or GitHub
