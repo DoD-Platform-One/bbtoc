@@ -1,0 +1,29 @@
+apiVersion: bbtoc/v1alpha
+kind: Project
+metadata:
+  name: "Crossplane"
+  vendor: "opensource"
+  description: "Cloud Native Control Planes"
+  website:
+  - "https://www.crossplane.io/"
+  sourceCode:
+  - "https://github.com/crossplane/crossplane"
+  license:
+  - "Apache License 2.0"
+  purpose: "Orchestration and Management"
+  maturityLevel: Sandbox # Sandbox, Incubating, or Graduated
+  contacts:
+  - name: "Karpagam Balan"
+    repo1user: "@karpagam"
+  - name: "Samuel James"
+    repo1user: "@Sam"
+spec:
+  packages:
+  - name: "crossplane"
+    repository: "https://repo1.dso.mil/big-bang/product/community/crossplane"
+    images:
+    - name: "crossplane"
+      repository: "https://repo1.dso.mil/dsop/opensource/crossplane/crossplane"
+  signOffs:
+    sandboxVerification: ""
+
