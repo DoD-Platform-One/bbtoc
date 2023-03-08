@@ -14,9 +14,9 @@ metadata:
   maturityLevel: Sandbox # Sandbox, Incubating, or Graduated
   contacts:
   - name: "Karpagam Balan"
-    repo1user: "@karpagam"
+    repo1user: "@balan-karpagam"
   - name: "Samuel James"
-    repo1user: "@Sam"
+    repo1user: "@sam.james"
 spec:
   packages:
   - name: "crossplane"
