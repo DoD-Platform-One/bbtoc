@@ -21,6 +21,7 @@ Chief Objectives:
 - Barak Stout, @barakstout1, Raft
 - Anthony Butt, @anthony.butt, GBSD/CSE-Corp
 - Ian Dunbar-Hall, @idunbarh, LM Software Factory Chief Engineer
+- Mikael Vanhemert (Mike V), @mvanhemert, AFLCMC/HNCD
 
 ** BBTOC Voting Member
 
