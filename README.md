@@ -76,7 +76,8 @@ We readily welcome any and all community engagement!
 2. Join us for our [meetups](#meetups)
 3. Submit an [issue](https://repo1.dso.mil/platform-one/bbtoc/-/issues/new) for ideas, questions, feedback, etc...
 4. Join us in Mattermost in the [#topic---bbtoc](https://chat.il2.dso.mil/platform-one/channels/topic---bbtoc) channel on the [Platform One](https://chat.il2.dso.mil/platform-one) team in [IL2 Mattermost](https://chat.il2.dso.mil). If you need an invite to the Platform One team anyone in [this list](https://repo1.dso.mil/platform-one/bbtoc/-/graphs/master) should be able to send you one.
-5. Send an email to p1.bbtoc@gmail.com to request access to the [BBTOC File Share](https://kiteworks.ll.mit.edu/w/f-2ffffa79-5467-4ff7-bc5b-b69793bebef4)
+5. Join us in the [Big Bang Universe Community Slack workspace](https://join.slack.com/t/bigbanguniver-ft39451/shared_invite/zt-1tnh3mq5u-a6u4BmxXBDiMwBKNiH25Bg) to get involved, interact with the community, and ask for help.
+6. Send an email to p1.bbtoc@gmail.com to request access to the [BBTOC File Share](https://kiteworks.ll.mit.edu/w/f-2ffffa79-5467-4ff7-bc5b-b69793bebef4)
 
 ---
 
