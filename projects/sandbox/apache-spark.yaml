@@ -21,7 +21,7 @@ metadata:
 spec:
   packages:
   - name: ""
-    repository: "https://repo.dso.mil/platform-one/big-bang/apps/sandbox/spark-on-k8s-operator"
+    repository: "https://repo1.dso.mil/big-bang/apps/sandbox/spark-on-k8s-operator"
   signOffs:
     # Sandbox: Verify required files (e.g. LICENSE, CODEOWNERS, CONTRIBUTING.md) in git repository
     requiredFiles: ""
