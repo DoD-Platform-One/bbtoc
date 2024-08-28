@@ -1,0 +1,23 @@
+apiVersion: bbtoc/v1alpha
+kind: Project
+metadata:
+  name: "Superset"
+  vendor: "opensource"
+  description: "Superset is fast, lightweight, intuitive, and loaded with options that make it easy for users of all skill sets to explore and visualize their data, from simple line charts to highly detailed geospatial charts."
+  website:
+  - "https://superset.apache.org"
+  sourceCode:
+  - "https://github.com/apache/superset"
+  license:
+  - "Apache 2.0"
+  maturityLevel: Sandbox
+
+spec:
+  packages:
+  - name: ""
+    repository: "https://repo1.dso.mil/dsop/opensource/apache/superset/superset"
+    images:
+      - name: ""
+        repository: "registry1.dso.mil/ironbank/apache/superset"
+  signOffs:
+    sandboxVerification: ""
