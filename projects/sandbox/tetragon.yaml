@@ -1,0 +1,65 @@
+apiVersion: bbtoc/v1alpha
+kind: Project
+# NOTE: Remove lines that are not applicable
+metadata:
+  # Sandbox: Name of the product to be evaluated
+  name: "Tetragon"
+
+  # Sandbox: Product vendor (opensource if no vendor)
+  vendor: "opensource"
+
+  # Sandbox: Short description of the product
+  description: "Tetragon is an eBPF-based security observability and runtime enforcement tool for Kubernetes clusters."
+
+  # Sandbox: URL(s) to product website for further information
+  website:
+  - "https://cilium.io/tetragon/"
+
+  # Sandbox: product source code repositories (e.g. github.com). If not opensource, put "Proprietary"
+  sourceCode:
+  - "https://github.com/cilium/tetragon"
+
+  # Sandbox: Product licenses (e.g. Apache 2.0, GPL 3.0, MIT, Proprietary). Include both free and paid tiers if they exist.
+  license:
+  - "Apache License 2.0"
+
+  # Maturity level of the package
+  maturityLevel: Sandbox # Sandbox, Incubating, or Graduated
+
+  contacts:
+  # Sandbox: Points of contact for project (at least 2)
+  - name: Dax McDonald
+    repo1user: "@daxmc99"
+  - name: Bulat Khamitov
+    repo1user: "@bkhamitov"
+
+spec:
+  # Sandbox: Package(s) contained in the product (e.g. operator and application). Each package will have its own repository in repo1.
+  packages:
+    # Sandbox: Name of the package
+  - name: "tetragon"
+
+    # Sandbox: Big Bang repository (i.e. https://repo1.dso.mil/platform-one/big-bang/apps/sandbox/<your project>)
+    repository: "https://repo1.dso.mil/big-bang/apps/sandbox/tetragon"
+
+    # Incubating: List of images contained in the package.
+    images:
+      # Incubating: Name of the image
+      - name: tetragon
+        repository: registry1.dso.mil/ironbank/opensource/cilium/tetragon
+        approval: https://ironbank.dso.mil/repomap/details;registry1Path=opensource%2Fcilium%2Ftetragon
+
+    # Graduated: Links to required documentation
+    documentation: []
+
+  # Name and date of required verifications (e.g. "John Doe, 7 Dec 2021")
+  signOffs:
+
+    # Sandbox: Verification of requirements
+    sandboxVerification: 
+
+    # Incubating: Verification of requirements
+    incubatingVerification: ""
+
+    # Graduated: Verification of requirements
+    graduatedVerification: ""
