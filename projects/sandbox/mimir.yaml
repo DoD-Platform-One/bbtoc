@@ -42,17 +42,16 @@ spec:
   - name: Mimir
 
     # Sandbox: Big Bang repository (i.e. https://repo.dso.mil/platform-one/big-bang/apps/sandbox/<your project>)
-    repository: https://repo1.dso.mil/platform-one/big-bang/apps/sandbox/mimir
+    repository: https://repo1.dso.mil/big-bang/apps/sandbox/mimir
 
     # Incubating: List of images contained in the package.
     images:
       - name: Mimir
-        # repository: https://repo1.dso.mil/dsop/opensource/grafana/mimir
-        # approval: https://ironbank.dso.mil/repomap/details;registry1Path=opensource%252Fgrafana%252Ftempo
-      - name: memcached
-        # repository: https://repo1.dso.mil/dsop/opensource/grafana/tempo-query
-        # approval: https://ironbank.dso.mil/repomap/details;registry1Path=opensource%252Fgrafana%252Ftempo-query
-      - name: memcached-exporter
+        repository: https://repo1.dso.mil/dsop/opensource/grafana/mimir
+        approval: https://ironbank.dso.mil/repomap/details;registry1Path=opensource%252Fgrafana%252Fmimir
+      - name: rollout-operator
+        repository: https://repo1.dso.mil/dsop/opensource/grafana/rollout-operator
+        approval: https://ironbank.dso.mil/repomap/details;registry1Path=opensource%252Fgrafana%252Frollout-operator
 
     # Graduated: Links to required documentation
     documentation:
