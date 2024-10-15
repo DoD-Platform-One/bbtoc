@@ -61,10 +61,10 @@ spec:
   signOffs:
 
     # Sandbox: Verification of requirements
-    sandboxVerification: ""
+    sandboxVerification: Christopher O'Connell, 1 September 2024
 
     # Incubating: Verification of requirements
-    incubatingVerification: ""
+    incubatingVerification: Christopher O'Connell, 4 October 2024
 
     # Graduated: Verification of requirements
     graduatedVerification: ""
