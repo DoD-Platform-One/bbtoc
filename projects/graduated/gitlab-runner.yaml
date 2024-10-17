@@ -1,0 +1,67 @@
+apiVersion: bbtoc/v1alpha
+kind: Project
+# NOTE: Remove lines that are not applicable
+metadata:
+  # Sandbox: Name of the product to be evaluated
+  name: "Gitlab-runner"
+
+  # Sandbox: Product vendor (opensource if no vendor)
+  vendor: "Gitlab"
+
+  # Sandbox: Short description of the product
+  description: "Runners for CI/CD processes spawned from the GitLab Server"
+
+  # Sandbox: URL(s) to product website for further information
+  website:
+  - "https://docs.gitlab.com/runner/"
+
+  # Sandbox: product source code repositories (e.g. github.com).  If not opensource, put "Proprietary"
+  sourceCode:
+  - "https://gitlab.com/gitlab-org/gitlab-runner"
+
+  # Sandbox: Product licenses (e.g. Apache 2.0, GPL 3.0, MIT, Proprietary).  Include both free and paid tiers if they exist.
+  license:
+  - MIT (Community Edition)
+  - Proprietary (Enterprise Edition)
+
+  # Maturity level of the package
+  maturityLevel: Graduated # Sandbox, Incubating, or Graduated
+
+  # Sandbox: Points of contact for project (at least 2)
+  contacts:
+  - name: "Kevin Wilder"
+    repo1user: "kevin.wilder"
+  - name: "Ryan Garcia"
+    repo1user: "ryan.j.garcia"
+
+spec:
+  packages:
+  - name: GitLab Runners
+    repository: https://repo1.dso.mil/platform-one/big-bang/apps/developer-tools/gitlab-runner
+    images:
+      - name: Runner
+        repository: https://repo1.dso.mil/dsop/gitlab/gitlab-runner/gitlab-runner
+        approval: https://ironbank.dso.mil/repomap/details;registry1Path=gitlab%252Fgitlab-runner%252Fgitlab-runner
+      - name: Runner Helper
+        repository: https://repo1.dso.mil/dsop/gitlab/gitlab-runner/gitlab-runner-helper
+        approval: https://ironbank.dso.mil/repomap/details;registry1Path=gitlab%252Fgitlab-runner%252Fgitlab-runner-helper
+
+    # Graduated: Links to required documentation
+    documentation:
+    # - https://repo1.dso.mil/platform-one/big-bang/bigbang/-/blob/master/charter/packages/gitlab/Architecture.md
+    # - https://repo1.dso.mil/platform-one/big-bang/bigbang/-/blob/master/charter/BigBangPackages.md#gitlab
+    # - https://repo1.dso.mil/platform-one/big-bang/bigbang/-/blob/master/docs/guides/using-bigbang/default-credentials.md
+    # - https://repo1.dso.mil/platform-one/big-bang/bigbang/-/blob/master/docs/understanding-bigbang/licensing-expectations.md
+    # - https://repo1.dso.mil/platform-one/big-bang/bigbang/-/blob/master/docs/guides/prerequisites/minimum-hardware-requirements.md
+
+  # Name and date of required verifications (e.g. "John Doe, 7 Dec 2021")
+  signOffs:
+
+    # Sandbox: Verification of requirements
+    sandboxVerification: "Andrew Greene, 28 FEB 2022"
+
+    # Incubating: Verification of requirements
+    incubatingVerification: "Andrew Greene, 28 FEB 2022"
+
+    # Graduated: Verification of requirements
+    graduatedVerification: Michael McLeroy, 12 Jul 2022
