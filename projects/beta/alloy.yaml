@@ -1,0 +1,70 @@
+apiVersion: bbtoc/v1alpha
+kind: Project
+# NOTE: Remove lines that are not applicable
+metadata:
+  # Sandbox: Name of the product to be evaluated
+  name: Alloy
+
+  # Sandbox: Product vendor (opensource if no vendor)
+  vendor: Grafana Labs
+
+  # Sandbox: Short description of the product
+  description: Grafana Alloy is an open source OpenTelemetry Collector distribution with built-in Prometheus pipelines and support for metrics, logs, traces, and profiles.
+
+  # Sandbox: URL(s) to product website for further information
+  website:
+  - https://grafana.com/oss/alloy-opentelemetry-collector/
+
+  # Sandbox: product source code repositories (e.g. github.com).  If not opensource, put "Proprietary"
+  sourceCode:
+  - https://github.com/grafana/alloy/
+
+  # Sandbox: Product licenses (e.g. Apache 2.0, GPL 3.0, MIT, Proprietary).  Include both free and paid tiers if they exist.
+  license:
+  - Apache License 2.0
+
+  # Maturity level of the package
+  maturityLevel: Sandbox # Sandbox, Incubating, or Graduated
+
+  # Sandbox: Points of contact for project (at least 2)
+  contacts:
+  - name: Kevin Scheunemann
+    repo1user: '@kscheunemann'
+  - name: Krby Liu
+    repo1user: '@kliu'
+  - name: Zach Callahan
+    repo1user: '@zcallahan'
+
+spec:
+  # Sandbox: Package(s) contained in the product (e.g. operator and application).  Each package will have its own repository in repo1.
+  packages:
+    # Sandbox: Name of the package
+  - name: Alloy
+
+    # Sandbox: Big Bang repository (i.e. https://repo.dso.mil/platform-one/big-bang/apps/sandbox/<your project>)
+    repository: https://repo1.dso.mil/big-bang/apps/sandbox/alloy
+
+    # Incubating: List of images contained in the package.
+    images:
+      - name: Alloy
+        repository: https://repo1.dso.mil/dsop/opensource/grafana/alloy
+        approval: https://ironbank.dso.mil/repomap/details;registry1Path=opensource%252Fgrafana%252Falloy
+
+    # Graduated: Links to required documentation
+    documentation:
+    # - (MISSING) https://repo1.dso.mil/platform-one/big-bang/bigbang/-/blob/master/docs/understanding-bigbang/package-architecture/
+    - https://repo1.dso.mil/platform-one/big-bang/bigbang/-/blob/master/docs/packages.md#core
+    # - (MISSING) https://repo1.dso.mil/platform-one/big-bang/bigbang/-/blob/master/docs/understanding-bigbang/licensing-model.md
+    # - (MISSING) https://repo1.dso.mil/platform-one/big-bang/bigbang/-/blob/master/docs/prerequisites/minimum-hardware-requirements.md
+
+  # Name and date of required verifications (e.g. "John Doe, 7 Dec 2021")
+  signOffs:
+
+    # Sandbox: Verification of requirements
+    sandboxVerification: Christopher O'Connell, 1 September 2024
+
+    # Incubating: Verification of requirements
+    incubatingVerification: Christopher O'Connell, 4 October 2024
+
+    # Graduated: Verification of requirements
+    graduatedVerification: ""
