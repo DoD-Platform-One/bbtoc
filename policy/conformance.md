@@ -9,53 +9,55 @@ Definitions:
 
 BBCS Technical Requirements:
 
-  - MUST be able to deploy to a CNCF Certified Conformant Kubernetes cluster (or include one within the stack that it deploys)
+  1. MUST be able to deploy to a CNCF Certified Conformant Kubernetes cluster (or include one within the stack that it deploys)
 
-  - MUST include a service mesh capability
-    - SHOULD mTLS configured for all internal network traffic
-    - SHOULD use L7 policies for any wide open inbound connections not traversing an ingress
-    - MUST Track/document any exceptions
+  2. MUST include a service mesh capability
+     a. SHOULD configure mTLS for all internal network traffic
+     b. SHOULD use L7 policies for any wide open inbound connections not traversing an ingress
+     c. MUST Track/document any exceptions
 
-  - MUST include a policy engine capability
-    - MUST configure based on a set of required minimum protections, to be defined by the BBTOC
-    - MUST track/document exceptions to these policies
-    - SHOULD aggregate reporting of all policies
+  3. MUST include a policy engine capability
+     a. MUST configure based on a set of required minimum protections, to be defined by the BBTOC
+     b. MUST track/document exceptions to these policies
+     c. SHOULD aggregate reporting of all policies
 
-  - MUST include a runtime security capability
-    - MUST provide active detection & alerting
-    - SHOULD block detected threats
-    - MUST aggregate reporting of all security events
+  4. MUST include a runtime security capability
+     a. MUST provide active detection & alerting
+     b. SHOULD block detected threats
+     c. MUST aggregate reporting of all security events
 
-  - MUST configure only necessary traffic using Layer 3/4 network policies for services operating within the cluster
- 
-  - MUST have the ability to protect exposed admin endpoints via an IdAM system (internal or external)
+  5. MUST include default network protections
+     a. MUST configure network policies to block all traffic by default
+     b. MUST configure network policies to allow only necessary traffic
+     c. MUST have the ability to protect exposed admin endpoints via an IdAM system (internal or external) or other external security controls
+     d. SHOULD have the ability to protect exposed regular endpoints via an IdAM system (internal or external)
+     e. SHOULD segment admin endpoints via a non-public or alternate ingress gateway
+     f. MUST track/document exceptions to these policies
 
-  - MUST provide either documentation or a process to configure new workloads in the cluster to leverage the security features above
+  6. MUST provide either documentation or a process to configure new workloads in the cluster to leverage the security features above
 
-  - MUST provide a machine-readable compliance report for relevant security controls, to be defined by the BBTOC
+  7. MUST provide cryptographic verification of software releases and/or software artifacts (e.g. signed images)
 
-  - MUST, except on edge appliances, provide a log aggregation, metrics collection and monitoring
+  8. MUST, except on edge appliances, provide a log aggregation, metrics collection and monitoring
 
-  - MUST support air-gap deployments
+  9. MUST be able to be deployed into fully air-gapped environments with a documented process
 
-  - MUST provide SBOM data for all artifacts
+  10. MUST provide SBOM data if deploying images from a source without signed SBOM attestations. If relying on registry-provided SBOMs, the stack MUST provide sufficient listings of images to accurately retrieve the attestations
 
-  - MUST provide regular non-embargoed CVE data for all assets or publish to a public feed
+  11. MUST provide regular non-embargoed CVE data for all assets or publish to a public feed
 
-  - MUST publish all instructions, source code and links to artifacts on repo1 
+  12. MUST publish all instructions, source code and links to artifacts on repo1 
 
-  - MUST release all core functionality above under an OSI Approved License
+  13. SHOULD release all core functionality above under an OSI Approved License
 
-  - MUST provide cryptographic verification of all artifacts
+  14. SHOULD provide a machine-readable compliance report for relevant security controls, to be defined by the BBTOC
 
-  - MUST meet minimum SLSA/SSDF requirements, to be defined by the BBTOC, and provide a machine-readable report of compliance
+  15. SHOULD segment admin endpoints via a non-public or alternate ingress gateway
+
+  16. SHOULD have the ability to protect exposed regular endpoints via an IdAM system (internal or external)
   
-  - SHOULD segment admin endpoints via a non-public or alternate ingress gateway
+  17. SHOULD provide disaster recovery capabilities
 
-  - SHOULD have the ability to protect exposed regular endpoints via an IdAM system (internal or external)
-  
-  - SHOULD provide disaster recovery capabilities
+  18. SHOULD provide distributed tracing capabilities
 
-  - SHOULD provide distributed tracing capabilities
-
-  - SHOULD be able to be deployed declaratively
+  19. SHOULD be able to be deployed declaratively
