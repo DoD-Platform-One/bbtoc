@@ -11,6 +11,7 @@ metadata:
   license:
   - "MIT"
   maturityLevel: Sandbox # Sandbox, Incubating, or Graduated
+  maintenanceTrack: CommunityMaintained
   contacts:
   - name: "Branden Cobb"
     repo1user: "@BrandenCobb"

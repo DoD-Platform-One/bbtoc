@@ -6,7 +6,7 @@ metadata:
   name: "Istio"
 
   # Sandbox: Product vendor (opensource if no vendor)
-  vendor: ""
+  vendor: "Tetrate"
 
   # Sandbox: Short description of the product
   description: "Service mesh"
@@ -18,6 +18,8 @@ metadata:
   # Sandbox: product source code repositories (e.g. github.com).  If not opensource, put "Proprietary"
   sourceCode:
   - https://github.com/istio/istio
+  - "https://github.com/istio/operator"
+  - "https://github.com/istio/istio/manifests/charts/istio-operator"
 
   # Sandbox: Product licenses (e.g. Apache 2.0, GPL 3.0, MIT, Proprietary).  Include both free and paid tiers if they exist.
   license:
@@ -26,14 +28,15 @@ metadata:
   # Maturity level of the package
   maturityLevel: Graduated # Sandbox, Incubating, or Graduated
 
+  # Maintenance Track of the package
+  maintenanceTrack: BigBangIntegrated # BigBangIntegrated, BigBangMaintained, CommunityMaintained
+
   # Sandbox: Points of contact for project (at least 2)
   contacts:
-  - name: "Thomas Runyon"
-    repo1user: "@runyontr"
-  - name: Blake Burhart
-    repo1user: '@blake.burhart'
-  - name: Michael McLeroy
-    repo1user: '@michaelmcleroy'
+  - name: "Luis Gomez"
+    repo1user: "@lgomez2"
+  - name: "Jimmy Bourque"
+    repo1user: "@jimmy.bourque"
 
 spec:
   # Sandbox: Package(s) contained in the product (e.g. operator and application).  Each package will have its own repository in repo1.
@@ -48,20 +51,23 @@ spec:
     images:
       - name: "istio-cni"
         repository: "https://repo1.dso.mil/dsop/opensource/istio/1.13/install-cni"
-        approval: "https://ironbank.dso.mil/repomap/details;registry1Path=opensource%252Fistio%252Finstall-cni?page=1&sort=1"
+        approval: "https://ironbank.dso.mil/repomap/details;registry1Path=opensource%252Fistio%252Finstall-cni"
       - name: proxyv2
         repository: https://repo1.dso.mil/dsop/opensource/istio/1.13/proxyv2
-        approval: https://ironbank.dso.mil/repomap/details;registry1Path=opensource%252Fistio%252Fproxyv2?page=1&sort=1
+        approval: https://ironbank.dso.mil/repomap/details;registry1Path=opensource%252Fistio%252Fproxyv2
       - name: pilot
         repository: https://repo1.dso.mil/dsop/opensource/istio/1.13/pilot
-        approval: https://ironbank.dso.mil/repomap/details;registry1Path=opensource%252Fistio%252Fpilot?page=1&sort=1
+        approval: https://ironbank.dso.mil/repomap/details;registry1Path=opensource%252Fistio%252Fpilot
 
   - name: istio-operator
     repository: https://repo1.dso.mil/platform-one/big-bang/apps/core/istio-operator
     images:
-    - name: operator
-      repository: https://repo1.dso.mil/dsop/opensource/istio/1.13/operator
-      approval: https://ironbank.dso.mil/repomap/details;registry1Path=opensource%252Fistio%252Foperator?page=1&sort=1
+      - name: "operator"
+        repository: "https://repo1.dso.mil/dsop/opensource/istio/1.24/operator/-/issues/6"
+        approval: "https://ironbank.dso.mil/repomap/details;registry1Path=opensource%2Fistio%2Foperator"
+      - name: "tetrate-operator"
+        repository: "https://repo1.dso.mil/dsop/tetrate/istio/1.23/operator/-/issues/6"
+        approval: "https://ironbank.dso.mil/repomap/details;registry1Path=tetrate%2Fistio%2Foperator"
     # Graduated: Links to required documentation
     documentation:
     - https://repo1.dso.mil/platform-one/big-bang/bigbang/-/blob/master/charter/packages/istio/Architecture.md

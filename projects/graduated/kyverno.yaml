@@ -28,6 +28,9 @@ metadata:
   # Maturity level of the package
   maturityLevel: Graduated # Sandbox, Incubating, or Graduated
 
+  # Maintenance Track of the package
+  maintenanceTrack: BigBangIntegrated # BigBangIntegrated, BigBangMaintained, CommunityMaintained
+
   # Sandbox: Points of contact for project (at least 2)
   contacts:
   - name: Michael McLeroy
@@ -48,21 +51,45 @@ spec:
 
     # Incubating: List of images contained in the package.
     images:
+    # - name: kyvernocli
+    #   image: registry1.dso.mil/ironbank/opensource/kyverno/kyvernocli:v1.12.6
+
       - name: Kyverno
-        repository: https://repo1.dso.mil/dsop/nirmata/kyverno
-        approval: https://ironbank.dso.mil/repomap/details;registry1Path=nirmata%252Fkyverno
+        repository: https://repo1.dso.mil/dsop/opensource/kyverno/kyverno/kyverno/-/issues/1
+        approval: https://ironbank.dso.mil/repomap/details;registry1Path=opensource%2Fkyverno
       - name: Kyverno Preinstall
-        repository: https://repo1.dso.mil/dsop/nirmata/kyverno-pre
-        approval: https://ironbank.dso.mil/repomap/details;registry1Path=nirmata%252Fkyvernopre
+        repository: https://repo1.dso.mil/dsop/opensource/kyverno/kyverno/kyverno-pre/-/issues/1
+        approval: https://ironbank.dso.mil/repomap/details;registry1Path=opensource%2Fkyverno%2Fkyvernopre
+      - name: "kubectl"
+        repository: "https://repo1.dso.mil/dsop/opensource/kubernetes/1.30/kubectl/-/issues/6"
+        approval: "https://ironbank.dso.mil/repomap/details;registry1Path=opensource%2Fkubernetes%2Fkubectl?page=1&sort=0&order=1&cardsPerPage=3"
+      - name: ubi9-minimal
+        repository: https://repo1.dso.mil/dsop/redhat/ubi/9.x/ubi9-minimal/-/issues/1
+        approval: https://ironbank.dso.mil/repomap/details;registry1Path=redhat%2Fubi%2Fubi9-minimal
+      - name: Reports Controller
+        repository: https://repo1.dso.mil/dsop/opensource/kyverno/kyverno/reports-controller/-/issues/1
+        approval: https://ironbank.dso.mil/repomap/details;registry1Path=opensource%2Fkyverno%2Fkyverno%2Freports-controller
+      - name: background-controller
+        repository: https://repo1.dso.mil/dsop/opensource/kyverno/kyverno/background-controller/-/issues/1
+        approval: https://ironbank.dso.mil/repomap/details;registry1Path=opensource%2Fkyverno%2Fkyverno%2Fbackground-controller
+      - name: cleanup-controller
+        repository: https://repo1.dso.mil/dsop/opensource/kyverno/kyverno/cleanup-controller/-/issues/1
+        approval: https://ironbank.dso.mil/repomap/details;registry1Path=opensource%2Fkyverno%2Fkyverno%2Fcleanup-controller
+      - name: kyverno-cli
+        repository: https://repo1.dso.mil/dsop/opensource/kyverno/kyverno/kyverno-cli/-/issues/6
+        approval: https://ironbank.dso.mil/repomap/details;registry1Path=opensource%2Fkyverno%2Fkyvernocli
   - name: Kyverno Policies
     repository: https://repo1.dso.mil/platform-one/big-bang/apps/sandbox/kyverno-policies
-    images: [] # No images used
+    images: 
+      - name: "kubectl"
+        repository: "https://repo1.dso.mil/dsop/opensource/kubernetes/1.30/kubectl/-/issues/6"
+        approval: "https://ironbank.dso.mil/repomap/details;registry1Path=opensource%2Fkubernetes%2Fkubectl?page=1&sort=0&order=1&cardsPerPage=3"
   - name: Kyverno Reporter
     repository: https://repo1.dso.mil/platform-one/big-bang/apps/sandbox/kyverno-reporter
     images:
       - name: Policy Reporter
-        repository: https://repo1.dso.mil/dsop/nirmata/policy-reporter/policy-reporter
-        approval: https://ironbank.dso.mil/repomap/details;registry1Path=nirmata%252Fpolicy-reporter%252Fpolicy-reporter
+        repository: https://repo1.dso.mil/dsop/opensource/kyverno/policy-reporter/policy-reporter/-/issues/1
+        approval: https://ironbank.dso.mil/repomap/details;registry1Path=opensource%2Fkyverno%2Fpolicy-reporter
 
     # Graduated: Links to required documentation
     documentation:

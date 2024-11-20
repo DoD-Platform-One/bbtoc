@@ -12,6 +12,7 @@ metadata:
   license:
   - "Apache 2.0"
   maturityLevel: Sandbox
+  maintenanceTrack: CommunityMaintained
   contacts:
   - name: "Timothy Miller"
     repo1user: "tmiller"

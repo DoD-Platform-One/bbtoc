@@ -32,10 +32,11 @@ graph LR
 
 #### Sandbox Project Requirements
 
-- Projects are proposed following the [process outlined here](https://repo1.dso.mil/platform-one/bbtoc/-/blob/master/projects/getting-started/README.md)
+- Projects are proposed following the [process outlined here](/projects/getting-started/README.md)
 - Sandbox projects must meet the following criteria:
   1. Completion of [Big Bang Package: Upstream Integration](https://repo1.dso.mil/platform-one/big-bang/bigbang/-/blob/master/docs/developer/package-integration/upstream.md)
   2. Completion of [Big Bang Package: Pipeline Integration](https://repo1.dso.mil/platform-one/big-bang/bigbang/-/blob/master/docs/developer/package-integration/pipeline.md)
+  3. Completion of the appropriate [Package Maintenance Track](/process/Package%20Maintenance%20Tracks.md) onboarding process
 
 ### Incubating
 
@@ -96,3 +97,6 @@ The review should clearly address the following:
 - Signs of active contributions and maturation.
 - Project still meets the requirements of its maturity level.
 - How can the TOC help you achieve your upcoming goals?
+- If changes are needed, follow the [Package Maintenance Tracks](/process/Package%20Maintenance%20Tracks.md) process.
+
+

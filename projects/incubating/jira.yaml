@@ -29,6 +29,9 @@ metadata:
   # Maturity level of the package
   maturityLevel: Incubating # Sandbox, Incubating, or Graduated
 
+  # Maintenance Track of the package
+  maintenanceTrack: BigBangMaintained # BigBangIntegrated, BigBangMaintained, CommunityMaintained
+
   # Sandbox: Points of contact for project (at least 2)
   contacts:
   - name: "Arun Sanna"
@@ -54,7 +57,7 @@ spec:
     # Incubating: Name of the image
     - name: Jira Node
       repository: https://repo1.dso.mil/dsop/atlassian/jira-data-center/jira-node/
-      approval: https://ironbank.dso.mil/repomap/details;registry1Path=atlassian%252Fjira-data-center%252Fjira-node?page=1&sort=1
+      approval: https://ironbank.dso.mil/repomap/details;registry1Path=atlassian%252Fjira-data-center%252Fjira-node
 
     # Graduated: Links to required documentation
     documentation:

@@ -23,6 +23,7 @@ We want to guide projects through the process of classification, sandbox to incu
 
 ## Useful utilities and notes
 
-- Incubating [requirements]([issue](https://repo1.dso.mil/platform-one/bbtoc/-/issues/new) introduce iron bank images
-  - [Zarf tool](https://github.com/defenseunicorns/zarf/blob/master/docs/prepare.md) can help collect images for a helm chart
-  - [HIP Identifying Images for Helm Chart](https://github.com/helm/community/pull/215)
+- Incubating [requirements](/process/README.md#incubating)
+- Create an [issue](https://repo1.dso.mil/big-bang/product/bbtoc/-/issues/new) to introduce iron bank images
+- [Zarf tool](https://github.com/zarf-dev/zarf/tree/main?tab=readme-ov-file#-getting-started) can help collect images for a helm chart
+- [HIP Identifying Images for Helm Chart](https://github.com/helm/community/pull/215)

@@ -27,6 +27,9 @@ metadata:
   # Maturity level of the package
   maturityLevel: Graduated # Sandbox, Incubating, or Graduated
 
+  # Maintenance Track of the package
+  maintenanceTrack: BigBangIntegrated # BigBangIntegrated, BigBangMaintained, CommunityMaintained
+
   # Sandbox: Points of contact for project (at least 2)
   contacts:
   - name: Michael McLeroy
