@@ -15,6 +15,20 @@ Big Bang sending out a warning of the move of the package 90, 45, 30, 15, 7, 3, 
 - Included in the release notes of every release until the track change is complete
 - Included in the Helm Upgrade Notes until the track change is complete
 
+This notification should include:
+- The package name
+- The date of the move
+- The track the package is moving to
+- The reason for the move
+- The impact of the move
+- The new CODEOWNERS (if applicable)
+- A request for volunteers to become CODEOWNERS (if applicable)
+- A link to the migration document (if applicable)
+	- This document should include:
+		- The new deployment strategy
+		- The new support strategy
+		- How to keep your deployment up to date (renovate, etc.)
+
 Example Track Change Notices:
 
 ```md
@@ -26,6 +40,8 @@ MyApp
 Jan 01, 0001
 
 On Jan 01, 0001 MyApp will be transitioning from the Big Bang Integrated Track to the Big Bang Maintained Track. Please note that this means while the Big Bang team will still provide updates to this package and test it deployed in isolation (with wrapper in Big Bang Core), they will not: test it with the rest of Big Bang (including on demand and nightly k8s distribution specific tests), test it in production-like environments, or include it as a direct option in the Big Bang chart. This will also limit the support the Big Bang team will be able to provide for this package to its deployment in isolation.
+
+A migration document will be provided to help users move from the Big Bang Integrated Track to the Big Bang Maintained Track in the project repository.
 
 ---
 ```
@@ -39,6 +55,8 @@ MyApp
 Jan 01, 0001
 
 On Jan 01, 0001 MyApp will be transitioning from the Big Bang Maintained Track to the Community Maintained Track. Please note that this means this application will no longer get updates from the Big Bang Team. This will eliminate support the Big Bang team will be able to provide for this package. The new CODEOWNERS have been identified as @john.doe35 and @bob.smith12. If you would like to volunteer to be a CODEOWNER please reach out to the Big Bang team.
+
+A migration document will be provided to help users move from the Big Bang Maintained Track to the Community Maintained Track in the project repository.
 
 ---
 ```
