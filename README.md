@@ -33,10 +33,10 @@ Join Us! The TOC meets the first and third Tuesday each month at 1200 MST
 
 Please join the [BBTOC mailing list](https://mailman.mit.edu/mailman/listinfo/bbtoc) to receive official calendar invites (and cancelations) to meetings. You can also import the ICS below, however it will not be updated if announcements or changes are made.
 
-https://www.zoomgov.com/j/1610089970
+https://www.zoomgov.com/j/1610253709 
 
-Meeting ID: 161 008 9970
-Passcode: UH3DHnck
+Meeting ID: 161 025 3709
+Passcode: mid0C3Ft 
 
 Dial by your location
 • +1 669 254 5252 US (San Jose)
