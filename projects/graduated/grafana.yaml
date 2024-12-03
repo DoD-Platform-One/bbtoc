@@ -1,0 +1,112 @@
+apiVersion: bbtoc/v1alpha
+kind: Project
+# NOTE: Remove lines that are not applicable
+metadata:
+  # Sandbox: Name of the product to be evaluated
+  name: "Grafana"
+
+  # Sandbox: Product vendor (opensource if no vendor)
+  vendor: "Grafana Labs"
+
+  # Sandbox: Short description of the product
+  description: "The open and composable observability and data visualization platform."
+
+  # Sandbox: URL(s) to product website for further information
+  website:
+  - "https://github.com/grafana/grafana"
+  - "https://grafana.com/oss/grafana"
+
+  # Sandbox: product source code repositories (e.g. github.com).  If not opensource, put "Proprietary"
+  sourceCode:
+  - "https://github.com/grafana/grafana"
+
+  # Sandbox: Product licenses (e.g. Apache 2.0, GPL 3.0, MIT, Proprietary).  Include both free and paid tiers if they exist.
+  license:
+  - "AGPL-3.0"
+
+  # Maturity level of the package
+  maturityLevel: Graduated # Sandbox, Incubating, or Graduated
+
+  # Maintenance Track of the package
+  maintenanceTrack: BigBangIntegrated # BigBangIntegrated, BigBangMaintained, CommunityMaintained
+
+  # Sandbox: Points of contact for project (at least 2)
+  contacts:
+  - name: "Kevin Scheunemann"
+    repo1user: "@kscheunemann"
+  - name: "Brian Jackson"
+    repo1user: "@bjacksonfv"
+
+spec:
+  # Sandbox: Package(s) contained in the product (e.g. operator and application).  Each package will have its own repository in repo1.
+  packages:
+    # Sandbox: Name of the package
+  - name: "Grafana"
+
+    # Sandbox: Big Bang repository (i.e. https://repo1.dso.mil/platform-one/big-bang/apps/sandbox/<your project>)
+    repository: "https://repo1.dso.mil/big-bang/product/packages/grafana"
+
+    # Incubating: List of images contained in the package.
+    images:
+    # - name: base
+    #   image: registry1.dso.mil/ironbank/big-bang/base:2.1.0
+
+      # Incubating: Name of the image
+      - name: "grafana-plugins"
+
+        # Incubating: Iron Bank approval request (https://repo1.dso.mil/dsop/<your project>/-/issues/1)
+        repository: "https://repo1.dso.mil/dsop/big-bang/grafana/grafana-plugins/-/issues/1"
+
+        # Graduated: Iron Bank approval URL (https://ironbank.dso.mil/repomap/details;registry1Path=<your project path>)
+        approval: "https://ironbank.dso.mil/repomap/details;registry1Path=big-bang%2Fgrafana%2Fgrafana-plugins"
+      # Incubating: Name of the image
+      - name: "k8s-sidecar"
+
+        # Incubating: Iron Bank approval request (https://repo1.dso.mil/dsop/<your project>/-/issues/1)
+        repository: "https://repo1.dso.mil/dsop/kiwigrid/k8s-sidecar/-/issues/1"
+
+        # Graduated: Iron Bank approval URL (https://ironbank.dso.mil/repomap/details;registry1Path=<your project path>)
+        approval: "https://ironbank.dso.mil/repomap/details;registry1Path=kiwigrid%2Fk8s-sidecar"
+      # Incubating: Name of the image
+      - name: "init-chown-data"
+
+        # Incubating: Iron Bank approval request (https://repo1.dso.mil/dsop/<your project>/-/issues/1)
+        repository: "https://repo1.dso.mil/dsop/redhat/ubi/9.x/ubi9-minimal/-/issues/1"
+
+        # Graduated: Iron Bank approval URL (https://ironbank.dso.mil/repomap/details;registry1Path=<your project path>)
+        approval: "https://ironbank.dso.mil/repomap/details;registry1Path=redhat%2Fubi%2Fubi9-minimal"
+      # Incubating: Name of the image
+      - name: "test-framework"
+
+        # Incubating: Iron Bank approval request (https://repo1.dso.mil/dsop/<your project>/-/issues/1)
+        repository: "https://repo1.dso.mil/dsop/opensource/bats/bats/-/issues/1/"
+
+        # Graduated: Iron Bank approval URL (https://ironbank.dso.mil/repomap/details;registry1Path=<your project path>)
+        approval: "https://ironbank.dso.mil/repomap/details;registry1Path=opensource%2Fbats%2Fbats"
+      # Incubating: Name of the image
+      - name: "base"
+
+        # Incubating: Iron Bank approval request (https://repo1.dso.mil/dsop/<your project>/-/issues/1)
+        repository: "https://repo1.dso.mil/dsop/big-bang/base/-/issues/1"
+
+        # Graduated: Iron Bank approval URL (https://ironbank.dso.mil/repomap/details;registry1Path=<your project path>)
+        approval: "https://ironbank.dso.mil/repomap/details;registry1Path=big-bang%2Fbase"
+
+    # Graduated: Links to required documentation
+    documentation: []
+    # - (MISSING) https://repo1.dso.mil/platform-one/big-bang/bigbang/-/blob/master/docs/understanding-bigbang/package-architecture/
+    # - (MISSING) https://repo1.dso.mil/platform-one/big-bang/bigbang/-/blob/master/docs/packages.md#core
+    # - (MISSING) https://repo1.dso.mil/platform-one/big-bang/bigbang/-/blob/master/docs/understanding-bigbang/licensing-model.md
+    # - (MISSING) https://repo1.dso.mil/platform-one/big-bang/bigbang/-/blob/master/docs/prerequisites/minimum-hardware-requirements.md
+
+  # Name and date of required verifications (e.g. "John Doe, 7 Dec 2021")
+  signOffs:
+
+    # Sandbox: Verification of requirements
+    sandboxVerification: ""
+
+    # Incubating: Verification of requirements
+    incubatingVerification: ""
+
+    # Graduated: Verification of requirements
+    graduatedVerification: ""

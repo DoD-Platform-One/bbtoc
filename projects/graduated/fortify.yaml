@@ -1,0 +1,98 @@
+apiVersion: bbtoc/v1alpha
+kind: Project
+# NOTE: Remove lines that are not applicable
+metadata:
+  # Sandbox: Name of the product to be evaluated
+  name: "fortify"
+
+  # Sandbox: Product vendor (opensource if no vendor)
+  vendor: "OpenText"
+
+  # Sandbox: Short description of the product
+  description: "Fortify Static Code Analyzer is a set of software security analyzers that search for violations of security-specific coding rules and guidelines in a variety of languages."
+
+  # Sandbox: URL(s) to product website for further information
+  website:
+  - "https://github.com/fortify/helm3-charts"
+  - "https://hub.docker.com/u/fortifydocker"
+  - "https://www.opentext.com/products/cybersecurity-cloud"
+  - "https://www.microfocus.com/documentation/fortify-static-code/"
+
+  # Sandbox: product source code repositories (e.g. github.com).  If not opensource, put "Proprietary"
+  sourceCode:
+  - "Proprietary"
+
+  # Sandbox: Product licenses (e.g. Apache 2.0, GPL 3.0, MIT, Proprietary).  Include both free and paid tiers if they exist.
+  license:
+  - "Proprietary"
+
+  # Maturity level of the package
+  maturityLevel: Graduated # Sandbox, Incubating, or Graduated
+
+  # Maintenance Track of the package
+  maintenanceTrack: BigBangIntegrated # BigBangIntegrated, BigBangMaintained, CommunityMaintained
+
+  # Sandbox: Points of contact for project (at least 2)
+  contacts:
+  - name: "Nigel Bazzeghin"
+    repo1user: "@nbazzeghin"
+  - name: "Matt Vasquez"
+    repo1user: "@matt.vasquez"
+
+spec:
+  # Sandbox: Package(s) contained in the product (e.g. operator and application).  Each package will have its own repository in repo1.
+  packages:
+    # Sandbox: Name of the package
+  - name: "Fortify"
+
+    # Sandbox: Big Bang repository (i.e. https://repo1.dso.mil/platform-one/big-bang/apps/sandbox/<your project>)
+    repository: "https://repo1.dso.mil/big-bang/product/packages/fortify"
+
+    # Incubating: List of images contained in the package.
+    images:
+    # - name: golang-1.20
+    #   image: registry1.dso.mil/ironbank/google/golang/golang-1.20:1.20.14
+
+      # Incubating: Name of the image
+      - name: "ssc"
+
+        # Incubating: Iron Bank approval request (https://repo1.dso.mil/dsop/<your project>/-/issues/1)
+        repository: "https://repo1.dso.mil/dsop/microfocus/fortify/ssc/-/issues/1"
+
+        # Graduated: Iron Bank approval URL (https://ironbank.dso.mil/repomap/details;registry1Path=<your project path>)
+        approval: "https://ironbank.dso.mil/repomap/details;registry1Path=microfocus%2Ffortify%2Fssc"
+      # Incubating: Name of the image
+      - name: "mysql8"
+
+        # Incubating: Iron Bank approval request (https://repo1.dso.mil/dsop/<your project>/-/issues/1)
+        repository: "https://repo1.dso.mil/dsop/bitnami/mysql8/-/issues/1"
+
+        # Graduated: Iron Bank approval URL (https://ironbank.dso.mil/repomap/details;registry1Path=<your project path>)
+        approval: "https://ironbank.dso.mil/repomap/details;registry1Path=bitnami%2Fmysql8"
+      # Incubating: Name of the image
+      - name: "golang-1.20"
+
+        # Incubating: Iron Bank approval request (https://repo1.dso.mil/dsop/<your project>/-/issues/1)
+        repository: "https://repo1.dso.mil/dsop/google/golang/debian/golang-1.20/-/issues/1"
+
+        # Graduated: Iron Bank approval URL (https://ironbank.dso.mil/repomap/details;registry1Path=<your project path>)
+        approval: "https://ironbank.dso.mil/repomap/details;registry1Path=google%2Fgolang%2Fgolang-1.20"
+
+    # Graduated: Links to required documentation
+    documentation: []
+    # - (MISSING) https://repo1.dso.mil/platform-one/big-bang/bigbang/-/blob/master/docs/understanding-bigbang/package-architecture/
+    # - (MISSING) https://repo1.dso.mil/platform-one/big-bang/bigbang/-/blob/master/docs/packages.md#core
+    # - (MISSING) https://repo1.dso.mil/platform-one/big-bang/bigbang/-/blob/master/docs/understanding-bigbang/licensing-model.md
+    # - (MISSING) https://repo1.dso.mil/platform-one/big-bang/bigbang/-/blob/master/docs/prerequisites/minimum-hardware-requirements.md
+
+  # Name and date of required verifications (e.g. "John Doe, 7 Dec 2021")
+  signOffs:
+
+    # Sandbox: Verification of requirements
+    sandboxVerification: ""
+
+    # Incubating: Verification of requirements
+    incubatingVerification: ""
+
+    # Graduated: Verification of requirements
+    graduatedVerification: ""

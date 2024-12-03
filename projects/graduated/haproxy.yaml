@@ -1,0 +1,78 @@
+apiVersion: bbtoc/v1alpha
+kind: Project
+# NOTE: Remove lines that are not applicable
+metadata:
+  # Sandbox: Name of the product to be evaluated
+  name: "haproxy"
+
+  # Sandbox: Product vendor (opensource if no vendor)
+  vendor: "HAProxy Technologies"
+
+  # Sandbox: Short description of the product
+  description: "HAProxy is a free, very fast and reliable reverse-proxy offering high availability, load balancing, and proxying for TCP and HTTP-based applications."
+
+  # Sandbox: URL(s) to product website for further information
+  website:
+  - "https://www.haproxy.org/"
+  - "https://github.com/haproxy/haproxy/"
+
+  # Sandbox: product source code repositories (e.g. github.com).  If not opensource, put "Proprietary"
+  sourceCode:
+  - "https://github.com/haproxy/haproxy/"
+
+  # Sandbox: Product licenses (e.g. Apache 2.0, GPL 3.0, MIT, Proprietary).  Include both free and paid tiers if they exist.
+  license:
+  - "GPL-2.0"
+
+  # Maturity level of the package
+  maturityLevel: Graduated # Sandbox, Incubating, or Graduated
+
+  # Maintenance Track of the package
+  maintenanceTrack: BigBangIntegrated # BigBangIntegrated, BigBangMaintained, CommunityMaintained
+
+  # Sandbox: Points of contact for project (at least 2)
+  contacts:
+  - name: "Luis Gomez"
+    repo1user: "@lgomez2"
+  - name: "Stephen Galamb"
+    repo1user: "@stephen.galamb"
+
+spec:
+  # Sandbox: Package(s) contained in the product (e.g. operator and application).  Each package will have its own repository in repo1.
+  packages:
+  # registry1.dso.mil/ironbank/opensource/haproxy/haproxy22 
+    # Sandbox: Name of the package
+  - name: "haproxy"
+
+    # Sandbox: Big Bang repository (i.e. https://repo1.dso.mil/platform-one/big-bang/apps/sandbox/<your project>)
+    repository: "https://repo1.dso.mil/big-bang/product/packages/haproxy"
+
+    # Incubating: List of images contained in the package.
+    images:
+      # Incubating: Name of the image
+      - name: "haproxy22"
+
+        # Incubating: Iron Bank approval request (https://repo1.dso.mil/dsop/<your project>/-/issues/1)
+        repository: "https://repo1.dso.mil/dsop/opensource/haproxy/haproxy22/-/issues/1"
+
+        # Graduated: Iron Bank approval URL (https://ironbank.dso.mil/repomap/details;registry1Path=<your project path>)
+        approval: "https://ironbank.dso.mil/repomap/details;registry1Path=opensource%2Fhaproxy%2Fhaproxy22"
+
+    # Graduated: Links to required documentation
+    documentation: []
+    # - (MISSING) https://repo1.dso.mil/platform-one/big-bang/bigbang/-/blob/master/docs/understanding-bigbang/package-architecture/
+    # - (MISSING) https://repo1.dso.mil/platform-one/big-bang/bigbang/-/blob/master/docs/packages.md#core
+    # - (MISSING) https://repo1.dso.mil/platform-one/big-bang/bigbang/-/blob/master/docs/understanding-bigbang/licensing-model.md
+    # - (MISSING) https://repo1.dso.mil/platform-one/big-bang/bigbang/-/blob/master/docs/prerequisites/minimum-hardware-requirements.md
+
+  # Name and date of required verifications (e.g. "John Doe, 7 Dec 2021")
+  signOffs:
+
+    # Sandbox: Verification of requirements
+    sandboxVerification: ""
+
+    # Incubating: Verification of requirements
+    incubatingVerification: ""
+
+    # Graduated: Verification of requirements
+    graduatedVerification: ""

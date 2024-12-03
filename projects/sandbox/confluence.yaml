@@ -29,6 +29,9 @@ metadata:
   # Maturity level of the package
   maturityLevel: Sandbox # Sandbox, Incubating, or Graduated
 
+  # Maintenance Track of the package
+  maintenanceTrack: BigBangMaintained # BigBangIntegrated, BigBangMaintained, CommunityMaintained
+
   # Sandbox: Points of contact for project (at least 2)
   contacts:
   - name: "Arun Sanna"
@@ -58,7 +61,7 @@ spec:
       repository: "https://repo1.dso.mil/dsop/atlassian/confluence-data-center/confluence-node/-/issues/15"
 
       # Graduated: Iron Bank approval URL (https://ironbank.dso.mil/repomap/details;registry1Path=<your project path>)
-      approval: "https://ironbank.dso.mil/repomap/details;registry1Path=atlassian%252Fconfluence-data-center%252Fconfluence-node?page=1&sort=1"
+      approval: "https://ironbank.dso.mil/repomap/details;registry1Path=atlassian%252Fconfluence-data-center%252Fconfluence-node"
 
     # Graduated: Links to required documentation
     documentation:

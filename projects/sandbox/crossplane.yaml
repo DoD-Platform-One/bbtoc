@@ -12,6 +12,7 @@ metadata:
   - "Apache License 2.0"
   purpose: "Orchestration and Management"
   maturityLevel: Sandbox # Sandbox, Incubating, or Graduated
+  maintenanceTrack: CommunityMaintained
   contacts:
   - name: "Karpagam Balan"
     repo1user: "@balan-karpagam"
