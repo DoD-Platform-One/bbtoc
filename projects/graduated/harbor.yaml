@@ -26,7 +26,10 @@ metadata:
   purpose: Provide an alternative, low-cost image registry solution.  Officially support current solution used by Platform One's Iron Bank.
 
   # Maturity level of the package
-  maturityLevel: Incubating # Sandbox, Incubating, or Graduated
+  maturityLevel: Graduated # Sandbox, Incubating, or Graduated
+
+  # Maintenance Track of the package
+  maintenanceTrack: BigBangIntegrated # BigBangIntegrated, BigBangMaintained, CommunityMaintained
 
   # Sandbox: Points of contact for project (at least 2)
   contacts:
@@ -51,7 +54,7 @@ spec:
         approval: https://ironbank.dso.mil/repomap/details;registry1Path=opensource%252Fgoharbor%252Fchartmuseum
       - name: Harbor Core
         repository: https://repo1.dso.mil/dsop/opensource/goharbor/harbor-core
-        approval: https://ironbank.dso.mil/repomap/details;registry1Path=opensource%252Fgoharbor%252Fharbor-core?page=1&sort=1
+        approval: https://ironbank.dso.mil/repomap/details;registry1Path=opensource%252Fgoharbor%252Fharbor-core
       - name: Harbor Database
         repository: https://repo1.dso.mil/dsop/opensource/goharbor/harbor-db
         approval: https://ironbank.dso.mil/repomap/details;registry1Path=opensource%252Fgoharbor%252Fharbor-db
@@ -60,10 +63,10 @@ spec:
         approval: https://ironbank.dso.mil/repomap/details;registry1Path=opensource%252Fgoharbor%252Fharbor-exporter
       - name: Harbor Job Service
         repository: https://repo1.dso.mil/dsop/opensource/goharbor/harbor-jobservice
-        approval: https://ironbank.dso.mil/repomap/details;registry1Path=opensource%252Fgoharbor%252Fharbor-jobservice?page=1&sort=1
+        approval: https://ironbank.dso.mil/repomap/details;registry1Path=opensource%252Fgoharbor%252Fharbor-jobservice
       - name: Harbor Log
         repository: https://repo1.dso.mil/dsop/opensource/goharbor/harbor-log
-        approval: https://ironbank.dso.mil/repomap/details;registry1Path=opensource%252Fgoharbor%252Fharbor-log?page=1&sort=1
+        approval: https://ironbank.dso.mil/repomap/details;registry1Path=opensource%252Fgoharbor%252Fharbor-log
       - name: Harbor Portal
         repository: https://repo1.dso.mil/dsop/opensource/goharbor/harbor-portal
         approval: https://ironbank.dso.mil/repomap/details;registry1Path=opensource%252Fgoharbor%252Fharbor-portal
@@ -75,13 +78,13 @@ spec:
         approval: https://ironbank.dso.mil/repomap/details;registry1Path=opensource%252Fgoharbor%252Fnotary-server
       - name: Notary Signer
         repository: https://repo1.dso.mil/dsop/opensource/goharbor/notary-signer
-        approval: https://ironbank.dso.mil/repomap/details;registry1Path=opensource%252Fgoharbor%252Fnotary-signer?page=1&sort=1
+        approval: https://ironbank.dso.mil/repomap/details;registry1Path=opensource%252Fgoharbor%252Fnotary-signer
       - name: Registry
         repository: https://repo1.dso.mil/dsop/opensource/goharbor/registry
         approval: https://ironbank.dso.mil/repomap/details;registry1Path=opensource%252Fgoharbor%252Fregistry
       - name: Trivy Adapter
         repository: https://repo1.dso.mil/dsop/opensource/goharbor/trivy-adapter
-        approval: https://ironbank.dso.mil/repomap/details;registry1Path=opensource%252Fgoharbor%252Ftrivy-adapter?page=1&sort=1
+        approval: https://ironbank.dso.mil/repomap/details;registry1Path=opensource%252Fgoharbor%252Ftrivy-adapter
 
     # Graduated: Links to required documentation
     documentation: []

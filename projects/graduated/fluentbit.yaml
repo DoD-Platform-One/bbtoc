@@ -25,6 +25,9 @@ metadata:
   # Maturity level of the package
   maturityLevel: Graduated
 
+  # Maintenance Track of the package
+  maintenanceTrack: BigBangIntegrated # BigBangIntegrated, BigBangMaintained, CommunityMaintained
+
   # Sandbox: Points of contact for project (at least 2)
   contacts:
   - name: Ryan Garcia

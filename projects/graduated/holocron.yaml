@@ -1,0 +1,152 @@
+apiVersion: bbtoc/v1alpha
+kind: Project
+# NOTE: Remove lines that are not applicable
+metadata:
+  # Sandbox: Name of the product to be evaluated
+  name: "holocron"
+
+  # Sandbox: Product vendor (opensource if no vendor)
+  vendor: "Platform One"
+
+  # Sandbox: Short description of the product
+  description: "Your mission-critical tool for optimizing operational efficiency and achieving excellence in development products."
+
+  # Sandbox: URL(s) to product website for further information
+  website:
+  - "https://repo1.dso.mil/big-bang/product/packages/holocron/-/blob/main/docs/overview.md"
+  - "https://repo1.dso.mil/big-bang/apps/sandbox/holocron"
+
+  # Sandbox: product source code repositories (e.g. github.com).  If not opensource, put "Proprietary"
+  sourceCode:
+  - "https://repo1.dso.mil/big-bang/product/packages/holocron"
+  - "https://repo1.dso.mil/big-bang/apps/sandbox/holocron"
+
+  # Sandbox: Product licenses (e.g. Apache 2.0, GPL 3.0, MIT, Proprietary).  Include both free and paid tiers if they exist.
+  license:
+  - "Apache 2.0"
+
+  # Maturity level of the package
+  maturityLevel: Graduated # Sandbox, Incubating, or Graduated
+
+  # Maintenance Track of the package
+  maintenanceTrack: BigBangIntegrated # BigBangIntegrated, BigBangMaintained, CommunityMaintained
+
+  # Sandbox: Points of contact for project (at least 2)
+  contacts:
+  - name: "Nigel Bazzeghin"
+    repo1user: "@nbazzeghin"
+  - name: "Jimmy Bourque"
+    repo1user: "@jimmy.bourque"
+
+spec:
+  # Sandbox: Package(s) contained in the product (e.g. operator and application).  Each package will have its own repository in repo1.
+  packages:
+    # Sandbox: Name of the package
+  - name: "holocron"
+
+    # Sandbox: Big Bang repository (i.e. https://repo1.dso.mil/platform-one/big-bang/apps/sandbox/<your project>)
+    repository: "https://repo1.dso.mil/big-bang/product/packages/holocron"
+
+    # Incubating: List of images contained in the package.
+    images:
+      # Incubating: Name of the image
+      - name: "holocron-dashboard"
+
+        # Incubating: Iron Bank approval request (https://repo1.dso.mil/dsop/<your project>/-/issues/1)
+        repository: "https://repo1.dso.mil/dsop/big-bang/holocron/holocron-dashboard/-/issues/1"
+
+        # Graduated: Iron Bank approval URL (https://ironbank.dso.mil/repomap/details;registry1Path=<your project path>)
+        approval: "https://ironbank.dso.mil/repomap/details;registry1Path=holocron%2Fholocron-dashboard"
+      # Incubating: Name of the image
+      - name: "holocron-api"
+
+        # Incubating: Iron Bank approval request (https://repo1.dso.mil/dsop/<your project>/-/issues/1)
+        repository: "https://repo1.dso.mil/dsop/big-bang/holocron/Holocron-API/-/issues/1"
+
+        # Graduated: Iron Bank approval URL (https://ironbank.dso.mil/repomap/details;registry1Path=<your project path>)
+        approval: "https://ironbank.dso.mil/repomap/details;registry1Path=holocron%2Fhygieia%2Fholocron-api"
+      # Incubating: Name of the image
+      - name: "collector-gitlab-scm"
+
+        # Incubating: Iron Bank approval request (https://repo1.dso.mil/dsop/<your project>/-/issues/1)
+        repository: "https://repo1.dso.mil/dsop/big-bang/holocron/Collector-GitLab-SCM/-/issues/1"
+
+        # Graduated: Iron Bank approval URL (https://ironbank.dso.mil/repomap/details;registry1Path=<your project path>)
+        approval: "https://ironbank.dso.mil/repomap/details;registry1Path=holocron%2Fcollector-gitlab-scm"
+      # Incubating: Name of the image
+      - name: "collector-jira-workflow"
+
+        # Incubating: Iron Bank approval request (https://repo1.dso.mil/dsop/<your project>/-/issues/1)
+        repository: "https://repo1.dso.mil/dsop/big-bang/holocron/Collector-Jira-Workflow/-/issues/1"
+
+        # Graduated: Iron Bank approval URL (https://ironbank.dso.mil/repomap/details;registry1Path=<your project path>)
+        approval: "https://ironbank.dso.mil/repomap/details;registry1Path=holocron%2Fcollector-jira-workflow"
+      # Incubating: Name of the image
+      - name: "collector-gitlab-build"
+
+        # Incubating: Iron Bank approval request (https://repo1.dso.mil/dsop/<your project>/-/issues/1)
+        repository: "https://repo1.dso.mil/dsop/big-bang/holocron/Collector-GitLab-Build/-/issues/1"
+
+        # Graduated: Iron Bank approval URL (https://ironbank.dso.mil/repomap/details;registry1Path=<your project path>)
+        approval: "https://ironbank.dso.mil/repomap/details;registry1Path=holocron%2Fcollector-gitlab-build"
+      # Incubating: Name of the image
+      - name: "collector-gitlab-workflow"
+
+        # Incubating: Iron Bank approval request (https://repo1.dso.mil/dsop/<your project>/-/issues/1)
+        repository: "https://repo1.dso.mil/dsop/big-bang/holocron/Collector-GitLab-Workflow/-/issues/1"
+
+        # Graduated: Iron Bank approval URL (https://ironbank.dso.mil/repomap/details;registry1Path=<your project path>)
+        approval: "https://ironbank.dso.mil/repomap/details;registry1Path=holocron%2Fcollector-gitlab-workflow"
+      # Incubating: Name of the image
+      - name: "collector-sonarqube-project-analysis"
+
+        # Incubating: Iron Bank approval request (https://repo1.dso.mil/dsop/<your project>/-/issues/1)
+        # THIS DOESN'T EXIST
+        # repository: "https://repo1.dso.mil/dsop/big-bang/holocron/collector-sonarqube-project-analysis/-/issues/1"
+
+        # Graduated: Iron Bank approval URL (https://ironbank.dso.mil/repomap/details;registry1Path=<your project path>)
+        approval: "https://ironbank.dso.mil/repomap/details;registry1Path=holocron%2Fcollector-sonarqube-project-analysis"
+      # Incubating: Name of the image
+      - name: "postgres"
+
+        # Incubating: Iron Bank approval request (https://repo1.dso.mil/dsop/<your project>/-/issues/1)
+        # THIS DOESN'T EXIST
+        # repository: "https://repo1.dso.mil/dsop/opensource/postgres/postgresql-15/postgresql15/-/issues/1"
+
+        # Graduated: Iron Bank approval URL (https://ironbank.dso.mil/repomap/details;registry1Path=<your project path>)
+        approval: "https://ironbank.dso.mil/repomap/details;registry1Path=opensource%2Fpostgres%2Fpostgresql"
+      # Incubating: Name of the image
+      - name: "base"
+
+        # Incubating: Iron Bank approval request (https://repo1.dso.mil/dsop/<your project>/-/issues/1)
+        repository: "https://repo1.dso.mil/dsop/big-bang/base/-/issues/1"
+
+        # Graduated: Iron Bank approval URL (https://ironbank.dso.mil/repomap/details;registry1Path=<your project path>)
+        approval: "https://ironbank.dso.mil/repomap/details;registry1Path=big-bang%2Fbase"
+      # Incubating: Name of the image
+      - name: "postgres-exporter"
+
+        # Incubating: Iron Bank approval request (https://repo1.dso.mil/dsop/<your project>/-/issues/1)
+        repository: "https://repo1.dso.mil/dsop/bitnami/postgres-exporter/-/issues/1"
+
+        # Graduated: Iron Bank approval URL (https://ironbank.dso.mil/repomap/details;registry1Path=<your project path>)
+        approval: "https://ironbank.dso.mil/repomap/details;registry1Path=bitnami%2Fpostgres-exporter"
+
+    # Graduated: Links to required documentation
+    documentation: []
+    # - (MISSING) https://repo1.dso.mil/platform-one/big-bang/bigbang/-/blob/master/docs/understanding-bigbang/package-architecture/
+    # - (MISSING) https://repo1.dso.mil/platform-one/big-bang/bigbang/-/blob/master/docs/packages.md#core
+    # - (MISSING) https://repo1.dso.mil/platform-one/big-bang/bigbang/-/blob/master/docs/understanding-bigbang/licensing-model.md
+    # - (MISSING) https://repo1.dso.mil/platform-one/big-bang/bigbang/-/blob/master/docs/prerequisites/minimum-hardware-requirements.md
+
+  # Name and date of required verifications (e.g. "John Doe, 7 Dec 2021")
+  signOffs:
+
+    # Sandbox: Verification of requirements
+    sandboxVerification: ""
+
+    # Incubating: Verification of requirements
+    incubatingVerification: ""
+
+    # Graduated: Verification of requirements
+    graduatedVerification: ""

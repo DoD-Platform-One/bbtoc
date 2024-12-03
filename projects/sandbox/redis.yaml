@@ -3,25 +3,26 @@ kind: Project
 # NOTE: Remove lines that are not applicable
 metadata:
   # Sandbox: Name of the product to be evaluated
-  name: ""
+  name: "Redis"
 
   # Sandbox: Product vendor (opensource if no vendor)
-  vendor: ""
+  vendor: "Redis"
 
   # Sandbox: Short description of the product
-  description: ""
+  description: "Deliver faster experiences with the fastest cache."
 
   # Sandbox: URL(s) to product website for further information
   website:
-  - ""
+  - "https://redis.io/"
 
   # Sandbox: product source code repositories (e.g. github.com).  If not opensource, put "Proprietary"
   sourceCode:
-  - ""
+  - "https://github.com/redis/redis"
+  - "https://github.com/bitnami/charts/tree/main/bitnami/redis"
 
   # Sandbox: Product licenses (e.g. Apache 2.0, GPL 3.0, MIT, Proprietary).  Include both free and paid tiers if they exist.
   license:
-  - ""
+  - "Apache 2.0"
 
   # Maturity level of the package
   maturityLevel: Sandbox # Sandbox, Incubating, or Graduated
@@ -31,30 +32,37 @@ metadata:
 
   # Sandbox: Points of contact for project (at least 2)
   contacts:
-  - name: ""
-    repo1user: ""
-  - name: ""
-    repo1user: ""
+  - name: "Jacob Kershaw"
+    repo1user: "@kershaw.jacob"
+  - name: "Sam Vongsay"
+    repo1user: "@samvongsay"
 
 spec:
   # Sandbox: Package(s) contained in the product (e.g. operator and application).  Each package will have its own repository in repo1.
   packages:
     # Sandbox: Name of the package
-  - name: ""
+  - name: "redis"
 
     # Sandbox: Big Bang repository (i.e. https://repo1.dso.mil/platform-one/big-bang/apps/sandbox/<your project>)
-    repository: ""
+    repository: "https://repo1.dso.mil/big-bang/product/packages/redis"
 
     # Incubating: List of images contained in the package.
     images:
       # Incubating: Name of the image
-      - name: ""
+      - name: "redis"
 
         # Incubating: Iron Bank approval request (https://repo1.dso.mil/dsop/<your project>/-/issues/1)
-        repository: ""
+        repository: "https://repo1.dso.mil/dsop/bitnami/redis/-/issues/1"
 
         # Graduated: Iron Bank approval URL (https://ironbank.dso.mil/repomap/details;registry1Path=<your project path>)
-        approval: ""
+        approval: "https://ironbank.dso.mil/repomap/details;registry1Path=bitnami%2Fredis"
+      - name: "exporter"
+
+        # Incubating: Iron Bank approval request (https://repo1.dso.mil/dsop/<your project>/-/issues/1)
+        repository: "https://repo1.dso.mil/dsop/bitnami/analytics/redis-exporter/-/issues/1"
+
+        # Graduated: Iron Bank approval URL (https://ironbank.dso.mil/repomap/details;registry1Path=<your project path>)
+        approval: "https://ironbank.dso.mil/repomap/details;registry1Path=bitnami%2Fanalytics%2Fredis-exporter"
 
     # Graduated: Links to required documentation
     documentation: []

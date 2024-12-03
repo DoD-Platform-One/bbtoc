@@ -14,10 +14,12 @@ metadata:
   # Sandbox: URL(s) to product website for further information
   website:
   - "https://about.gitlab.com/"
+  - "https://docs.gitlab.com/runner/"
 
   # Sandbox: product source code repositories (e.g. github.com).  If not opensource, put "Proprietary"
   sourceCode:
   - "https://gitlab.com/gitlab-org/gitlab"
+  - "https://gitlab.com/gitlab-org/gitlab-runner"
 
   # Sandbox: Product licenses (e.g. Apache 2.0, GPL 3.0, MIT, Proprietary).  Include both free and paid tiers if they exist.
   license:
@@ -26,6 +28,9 @@ metadata:
 
   # Maturity level of the package
   maturityLevel: Graduated # Sandbox, Incubating, or Graduated
+
+  # Maintenance Track of the package
+  maintenanceTrack: BigBangIntegrated # BigBangIntegrated, BigBangMaintained, CommunityMaintained
 
   # Sandbox: Points of contact for project (at least 2)
   contacts:

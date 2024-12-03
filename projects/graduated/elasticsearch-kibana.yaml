@@ -13,7 +13,9 @@ metadata:
   license:
     - "Elastic License 2.0"
     - "SSPLv1"
-  maturityLevel: "Incubating"
+    - Apache 2.0
+  maturityLevel: "Graduated"
+  maintenanceTrack: BigBangIntegrated
   contacts:
     - name: Kavitha Thulasiraman
       repo1user: '@kavitha'

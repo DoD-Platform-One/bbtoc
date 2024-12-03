@@ -11,6 +11,7 @@ metadata:
   license:
   - "Apache 2.0"
   maturityLevel: Sandbox
+  maintenanceTrack: CommunityMaintained
   contacts:
   - name: "Andrew Greene"
     repo1user: "@andrew.greene"
