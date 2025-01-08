@@ -26,12 +26,15 @@ metadata:
   # Maturity level of the package
   maturityLevel: Sandbox # Sandbox, Incubating, or Graduated
 
+  # Maintenance Track of the package
+  maintenanceTrack: BigBangMaintained # BigBangIntegrated, BigBangMaintained, CommunityMaintained
+
   # Sandbox: Points of contact for project (at least 2)
   contacts:
   - name: "Andrew Shoell"
-    repo1user: @andrewshoell 
+    repo1user: @andrewshoell
   - name: "Chris O'Connell"
-    repo1user: @chris.oconnell 
+    repo1user: @chris.oconnell
 
 
 spec:
