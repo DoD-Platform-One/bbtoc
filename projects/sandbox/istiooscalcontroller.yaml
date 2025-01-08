@@ -29,10 +29,10 @@ metadata:
 
   # Sandbox: Points of contact for project (at least 2)
   contacts:
-  - name: "TBD"
-    repo1user: @tbd
-  - name: "TBD"
-    repo1user: @tbd
+  - name: "Andrew Shoell"
+    repo1user: @andrewshoell 
+  - name: "Chris O'Connell"
+    repo1user: @chris.oconnell 
 
 spec:
   # Sandbox: Package(s) contained in the product (e.g. operator and application). Each package will have its own repository in repo1.
