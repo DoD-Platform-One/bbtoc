@@ -14,11 +14,11 @@ metadata:
   # Sandbox: URL(s) to product website for further information
   website:
   - "https://tetrate.io/"
-  - "https://github.com/tetrateio/istio-oscal-controller"
+  - "https://github.com/tetrateio/istio-oscal-controller" # Private repo
 
   # Sandbox: product source code repositories (e.g. github.com). If not opensource, put "Proprietary"
   sourceCode:
-  - "https://github.com/tetrateio/istio-oscal-controller"
+  - "https://github.com/tetrateio/istio-oscal-controller" # Private repo
 
   # Sandbox: Product licenses (e.g. Apache 2.0, GPL 3.0, MIT, Proprietary). Include both free and paid tiers if they exist.
   license:
@@ -44,7 +44,7 @@ spec:
   - name: "istio-oscal-controller"
 
     # Sandbox: Big Bang repository (i.e. https://repo1.dso.mil/platform-one/big-bang/apps/sandbox/<your project>)
-    repository: "https://repo1.dso.mil/platform-one/big-bang/apps/sandbox/istio-oscal-controller"
+    repository: "https://repo1.dso.mil/big-bang/apps/sandbox/istio-oscal-controller"
 
     # Incubating: List of images contained in the package.
     images:

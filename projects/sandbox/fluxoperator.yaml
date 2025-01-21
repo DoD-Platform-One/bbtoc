@@ -14,11 +14,11 @@ metadata:
   # Sandbox: URL(s) to product website for further information
   website:
   - "https://fluxcd.io/"
-  - "https://github.com/flux-subsystem/flux-operator"
+  - "https://github.com/controlplaneio-fluxcd/flux-operator"
 
   # Sandbox: product source code repositories (e.g. github.com). If not opensource, put "Proprietary"
   sourceCode:
-  - "https://github.com/flux-subsystem/flux-operator"
+  - "https://github.com/controlplaneio-fluxcd/flux-operator"
 
   # Sandbox: Product licenses (e.g. Apache 2.0, GPL 3.0, MIT, Proprietary). Include both free and paid tiers if they exist.
   license:
@@ -44,7 +44,7 @@ spec:
   - name: "flux-operator"
 
     # Sandbox: Big Bang repository (i.e. https://repo1.dso.mil/platform-one/big-bang/apps/sandbox/<your project>)
-    repository: "https://repo1.dso.mil/platform-one/big-bang/apps/sandbox/flux-operator"
+    repository: "https://repo1.dso.mil/big-bang/apps/sandbox/flux-operator"
 
     # Incubating: List of images contained in the package.
     images:
