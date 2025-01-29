@@ -24,7 +24,7 @@ metadata:
   - GNU Affero GPL 3.0
 
   # Maturity level of the package
-  maturityLevel: Sandbox # Sandbox, Incubating, or Graduated
+  maturityLevel: Incubating # Sandbox, Incubating, or Graduated
 
   # Maintenance Track of the package
   maintenanceTrack: BigBangIntegrated # BigBangIntegrated, BigBangMaintained, CommunityMaintained
