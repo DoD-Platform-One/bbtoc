@@ -33,7 +33,7 @@ metadata:
   contacts:
   - name: Kevin Scheunemann
     repo1user: '@kscheunemann'
-  - name: Krby Liu
+  - name: Kirby Liu
     repo1user: '@kliu'
   - name: Zach Callahan
     repo1user: '@zcallahan'
@@ -45,7 +45,7 @@ spec:
   - name: Mimir
 
     # Sandbox: Big Bang repository (i.e. https://repo.dso.mil/platform-one/big-bang/apps/sandbox/<your project>)
-    repository: https://repo1.dso.mil/big-bang/apps/sandbox/mimir
+    repository: https://repo1.dso.mil/big-bang/product/packages/mimir
 
     # Incubating: List of images contained in the package.
     images:
@@ -58,8 +58,8 @@ spec:
 
     # Graduated: Links to required documentation
     documentation:
-    # - (MISSING) https://repo1.dso.mil/platform-one/big-bang/bigbang/-/blob/master/docs/understanding-bigbang/package-architecture/
-    - https://repo1.dso.mil/platform-one/big-bang/bigbang/-/blob/master/docs/packages.md#core
+    - https://repo1.dso.mil/platform-one/big-bang/bigbang/-/blob/master/docs/understanding-bigbang/package-architecture/mimir.md
+    - https://repo1.dso.mil/big-bang/bigbang/-/blob/master/docs/packages.md#cluster-utilities
     # - (MISSING) https://repo1.dso.mil/platform-one/big-bang/bigbang/-/blob/master/docs/understanding-bigbang/licensing-model.md
     # - (MISSING) https://repo1.dso.mil/platform-one/big-bang/bigbang/-/blob/master/docs/prerequisites/minimum-hardware-requirements.md
 
