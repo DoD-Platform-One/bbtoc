@@ -58,7 +58,7 @@ spec:
 
     # Graduated: Links to required documentation
     documentation:
-    - https://repo1.dso.mil/platform-one/big-bang/bigbang/-/blob/master/docs/understanding-bigbang/package-architecture/mimir.md
+    - https://repo1.dso.mil/big-bang/bigbang/-/blob/master/docs/understanding-bigbang/package-architecture/mimir.md
     - https://repo1.dso.mil/big-bang/bigbang/-/blob/master/docs/packages.md#cluster-utilities
     # - (MISSING) https://repo1.dso.mil/platform-one/big-bang/bigbang/-/blob/master/docs/understanding-bigbang/licensing-model.md
     # - (MISSING) https://repo1.dso.mil/platform-one/big-bang/bigbang/-/blob/master/docs/prerequisites/minimum-hardware-requirements.md
