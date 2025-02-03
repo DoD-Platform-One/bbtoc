@@ -44,7 +44,7 @@ spec:
     # Sandbox: Name of the package
   - name: Mimir
 
-    # Sandbox: Big Bang repository (i.e. https://repo.dso.mil/platform-one/big-bang/apps/sandbox/<your project>)
+    # Sandbox: Big Bang repository (i.e. https://repo.dso.mil/big-bang/apps/sandbox/<your project>)
     repository: https://repo1.dso.mil/big-bang/product/packages/mimir
 
     # Incubating: List of images contained in the package.
@@ -60,8 +60,8 @@ spec:
     documentation:
     - https://repo1.dso.mil/big-bang/bigbang/-/blob/master/docs/understanding-bigbang/package-architecture/mimir.md
     - https://repo1.dso.mil/big-bang/bigbang/-/blob/master/docs/packages.md#cluster-utilities
-    # - (MISSING) https://repo1.dso.mil/platform-one/big-bang/bigbang/-/blob/master/docs/understanding-bigbang/licensing-model.md
-    # - (MISSING) https://repo1.dso.mil/platform-one/big-bang/bigbang/-/blob/master/docs/prerequisites/minimum-hardware-requirements.md
+    # - (MISSING) https://repo1.dso.mil/big-bang/bigbang/-/blob/master/docs/understanding-bigbang/licensing-model.md
+    # - (MISSING) https://repo1.dso.mil/big-bang/bigbang/-/blob/master/docs/prerequisites/minimum-hardware-requirements.md
 
   # Name and date of required verifications (e.g. "John Doe, 7 Dec 2021")
   signOffs:
