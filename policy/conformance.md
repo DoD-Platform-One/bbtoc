@@ -33,7 +33,9 @@ BBCS Technical Requirements:
 
 ## 3. Policy Engine
      
-  1. MUST configure based on a set of required minimum protections, to be defined by the BBTOC
+  1. MUST provide documented list of policies, along with enforcement status
+  
+  1. SHOULD base policies off of the [Kubernetes Pod Security Standards](https://kubernetes.io/docs/concepts/security/pod-security-standards/) and [Big Bang's Kyverno Policies](https://docs-bigbang.dso.mil/latest/packages/kyverno-policies/docs/policies/)
   
   1. MUST track/document exceptions to these policies
   
