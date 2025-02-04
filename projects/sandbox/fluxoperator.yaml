@@ -3,23 +3,24 @@ kind: Project
 # NOTE: Remove lines that are not applicable
 metadata:
   # Sandbox: Name of the product to be evaluated
-  name: "headlamp"
+  name: "flux-operator"
 
   # Sandbox: Product vendor (opensource if no vendor)
   vendor: "opensource"
 
   # Sandbox: Short description of the product
-  description: "Headlamp is a user-friendly Kubernetes UI focused on extensibility"
+  description: "The Flux Operator simplifies GitOps workflows by managing Flux controllers as Kubernetes resources."
 
   # Sandbox: URL(s) to product website for further information
   website:
-  - "https://headlamp.dev/"
+  - "https://fluxcd.io/"
+  - "https://github.com/controlplaneio-fluxcd/flux-operator"
 
-  # Sandbox: product source code repositories (e.g. github.com).  If not opensource, put "Proprietary"
+  # Sandbox: product source code repositories (e.g. github.com). If not opensource, put "Proprietary"
   sourceCode:
-  - "https://github.com/headlamp-k8s/headlamp"
+  - "https://github.com/controlplaneio-fluxcd/flux-operator"
 
-  # Sandbox: Product licenses (e.g. Apache 2.0, GPL 3.0, MIT, Proprietary).  Include both free and paid tiers if they exist.
+  # Sandbox: Product licenses (e.g. Apache 2.0, GPL 3.0, MIT, Proprietary). Include both free and paid tiers if they exist.
   license:
   - "Apache 2.0"
 
@@ -27,23 +28,23 @@ metadata:
   maturityLevel: Sandbox # Sandbox, Incubating, or Graduated
 
   # Maintenance Track of the package
-  maintenanceTrack: BigBangIntegrated # BigBangIntegrated, BigBangMaintained, CommunityMaintained
+  maintenanceTrack: BigBangMaintained # BigBangIntegrated, BigBangMaintained, CommunityMaintained
 
   # Sandbox: Points of contact for project (at least 2)
   contacts:
   - name: "Andrew Shoell"
-    repo1user: @andrewshoell 
+    repo1user: @andrewshoell
   - name: "Chris O'Connell"
-    repo1user: @chris.oconnell 
+    repo1user: @chris.oconnell
 
 spec:
-  # Sandbox: Package(s) contained in the product (e.g. operator and application).  Each package will have its own repository in repo1.
+  # Sandbox: Package(s) contained in the product (e.g. operator and application). Each package will have its own repository in repo1.
   packages:
     # Sandbox: Name of the package
-  - name: "headlamp"
+  - name: "flux-operator"
 
     # Sandbox: Big Bang repository (i.e. https://repo1.dso.mil/platform-one/big-bang/apps/sandbox/<your project>)
-    repository: "https://repo1.dso.mil/big-bang/apps/sandbox/headlamp"
+    repository: "https://repo1.dso.mil/big-bang/apps/sandbox/flux-operator"
 
     # Incubating: List of images contained in the package.
     images:
