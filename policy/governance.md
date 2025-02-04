@@ -10,13 +10,13 @@ All members must adhere and agree to the following:
 - An organization should only have a single member on the TOC at any given time
 - Members must represent the best interests of the community without unchecked vendor bias
 - Member nominations are approved by the BBTOC
-- Member must be willing to support package nominations as a Shepherd
+- Member must be willing to support package and stack proposals as a Shepherd
 
 ### Roles
 
 - Chair: up to two appointed member(s) will be nominated and designated chair/co-chair for a 6 month duration. The chair/co-chair is responsible for keeping the ship afloat, hosting meetings, keeping minutes, timeboxing, agenda, backlog management, etc...
 - Voting Members: DoD employee or appointed individual representing a DoD project/program office who retain voting privileges on SIG creation, member nominations, package promotion, and Big Bang Backlog Prioritization
-- Shepherd: for each proposed project a shepherd will be assigned. The shepherd is responsible for supporting projects engagement and interaction with the TOC, to include ensuring consistent and correct submissions, answering questions, and bringing topics before the TOC when appropriate; but is not responsible for the success of the project.
+- Shepherd: for each proposed project/conformant stack a shepherd will be assigned. The shepherd is responsible for supporting engagement and interaction with the TOC, to include ensuring consistent and correct submissions, answering questions, and bringing topics before the TOC when appropriate; but is not responsible for the success of the submission.
 
 ## Issue Management
 
