@@ -6,8 +6,11 @@ BBTOC is the open collaboration body of the Big Bang ecosystem. We are heavily i
 
 Chief Objectives:
 
+- Big Bang displays quarterly roadmap items and priorities
+- Discuss Big Bang OKRs that are relevant to the community
+- Display metrics of community contributions
 - Enable community collaboration across organizations and use cases
-- Enabled collaborative development of solutions, solving problems for the majority
+- Enable collaborative development of solutions, solving problems for the majority
 - We exist to connect and collaborate, not gate keep and control
 - We are not a standards body, nor do we influence funding of various efforts
 
@@ -29,21 +32,15 @@ How and why do these members exist? [governance](policy/governance.md)
 
 ## Meetups
 
-Join Us! The TOC meets the first and third Tuesday each month at 1200 MST
+Join Us! The TOC meets the 3rd Tuesday at the end of each quarter for 2 hrs at 1300 CT (18 March - 17 June - 16 September - 16 December)
 
-Please join the [BBTOC mailing list](https://mailman.mit.edu/mailman/listinfo/bbtoc) to receive official calendar invites (and cancelations) to meetings. You can also import the ICS below, however it will not be updated if announcements or changes are made.
+Please join the [BBTOC mailing list](aflcmc.hncx.platformonebigbang@us.af.mil) to receive official calendar invites (and cancelations) to meetings. You can also import the ICS below, however it will not be updated if announcements or changes are made.
 
 https://www.zoomgov.com/j/1610253709 
 
 Meeting ID: 161 025 3709
 Passcode: mid0C3Ft 
 
-Dial by your location
-• +1 669 254 5252 US (San Jose)
-• +1 646 828 7666 US (New York)
-
-Meeting ID: 161 008 9970
-Passcode: 60567382
 
 ## Making sense of it all
 
@@ -66,7 +63,7 @@ Passcode: 60567382
 
 We readily welcome any and all community engagement!
 
-1. Subscribe to the [BBTOC mailing list](https://mailman.mit.edu/mailman/listinfo/bbtoc) 
+1. Subscribe to the [BBTOC mailing list](aflcmc.hncx.platformonebigbang@us.af.mil) 
 2. Join us for our [meetups](#meetups)
 3. Submit an [issue](https://repo1.dso.mil/platform-one/bbtoc/-/issues/new) for ideas, questions, feedback, etc...
 4. Join us in Mattermost in the [#topic---bbtoc](https://chat.il2.dso.mil/platform-one/channels/topic---bbtoc) channel on the [Platform One](https://chat.il2.dso.mil/platform-one) team in [IL2 Mattermost](https://chat.il2.dso.mil). If you need an invite to the Platform One team anyone in [this list](https://repo1.dso.mil/platform-one/bbtoc/-/graphs/master) should be able to send you one.
