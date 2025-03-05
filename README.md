@@ -34,7 +34,7 @@ How and why do these members exist? [governance](policy/governance.md)
 
 Join Us! The TOC meets the 3rd Tuesday at the end of each quarter for 2 hrs at 1300 CT (18 March - 17 June - 16 September - 16 December)
 
-Please join the [BBTOC mailing list](aflcmc.hncx.platformonebigbang@us.af.mil) to receive official calendar invites (and cancelations) to meetings. You can also import the ICS below, however it will not be updated if announcements or changes are made.
+Please join the [BBTOC mailing list](mailto:aflcmc.hncx.platformonebigbang@us.af.mil?subject=BBTOC%20mailing%20list%20request&body=Please%20add%20me%20to%20the%20BBTOC%20mailing%20list.) to receive official calendar invites (and cancelations) to meetings by sending an email. You can also import the ICS below, however it will not be updated if announcements or changes are made.
 
 https://www.zoomgov.com/j/1610253709 
 
@@ -63,7 +63,7 @@ Passcode: mid0C3Ft 
 
 We readily welcome any and all community engagement!
 
-1. Subscribe to the [BBTOC mailing list](aflcmc.hncx.platformonebigbang@us.af.mil) 
+1. Subscribe to the [BBTOC mailing list](mailto:aflcmc.hncx.platformonebigbang@us.af.mil?subject=BBTOC%20mailing%20list%20request&body=Please%20add%20me%20to%20the%20BBTOC%20mailing%20list.) 
 2. Join us for our [meetups](#meetups)
 3. Submit an [issue](https://repo1.dso.mil/platform-one/bbtoc/-/issues/new) for ideas, questions, feedback, etc...
 4. Join us in Mattermost in the [#topic---bbtoc](https://chat.il2.dso.mil/platform-one/channels/topic---bbtoc) channel on the [Platform One](https://chat.il2.dso.mil/platform-one) team in [IL2 Mattermost](https://chat.il2.dso.mil). If you need an invite to the Platform One team anyone in [this list](https://repo1.dso.mil/platform-one/bbtoc/-/graphs/master) should be able to send you one.
