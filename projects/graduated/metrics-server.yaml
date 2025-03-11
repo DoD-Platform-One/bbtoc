@@ -24,7 +24,7 @@ metadata:
   - Apache 2.0
 
   # Maturity level of the package
-  maturityLevel: Incubating # Sandbox, Incubating, or Graduated
+  maturityLevel: Graduated # Sandbox, Incubating, or Graduated
 
   # Maintenance Track of the package
   maintenanceTrack: BigBangIntegrated # BigBangIntegrated, BigBangMaintained, CommunityMaintained
