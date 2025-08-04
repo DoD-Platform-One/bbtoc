@@ -13,6 +13,9 @@ Chief Objectives:
 
 ## Chairmembers
 
+- Maj Val Red, @ Platform One (appointed Aug 2025)
+- Mr. Ben Lampert, @ DAFCw (appointed Aig 2025)
+
 - Maj Camdon Cady, @camdon.cady, Platform One (appointed Sept 2022)
 - Jeff McLamb, @mclamb, MIT/LL (appointed Sept 2022)
 
