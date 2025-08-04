@@ -13,15 +13,13 @@ Chief Objectives:
 
 ## Chairmembers
 
-- Maj Camdon Cady, @camdon.cady, Platform One (appointed Sept 2022)
-- Jeff McLamb, @mclamb, MIT/LL (appointed Sept 2022)
+- Maj Val Red, @val.red Platform One (appointed Aug 2025)
+- Mr. Ben Lampert, @benjamin.j.lampert DAFCw (appointed Aig 2025)
 
 ## Members
 
-- Barak Stout, @barakstout1, Raft
-- Anthony Butt, @anthony.butt, GBSD/CSE-Corp
-- Ian Dunbar-Hall, @idunbarh, LM Software Factory Chief Engineer
-- Mikael Vanhemert (Mike V), @mvanhemert, AFLCMC/HNCD
+- Lt Col Camdon Cady, @camdon.cady, Kessel Run (Co-Chair Emeritus)
+- Jeff McLamb, @mclamb, MIT/LL (Co-Chair Emeritus)
 
 ** BBTOC Voting Member
 

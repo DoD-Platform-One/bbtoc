@@ -14,3 +14,5 @@
 - Blake Burkhart, @blake.burkhart, Iron Bank, 2022
 - Chad Elkins, @celkins, CNAP Anchor, 2022
 - Gabe Scarberry, @gabe,  Big Bang PM, 2022
+- Lt Col Camdon Cady, @camdon.cady, Platform One (appointed Sept 2022)
+- Jeff McLamb, @mclamb, MIT/LL (appointed Sept 2022)
