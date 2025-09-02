@@ -14,7 +14,7 @@ Chief Objectives:
 ## Chairmembers
 
 - Maj Val Red, @val.red Platform One (appointed Aug 2025)
-- Mr. Ben Lampert, @benjamin.j.lampert DAFCw (appointed Aig 2025)
+- Mr. Ben Lampert, @benjamin.j.lampert DAFCw (appointed Aug 2025)
 
 ## Members
 
