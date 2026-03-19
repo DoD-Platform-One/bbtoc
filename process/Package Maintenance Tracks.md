@@ -2,28 +2,60 @@
 
 ## BBTOC Approval Process
 
-A user must submit an issue to [the BBTOC](https://repo1.dso.mil/big-bang/product/bbtoc) and include a release-notes question/notice for the proposed track change. The BBTOC workflow uses the following governance process (Option 3):
+A user must submit an issue to [the BBTOC](https://repo1.dso.mil/big-bang/product/bbtoc) for every track change request.
+
+### Required BBTOC Issue Fields
+
+- Current track and requested track.
+- Change direction: `upward` or `downward`.
+- Impact summary (users, support posture, release behavior).
+- Proposed timeline.
+- Release-notes question/notice content.
+- Communication plan link (required for downward/high-impact changes).
+- Sponsor (required when a package enters or remains Big Bang Integrated).
+
+### Externally Visible Status Model
+
+Only these states are exposed externally in BBTOC:
+
+- `in process`: request is under internal governance review.
+- `accepted`: request passed required approvals and is cleared for execution.
+- `rejected`: request was not approved and includes explicit next steps.
+
+Status transitions:
+
+- Set `in process` once the BBTOC issue is complete enough to enter review.
+- Set `accepted` only after required governance approvals and Cyber checkpoint are complete.
+- Set `rejected` immediately when any governance stage rejects the request.
+
+### Governance Workflow
+
+The BBTOC workflow uses a differential path: lighter governance for upward/lower-impact changes and full multi-stage governance for downward/high-impact changes.
 
 ```mermaid
 flowchart TD
-    Start([Track Change Proposed]) --> BBTOC[BBTOC Issue Created and Release Notes Question/Notice]
+    Start([Track Change Proposed]) --> BBTOC[BBTOC Issue Created]
+    BBTOC --> InProcess[Set BBTOC status: in process]
 
-    BBTOC --> BBValueStream[Big Bang Value Stream Lead Review]
+    InProcess --> BBValueStream[Big Bang Value Stream Lead Review]
     BBValueStream --> BBDecision{BB Value Stream Decision}
 
-    BBDecision -->|Rejected| UpdateRejected[Update BBTOC: Rejected]
-    BBDecision -->|Approved| Jedi[Jedi Order Review]
+    BBDecision -->|Rejected| UpdateRejected[Set BBTOC status: rejected]
+    BBDecision -->|Approved| Route{Upward/lower-impact or downward/high-impact?}
+
+    Route -->|Upward/lower-impact| Jedi[Jedi Order Review]
+    Route -->|Downward/high-impact| Jedi
 
     Jedi --> JediDecision{Jedi Order Decision}
+    JediDecision -->|Rejected| UpdateRejected
     JediDecision -->|Accepted| CommsPlanning[CE/CPO Comms Planning]
-    JediDecision -->|Escalated| BigRocks[Big Rocks Review]
+    JediDecision -->|Escalated by criteria| BigRocks[Big Rocks Review]
 
     BigRocks --> BigRocksDecision{Big Rocks Decision}
     BigRocksDecision -->|Rejected| UpdateRejected
     BigRocksDecision -->|Approved| CommsPlanning
 
-    CommsPlanning --> NotifyCyber[Notify Cyber]
-    NotifyCyber --> CommsPlanReady{Comms Plan Ready?}
+    CommsPlanning --> CommsPlanReady{Comms Plan Ready?}
 
     CommsPlanReady -->|No - Issues| UpdateRejected
     CommsPlanReady -->|Yes| UpdateADR[Update ADR with Comms Plan]
@@ -32,7 +64,7 @@ flowchart TD
     CyberReview -->|Rejected| UpdateRejected
     CyberReview -->|Approved| UpdateADRCyber[Update ADR with Cyber Review]
 
-    UpdateADRCyber --> UpdateBBTOC[Update BBTOC: Accepted]
+    UpdateADRCyber --> UpdateBBTOC[Set BBTOC status: accepted]
     UpdateBBTOC --> Execute[Execute Track Change]
 
     UpdateRejected --> NextSteps[Provide Next Steps]
@@ -41,7 +73,6 @@ flowchart TD
 
     style BBTOC fill:#90EE90
     style BBValueStream fill:#FFB6C1
-    style NotifyCyber fill:#FFB6C1
     style Jedi fill:#FFB6C1
     style BigRocks fill:#FFB6C1
     style CommsPlanning fill:#FFB6C1
@@ -60,6 +91,49 @@ Legend:
 - Pink (Internal): Internal governance steps (opaque to external stakeholders)
 
 For packages that enter or remain in the Big Bang Integrated track, an explicit stakeholder sponsor must be identified and recorded as part of the BBTOC issue and ADR updates.
+
+### Escalation Criteria (Jedi to Big Rocks)
+
+Jedi escalates to Big Rocks when one or more of the following apply:
+
+- Significant external stakeholder impact is expected.
+- Support posture changes are broad or contentious.
+- Cross-value-stream dependencies or roadmap impacts exist.
+- Material disagreement cannot be resolved at Jedi level.
+
+### Communication Plan Requirements
+
+Before executing downward/high-impact track changes, CE/CPO communication planning must produce a linked artifact with, at minimum:
+
+- Audience list.
+- Communication channels.
+- Message timeline and milestones.
+- Communication owner(s).
+- Release-notes language.
+
+If communication planning fails or remains incomplete, the request is rejected until gaps are addressed.
+
+### Cyber Review Checkpoint
+
+Cyber review approval requires:
+
+- Completion of required security review steps.
+- Documented outcome linked in BBTOC issue and ADR amendment.
+- Any required follow-up actions tracked to completion or accepted risk process.
+
+### Rejection Handling
+
+Any rejection must include a "Next Steps" section in the BBTOC issue that states:
+
+- Why the request was rejected.
+- What changes are required for re-submission.
+- Earliest re-submission condition or date.
+
+### Integrated Sponsor Policy
+
+- Any request that enters or retains the Big Bang Integrated track must name an explicit stakeholder sponsor.
+- If no sponsor is identified, the request cannot move to `accepted`.
+- If a sponsor withdraws after acceptance, open a follow-on BBTOC issue to determine whether the package should move to Maintained.
 
 ## Track Change Notification
 
