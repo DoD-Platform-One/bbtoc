@@ -33,6 +33,7 @@ Status transitions:
 The BBTOC workflow uses a differential path: upward/lower-impact changes follow a lighter approval path, while downward/high-impact changes may require additional escalation.
 
 ```mermaid
+%%{init: {'theme': 'base', 'themeVariables': { 'primaryTextColor': '#111111', 'secondaryTextColor': '#111111', 'tertiaryTextColor': '#111111' }}}%%
 flowchart TD
     Start([Track Change Proposed]) --> BBTOC[BBTOC Issue Created]
     BBTOC --> InProcess[Set BBTOC status: in process]
@@ -71,15 +72,15 @@ flowchart TD
     Execute --> Complete([Track Change Complete])
     NextSteps --> End([Process End])
 
-    style BBTOC fill:#90EE90
-    style BBValueStream fill:#FFB6C1
-    style Jedi fill:#FFB6C1
-    style BigRocks fill:#FFB6C1
-    style CommsPlanning fill:#FFB6C1
-    style UpdateADR fill:#FFB6C1
-    style UpdateADRCyber fill:#FFB6C1
-    style UpdateBBTOC fill:#90EE90
-    style Execute fill:#90EE90
+    style BBTOC fill:#90EE90,stroke:#333,stroke-width:2px
+    style BBValueStream fill:#FFB6C1,stroke:#333,stroke-width:2px
+    style Jedi fill:#FFB6C1,stroke:#333,stroke-width:2px
+    style BigRocks fill:#FFB6C1,stroke:#333,stroke-width:2px
+    style CommsPlanning fill:#FFB6C1,stroke:#333,stroke-width:2px
+    style UpdateADR fill:#FFB6C1,stroke:#333,stroke-width:2px
+    style UpdateADRCyber fill:#FFB6C1,stroke:#333,stroke-width:2px
+    style UpdateBBTOC fill:#90EE90,stroke:#333,stroke-width:2px
+    style Execute fill:#90EE90,stroke:#333,stroke-width:2px
 
     classDef externalStep fill:#90EE90,stroke:#333,stroke-width:2px
     classDef internalStep fill:#FFB6C1,stroke:#333,stroke-width:2px
