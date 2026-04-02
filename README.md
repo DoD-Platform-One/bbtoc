@@ -6,15 +6,18 @@ BBTOC is the open collaboration body of the Big Bang ecosystem. We are heavily i
 
 Chief Objectives:
 
+- Big Bang displays quarterly roadmap items and priorities
+- Discuss Big Bang OKRs that are relevant to the community
+- Display metrics of community contributions
 - Enable community collaboration across organizations and use cases
-- Enabled collaborative development of solutions, solving problems for the majority
+- Enable collaborative development of solutions, solving problems for the majority
 - We exist to connect and collaborate, not gate keep and control
 - We are not a standards body, nor do we influence funding of various efforts
 
 ## Chairmembers
 
 - Maj Val Red, @val.red Platform One (appointed Aug 2025)
-- Mr. Ben Lampert, @benjamin.j.lampert DAFCw (appointed Aig 2025)
+- Mr. Ben Lampert, @benjamin.j.lampert DAFCw (appointed Aug 2025)
 
 ## Members
 
@@ -27,9 +30,11 @@ How and why do these members exist? [governance](policy/governance.md)
 
 ## Meetups
 
+Please join the [BBTOC mailing list](mailto:aflcmc.hncx.platformonebigbang@us.af.mil?subject=BBTOC%20mailing%20list%20request&body=Please%20add%20me%20to%20the%20BBTOC%20mailing%20list.) to receive official calendar invites (and cancelations) to meetings by sending an email. You can also import the ICS below, however it will not be updated if announcements or changes are made.
+
 Join Us! The TOC meets the first Tuesday of each month at 0900CST / 1000EST
 
-[Register here](https://www.zoomgov.com/meeting/register/pf1NHXpIT3aprTGGZtJnqw)
+[Register here](https://www.zoomgov.com/j/1617815539)
 
 ## Making sense of it all
 
@@ -52,10 +57,12 @@ Join Us! The TOC meets the first Tuesday of each month at 0900CST / 1000EST
 
 We readily welcome any and all community engagement!
 
-1. Join us for our [meetups](#meetups)
-2. Submit an [issue](https://repo1.dso.mil/platform-one/bbtoc/-/issues/new) for ideas, questions, feedback, etc...
-3. Join us in Mattermost in the [#topic---bbtoc](https://chat.il2.dso.mil/platform-one/channels/topic---bbtoc) channel on the [Platform One](https://chat.il2.dso.mil/platform-one) team in [IL2 Mattermost](https://chat.il2.dso.mil). If you need an invite to the Platform One team anyone in [this list](https://repo1.dso.mil/platform-one/bbtoc/-/graphs/master) should be able to send you one.
-4. Join us in the [Big Bang Universe Community Slack workspace](https://join.slack.com/t/bigbanguniver-ft39451/shared_invite/zt-21zrvwacw-zoionTAz0UdzVbjnAFSnDw) to get involved, interact with the community, and ask for help.
+1. Subscribe to the [BBTOC mailing list](mailto:aflcmc.hncx.platformonebigbang@us.af.mil?subject=BBTOC%20mailing%20list%20request&body=Please%20add%20me%20to%20the%20BBTOC%20mailing%20list.) 
+2. Join us for our [meetups](#meetups)
+3. Submit an [issue](https://repo1.dso.mil/platform-one/bbtoc/-/issues/new) for ideas, questions, feedback, etc...
+4. Join us in Mattermost in the [#topic---bbtoc](https://chat.il2.dso.mil/platform-one/channels/topic---bbtoc) channel on the [Platform One](https://chat.il2.dso.mil/platform-one) team in [IL2 Mattermost](https://chat.il2.dso.mil). If you need an invite to the Platform One team anyone in [this list](https://repo1.dso.mil/platform-one/bbtoc/-/graphs/master) should be able to send you one.
+5. Join us in the [Big Bang Universe Community Slack workspace](https://join.slack.com/t/bigbanguniver-ft39451/shared_invite/zt-21zrvwacw-zoionTAz0UdzVbjnAFSnDw) to get involved, interact with the community, and ask for help.
+6. Send an email to p1.bbtoc@gmail.com to request access to the [BBTOC File Share](https://kiteworks.ll.mit.edu/w/f-2ffffa79-5467-4ff7-bc5b-b69793bebef4)
 
 ---
 
