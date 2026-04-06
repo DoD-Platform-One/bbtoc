@@ -34,7 +34,7 @@ Please join the [BBTOC mailing list](mailto:aflcmc.hncx.platformonebigbang@us.af
 
 Join Us! The TOC meets the first Tuesday of each month at 0900CST / 1000EST
 
-[Register here](https://www.zoomgov.com/j/1617815539)
+[Zoom Link] (https://www.zoomgov.com/j/16109495076) Passcode: BigBang1
 
 ## Making sense of it all
 
