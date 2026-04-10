@@ -2,20 +2,96 @@
 
 ## BBTOC Approval Process
 
-A user must submit an issue to [the BBTOC](https://repo1.dso.mil/big-bang/product/bbtoc), show up to the meeting to present and request a decision on the issue, and upon being accepted work with the Big Bang team to get the work defined, scoped, and scheduled.
+A user must submit an issue to [the BBTOC](https://repo1.dso.mil/big-bang/product/bbtoc) for every track change request.
+
+### Required BBTOC Issue Fields
+
+- Current track and requested track.
+- Change direction: `upward` or `downward`.
+- Impact summary (users, support posture, release behavior).
+- Proposed timeline.
+- Release-notes question/notice content.
+- Communication plan link (required for all requests before execution).
+- Sponsor (required when a package enters or remains Big Bang Maintained; Big Bang is the sponsor for Big Bang Integrated packages).
+
+### Externally Visible Status Model
+
+Only these states are exposed externally in BBTOC:
+
+- `in process`: request is under governance review.
+- `accepted`: request passed required approvals and is cleared for execution.
+- `rejected`: request was not approved and includes explicit next steps.
+
+Status transitions:
+
+- Set `in process` once the BBTOC issue is complete enough to enter review.
+- Set `accepted` once the request is approved and cleared for execution.
+- Set `rejected` immediately when the request is rejected.
+
+### Governance Workflow
+
+The BBTOC process intentionally documents only externally visible status and outcome steps.
+
+Internal governance workflow details are documented in ADR 0011.
+
+Public view of decision progression (external statuses and outcomes only):
+
+```mermaid
+%%{init: {'theme': 'base', 'themeVariables': { 'primaryTextColor': '#111111', 'secondaryTextColor': '#111111', 'tertiaryTextColor': '#111111' }}}%%
+flowchart TD
+    Start([Track Change Proposed]) --> BBTOC[BBTOC Issue Created]
+    BBTOC --> InProcess[Set BBTOC status: in process]
+    InProcess --> Decision{Decision outcome}
+
+    Decision -->|Rejected| UpdateRejected[Set BBTOC status: rejected]
+    Decision -->|Accepted| UpdateAccepted[Set BBTOC status: accepted]
+
+    UpdateRejected --> NextSteps[Provide Next Steps]
+    UpdateAccepted --> Execute[Execute Track Change]
+
+    Execute --> Complete([Track Change Complete])
+    NextSteps --> End([Process End])
+
+    style BBTOC fill:#90EE90,stroke:#333,stroke-width:2px
+    style InProcess fill:#90EE90,stroke:#333,stroke-width:2px
+    style UpdateRejected fill:#90EE90,stroke:#333,stroke-width:2px
+    style UpdateAccepted fill:#90EE90,stroke:#333,stroke-width:2px
+    style Execute fill:#90EE90,stroke:#333,stroke-width:2px
+
+    classDef externalStep fill:#90EE90,stroke:#333,stroke-width:2px
+```
+
+Legend:
+
+- Green (External): Steps visible/communicated to external stakeholders
+
+For packages that enter or remain in the Big Bang Maintained track, an explicit stakeholder sponsor must be identified and recorded as part of the BBTOC issue and ADR updates. For Big Bang Integrated packages, Big Bang is the sponsor.
+
+### Rejection Handling
+
+Any rejection must include a "Next Steps" section in the BBTOC issue that states:
+
+- Why the request was rejected.
+- What changes are required for re-submission.
+- Earliest re-submission condition or date.
+
+### Maintained Sponsor Policy
+
+- Any request that enters or retains the Big Bang Maintained track must name an explicit stakeholder sponsor.
+- For Big Bang Integrated packages, Big Bang is the sponsor.
+- If no sponsor is identified for a Big Bang Maintained package, the request cannot move to `accepted`.
+- If a Big Bang Maintained sponsor withdraws after acceptance, open a follow-on BBTOC issue to determine whether the package should move to Community Maintained.
 
 ## Track Change Notification
 
-Big Bang sending out a warning of the move of the package 90, 45, 30, 15, 7, 3, and 1 day before the move between tracks. This doesn't apply to new adoptions. Those notifications should be sent in:
+Big Bang should send track-change notices 90, 45, 30, 15, 7, 3, and 1 day before the move date. This does not apply to new adoptions. Notifications should be sent in:
 
 - Big Bang Universe Slack [#announcements](https://bigbanguniver-ft39451.slack.com/archives/C050VKRU9HV) channel
 - IL2 Platform One Mattermost Platform One Team [Value Stream - Big Bang](https://chat.il2.dso.mil/platform-one/channels/team---big-bang) channel
-- IL4 Platform One Mattermost P1 Big Bang Team [Big Bang Release Engineering](https://chat.il4.dso.mil/p1-big-bang/channels/big-bang-release-engineering) channel
-- IL4 Platform One Mattermost Platform One Team [All: Announcements](https://chat.il4.dso.mil/platform-one/channels/all-announcements) channel
-- Included in the release notes of every release until the track change is complete
-- Included in the Helm Upgrade Notes until the track change is complete
+- Included in release notes for every release until the track change is complete
 
-This notification should include:
+Each notification should include:
+
 - The package name
 - The date of the move
 - The track the package is moving to
@@ -23,11 +99,10 @@ This notification should include:
 - The impact of the move
 - The new CODEOWNERS (if applicable)
 - A request for volunteers to become CODEOWNERS (if applicable)
-- A link to the migration document (if applicable)
-	- This document should include:
-		- The new deployment strategy
-		- The new support strategy
-		- How to keep your deployment up to date (renovate, etc.)
+- A link to the migration document (if applicable), including:
+  - The new deployment strategy
+  - The new support strategy
+  - How to keep deployments up to date (for example, renovate)
 
 Example Track Change Notices:
 
@@ -39,7 +114,7 @@ MyApp
 
 Jan 01, 0001
 
-On Jan 01, 0001 MyApp will be transitioning from the Big Bang Integrated Track to the Big Bang Maintained Track. Please note that this means while the Big Bang team will still provide updates to this package and test it deployed in isolation (with wrapper in Big Bang Core), they will not: test it with the rest of Big Bang (including on demand and nightly k8s distribution specific tests), test it in production-like environments, or include it as a direct option in the Big Bang chart. This will also limit the support the Big Bang team will be able to provide for this package to its deployment in isolation.
+On Jan 01, 0001 MyApp will be transitioning from the Big Bang Integrated Track to the Big Bang Maintained Track. Please note that this means while the Big Bang team will still provide updates to this package and test it deployed in isolation, they will not: test it with the rest of Big Bang (including on demand and nightly k8s distribution specific tests), test it in production-like environments, or include it as a direct option in the Big Bang chart. This will also limit the support the Big Bang team will be able to provide for this package to its deployment in isolation.
 
 A migration document will be provided to help users move from the Big Bang Integrated Track to the Big Bang Maintained Track in the project repository.
 
@@ -57,25 +132,24 @@ Jan 01, 0001
 On Jan 01, 0001 MyApp will be transitioning from the Big Bang Maintained Track to the Community Maintained Track. Please note that this means this application will no longer get updates from the Big Bang Team. This will eliminate support the Big Bang team will be able to provide for this package. The new CODEOWNERS have been identified as @john.doe35 and @bob.smith12. If you would like to volunteer to be a CODEOWNER please reach out to the Big Bang team.
 
 A migration document will be provided to help users move from the Big Bang Maintained Track to the Community Maintained Track in the project repository.
-
 ---
 ```
 
 ### Big Bang Integrated
 
-This track includes packages that are owned and maintained by the Big Bang value stream, and are integrated to the Big Bang chart, i.e. all core and addon packages.
+This track includes packages that are owned and maintained by the Big Bang value stream, and are integrated to the Big Bang chart, i.e. all core and addon packages. For this track, Big Bang is the sponsor.
 
 - **+ Big Bang Integrated**: To add new packages to this track a user must follow the [BBTOC Approval Process](#bbtoc-approval-process). After approval, the work will include, but isn't limited to: defining the upstream (if applicable), selecting a mission team to own the package, identifying security needs, and following the [Definition of Done Checklist](https://repo1.dso.mil/big-bang/team/team-charter/-/blob/main/docs/team_norms/new-gitLab-epic-checklist-template.md?ref_type=heads#definition-of-done-checklist).
-- **-> Big Bang Maintained**: To move a package from BB Integrated to BB Maintained a user must follow the [BBTOC Approval Process](#bbtoc-approval-process). After approval, the [track change notifications](#track-change-notification) should begin as soon as possible. The work to move the package should not be released until the target date identified in the notification. That work will include, but is not limited to: updating the track badge, removing references in the Big Bang chart, updating the documentation to reflect its new deployment strategy (likely [wrapper](https://repo1.dso.mil/big-bang/product/packages/wrapper)).
-- **-> Community Maintained**: This should be done by changing to Big Bang Maintained first. This is give customers that rely on the package longer to find alternatives. However, if it is known at the outset that a package will move all the way to Community Maintained that should be called out as an eventual goal in the track change notification.
+- **-> Big Bang Maintained**: To move a package from BB Integrated to BB Maintained a user must follow the [BBTOC Approval Process](#bbtoc-approval-process). After approval, the [track change notifications](#track-change-notification) should begin as soon as possible. The work to move the package should not be released until the target date identified in the notification. That work will include, but is not limited to: updating the track badge, removing references in the Big Bang chart, updating the documentation to reflect its new deployment strategy.
+- **-> Community Maintained**: This should typically be done by moving to Big Bang Maintained first. This gives customers who rely on the package more time to find alternatives. If it is known at the outset that a package will eventually move to Community Maintained, call that out in track change notifications.
 
 ### Big Bang Maintained
 
 This track includes packages that are owned and updated by Big Bang, but will only be tested in isolation, e.g. package pipelines. The packages here will not be included in the Big Bang chart. The support that the community will receive will be limited to the package running in isolation, i.e. interactions with other package, networking issues, and emergent issues would not be supported.
 
 - **-> Big Bang Integrated**: To move a package from BB Maintained to BB Integrated a user must follow the [BBTOC Approval Process](#bbtoc-approval-process). No notifications are required for this move. After approval, the work will include, but isn't limited to: updating the track badge, adding references in the Big Bang chart, updating the documentation to reflect its new deployment strategy (likely as a Big Bang Addon).
-- **+ Big Bang Maintained**: To add new packages to this track a user must follow the [BBTOC Approval Process](#bbtoc-approval-process). After approval, the work will include, but isn't limited to: defining the upstream (if applicable), selecting a mission team to own the package, identifying security needs, and following the [Definition of Done Checklist](https://repo1.dso.mil/big-bang/team/team-charter/-/blob/main/docs/team_norms/new-gitLab-epic-checklist-template.md?ref_type=heads#definition-of-done-checklist).
-- **-> Community Maintained**: To move a package from BB Maintained to Community Maintained a user must follow the [BBTOC Approval Process](#bbtoc-approval-process). After approval, the [track change notifications](#track-change-notification) should begin as soon as possible. Finding new CODEOWNERS is preferred, but not required. If they haven't been identified by the time the a notification is sent, it should request volunteers to become CODEOWNERS. The work to move the package should not be released until the target date identified in the notification. That work will include, but is not limited to: updating the track badge, removing references in the Big Bang chart, moving the repo to the third-party group, updating the documentation to reflect its new deployment strategy (likely [wrapper](https://repo1.dso.mil/big-bang/product/packages/wrapper)).
+- **+ Big Bang Maintained**: To add new packages to this track a user must follow the [BBTOC Approval Process](#bbtoc-approval-process). After approval, the work will include, but isn't limited to: defining the upstream (if applicable), selecting a mission team to own the package, identifying and documenting an explicit stakeholder sponsor, identifying security needs, and following the [Definition of Done Checklist](https://repo1.dso.mil/big-bang/team/team-charter/-/blob/main/docs/team_norms/new-gitLab-epic-checklist-template.md?ref_type=heads#definition-of-done-checklist).
+- **-> Community Maintained**: To move a package from BB Maintained to Community Maintained, a user must follow the [BBTOC Approval Process](#bbtoc-approval-process). After approval, [track change notifications](#track-change-notification) should begin as soon as possible. Finding new CODEOWNERS is preferred, but not required. If they have not been identified when a notification is sent, the notice should request volunteers to become CODEOWNERS. The work to move the package should not be released until the target date identified in the notification. That work includes, but is not limited to: updating the track badge, removing references in the Big Bang chart, moving the repo to the third-party group, and updating documentation to reflect its new deployment strategy.
 
 ### Community Maintained
 
