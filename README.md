@@ -18,6 +18,7 @@ Chief Objectives:
 
 - Maj Val Red, @val.red Platform One (appointed Aug 2025)
 - Mr. Ben Lampert, @benjamin.j.lampert DAFCw (appointed Aug 2025)
+- Mr. Andrew Vu, @andrew_vu Platform One (appointed Aug 2026)
 
 ## Members
 
@@ -30,11 +31,17 @@ How and why do these members exist? [governance](policy/governance.md)
 
 ## Meetups
 
-Please join the [BBTOC mailing list](mailto:aflcmc.hncx.platformonebigbang@us.af.mil?subject=BBTOC%20mailing%20list%20request&body=Please%20add%20me%20to%20the%20BBTOC%20mailing%20list.) to receive official calendar invites (and cancelations) to meetings by sending an email. You can also import the ICS below, however it will not be updated if announcements or changes are made.
+Please join the [BBTOC mailing list](mailto:aflcmc.hncx.platformonebigbang@us.af.mil?subject=BBTOC%20mailing%20list%20request&body=Please%20add%20me%20to%20the%20BBTOC%20mailing%20list.) to receive official calendar invites (and cancellations) to meetings by sending an email.
 
-Join Us! The TOC meets the first Tuesday of each month at 0900CST / 1000EST
+Join Us! The TOC meets the first Tuesday of each month at 0900CST
 
-[Zoom Link] (https://www.zoomgov.com/j/16109495076) Passcode: BigBang1
+2026 Schedule:
+8 September
+13 October
+10 November
+8 December
+
+[Zoom Link](https://www.zoomgov.com/j/1651154790) Passcode: P1BBT0C!
 
 ## Making sense of it all
 
@@ -62,7 +69,6 @@ We readily welcome any and all community engagement!
 3. Submit an [issue](https://repo1.dso.mil/platform-one/bbtoc/-/issues/new) for ideas, questions, feedback, etc...
 4. Join us in Mattermost in the [#topic---bbtoc](https://chat.il2.dso.mil/platform-one/channels/topic---bbtoc) channel on the [Platform One](https://chat.il2.dso.mil/platform-one) team in [IL2 Mattermost](https://chat.il2.dso.mil). If you need an invite to the Platform One team anyone in [this list](https://repo1.dso.mil/platform-one/bbtoc/-/graphs/master) should be able to send you one.
 5. Join us in the [Big Bang Universe Community Slack workspace](https://join.slack.com/t/bigbanguniver-ft39451/shared_invite/zt-21zrvwacw-zoionTAz0UdzVbjnAFSnDw) to get involved, interact with the community, and ask for help.
-6. Send an email to p1.bbtoc@gmail.com to request access to the [BBTOC File Share](https://kiteworks.ll.mit.edu/w/f-2ffffa79-5467-4ff7-bc5b-b69793bebef4)
 
 ---
 
